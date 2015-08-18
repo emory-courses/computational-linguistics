@@ -1,7 +1,7 @@
 CS329: Computational Linguistics
 =====
 
-This is an advanced course in computer science, studying topics in artificial intelligence especially on machine learning and natural Language processing. This course covers machine learning algorithms such as Hidden Markov Model, Maximum Entropy Model, Perceptron as well as their applications in natural language processing such as segmentation, tagging, clustering, etc. Advanced topics such as Viterbi algorithm and Expectation-Maximization algorithm are also discussed. Prerequisites: CS171.
+This course will focus on the analysis of syntactic and semantic structures, ontologies and texonomies, distributional semantics and discourse, as well as their applications in computational linguistics. For syntactic analysis, phrase structure and dependency grammars will be discussed. For semantic analysis, predicate argument structures and frame semantics will be discussed.  Computational lexicons such as Treebank, PropBank, WordNet, and FrameNet will also be discussed in depth.  Advanced topics such as distributional semantics and clustering algorithms will be discussed with a focus on their applications. Prerequisites: CS170, QTM220, or LING201.
 
 * [Syllabus](../../wiki/Syllabus).
 * [Schedule](../../wiki/Schedule).
