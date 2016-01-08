@@ -1,7 +1,13 @@
-CS329: Computational Linguistics
+CS|LING|QTM 329: Computational Linguistics
 =====
 
-This course will focus on the analysis of syntactic and semantic structures, ontologies and texonomies, distributional semantics and discourse, as well as their applications in computational linguistics. For syntactic analysis, phrase structure and dependency grammars will be discussed. For semantic analysis, predicate argument structures and frame semantics will be discussed.  Computational lexicons such as Treebank, PropBank, WordNet, and FrameNet will also be discussed in depth.  Advanced topics such as distributional semantics and clustering algorithms will be discussed with a focus on their applications. Prerequisites: none.
+This course focuses on the analysis of plain text, syntactic and semantic structures, ontologies and taxonomies, discourse and distributional semantics, as well as their applications in computational linguistics.
+For plain text analysis, regular expressions and n-gram models will be discussed.
+For syntactic analysis, phrase structures and dependency grammars will be discussed.
+For semantic analysis, predicate argument structures and abstract meaning representation will be discussed.
+For discourse analysis, document clustering and question answering will be discussed.
+For distributional semantics, word embeddings and topic modeling will be discussed.
+Homework assignments may involve big data processing using cloud computing. Prerequisites: none.
 
 * [Syllabus](../../wiki/Syllabus)
 * [Schedule](../../wiki/Schedule)
