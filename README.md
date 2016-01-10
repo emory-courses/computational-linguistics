@@ -1,4 +1,4 @@
-(CS|LING|QTM)329: Computational Linguistics
+Computational Linguistics
 =====
 
 This course focuses on the analysis of plain text, syntactic and semantic structures, ontologies and taxonomies, as well as their applications in computational linguistics.
