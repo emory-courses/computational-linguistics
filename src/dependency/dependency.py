@@ -1,4 +1,5 @@
 import re
+import sys
 import bisect
 
 RE_TAB = re.compile('\t')
@@ -139,7 +140,7 @@ class NLPNode:
         self.dependency_label = label
 
 
-filename = '/Users/jdchoi/Documents/EmoryNLP/emorynlp/src/main/resources/dat/emorynlp.txt.nlp'
+filename = sys.argv[1]
 reader = TSVReader(1,2,3,4,5,6)
 reader.open(open(filename))
 
