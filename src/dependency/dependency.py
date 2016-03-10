@@ -120,10 +120,10 @@ class NLPNode:
     def setWordForm(self, form):
         self.word_form = form
 
-    def getLemma(self, lemma):
+    def setLemma(self, lemma):
         self.lemma = lemma
 
-    def getPartOfSpeechTag(self, tag):
+    def setPartOfSpeechTag(self, tag):
         self.part_of_speech_tag = tag
 
     def setDependencyHead(self, node, label=None):
