@@ -1,0 +1,20 @@
+What a lousy book .
+After giving it three tries , I trashed it .
+The book did n't help me one bit in using VC++ .
+Coming from intermediate VB6 experience with experience in Win32 Perl programming and a rusty and casual knowledge of the C/C++ language , I was looking for a book that will teach me how to use VC++ IDE.
+What a waste of time .
+I hate books like these .
+You 're in , say , chapter ten and the example application you 're supposed to have done several chapters ago *with the stupid wizard* is needed .
+First , I do n't want to use the damn wizards .
+What ever happened to building applications from the ground up ?
+Anybody can use the wizard .
+But what about afterwards ?
+What if you do n't want to ?
+Second , I do n't care about what was taught several chapter 's ago .
+I want what 's in the present chapter of interest !
+I want to build an interactive UI , like I can do with VB so easily .
+Perhaps going through ALL the chapters *in sequence* I would have learned *something* .
+If I were to do that , I might as well take a class instead .
+I tried the first five chapters in sequence and then tried to skip around and learned that this book [is n't for me] .
+Look for a another book if you 're the type who likes to use books like a reference guide .
+If you 're the type who reads cover to cover and do n't mind doing every example and exercise so you can continue onto future chapters , then this book is for you .

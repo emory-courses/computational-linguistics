@@ -1,0 +1,3 @@
+This thermometer does n't just show the temp as it should .
+I was able to get the freezer one to show the temperature , but the refrigerator one kept on saying that the temp was too high .
+I know that level was in the range , but it would n't show the temp .

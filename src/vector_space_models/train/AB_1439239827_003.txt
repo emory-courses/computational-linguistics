@@ -1,0 +1,4 @@
+I got a copy of this book from a friend .
+It was the right size ( ~250 pages ) for me to be able to have a hope to read it cover to cover .
+When i started going through the lessons and labs , i realized that seemingly hard topics in T-SQL suddenly became trivial .
+I got more out of these 250 pages , than a few of the 1000 page 'bible ' books i bought .

@@ -1,0 +1,53 @@
+For drivers like David G. Leonard , E-ZPass used to be anything
+but easy .
+E-ZPass , a plastic transponder that is mounted to a car 's windshield ,
+lets motorists zip by highway tollbooths in several states , including
+New York , New Jersey and Pennsylvania .
+But Leonard , an actuary
+who makes frequent business trips to the New York area ,
+is based in Ormond Beach , Fla . -- outside E-ZPass territory .
+So renting a car in Newark automatically meant spending a
+long time waiting to cross each bridge or to use
+a tollway .
+But on a recent trip , an agent at the Budget Rent
+A Car counter offered the option of renting an E-ZPass
+transponder for 99 cents a day , tolls not included .
+Leonard
+readily agreed .
+" I think I must have saved more than
+half an hour in total by using E-ZPass , " he said .
+" I ca n't imagine not having it on my rental now . "
+Recognizing the predicament , several companies are rushing to provide technologies that
+could open up the fast lanes almost anywhere for any
+motorist with a credit card .
+Their products , now in the
+last stages of development , could one day allow America 's 200
+million licensed drivers to use more than 5,000 miles of
+tollways in the United States without ever having to wait
+in line or fumble for change .
+This new highway freedom , analysts say , would amount to the second
+stage of the electronic collection revolution , which began in 1993
+with the first E-ZPasses issued by the state of New
+York .
+Many of the new products are being tried out
+first by the car rental industry .
+But the problem is not so much getting the devices , called
+5.9
+GHz transponders , into new cars and then modifying toll
+readers to accept them , says Peter Samuel , editor of the
+Web site Toll Road News .
+It is retrofitting older cars ,
+which would cost about $ 150 each , or about $ 18.4 billion
+for the nation 's existing fleet of cars .
+" At the present rate of planning , I would expect to see
+toll reader interoperability in about 2020 , " said Samuel .
+In the meantime , a few technology companies want to profit by
+jump-starting the process .
+Budget 's E-ZPass transponders were developed by a
+small company called Highway Toll Administration in Great Neck , N.Y .
+The tags are being installed in about 1,000 cars in
+Budget 's Newark fleet .
+But Cendant Car Rental Group , which owns
+the Budget and Avis brands , is close to signing an
+agreement that will make Highway Toll Administration 's rental tags available
+across the country , according to several sources .

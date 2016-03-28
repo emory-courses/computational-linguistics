@@ -1,0 +1,87 @@
+Flash memory , which allows for the thin design
+of the Apple iPod Nano , was one of the stars
+of the International Consumer Electronics Show last week .
+Samsung Electronics and Pioneer Electronics , for example , drew attention to their
+$ 400 portable XM Satellite Radio players , the Samsung Helix and
+the Pioneer Inno , which both use flash memory to store
+as much as 50 hours of radio programming and music
+files .
+And Sandisk announced at the show that it would sell a
+$ 300 portable music player , the Sansa e200 , that uses 6
+gigabytes of flash memory rather than a hard drive .
+Flash memory also appeared in more video cameras and global positioning
+satellite devices this year .
+All told , worldwide demand for flash memory , typically a smaller , more
+portable form of memory , rose 240 percent in 2005 , to
+1,750 million gigabits , and is expected to grow at the
+same pace this year , according to industry estimates .
+Given those figures , one may be forgiven for thinking that hard
+disk drives are a technology of the past .
+But hard
+drives may instead be entering a new era of popularity
+as large home storage devices become more important .
+The reason is all those little hand-held devices , many built with
+flash memory .
+Consumers are discovering that at 99 cents a
+song or $ 9 a movie , the value of the content
+on a mobile media player can easily exceed the value
+of the device itself .
+" So what will you do ? " asked William Watkins , president and chief
+executive of Seagate , which makes storage devices .
+" You 'll back it
+up . "
+While hard drives , at around one-sixth the capacity-cost of flash memory ,
+have a decided cost advantage , product designers like flash memory
+because it allows them to make smaller and thinner devices .
+But for huge amounts of storage , hard drives will have a
+prominent place in the home .
+Seagate , whose main business is selling hard drives to makers of
+PCs , also sells external drives directly to consumers .
+Some hold
+as much as a half a terabyte , or 500 gigabytes ,
+of data .
+Seagate also sells the Mirra personal server , which can store data
+and share it with all the computers in a home ,
+as well as allow remote access to that data .
+Maxtor ,
+a company that Seagate announced last month that it was
+buying , also makes consumer models .
+" If anything , we are more confident in our position , " Watkins said .
+Because hard drives get about six times more storage capacity
+per dollar , they are a cost-conscious solution for devices that
+need to store large amounts of data .
+Indeed , Maxtor is
+counting on consumers storing their libraries of digital content in
+three or four places in their homes .
+Consumers may also eventually install hard drives in their cars to
+have their music and video libraries accessible there .
+Navigation systems
+are already being built with larger-capacity hard drives to store
+information on routes , as well as music and videos .
+At the electronics show , Pioneer demonstrated the Avic-Z1 navigation system with
+a 30-gigabyte hard drive .
+It will appear in stores in
+April at around $ 2,250 .
+Flash memory makers , many of which also make hard drives , see
+the next opportunity in enhancing hard drives .
+This year "is the year that flash memory invades the personal
+computer , " said Don Barnetson , Samsung Semiconductor 's associate director of flash
+marketing .
+Up to now , flash memory 's only connection to the
+PC was when someone inserted a memory drive into a
+USB port .
+Samsung said that this year , hard drives would be made with
+flash memory added .
+That flash will take up some storage
+tasks such as accessing frequently used applications , cached pages of
+data or even elements of the operating system .
+Samsung says that because the drives will not have to spin
+as often , the addition of flash could cut the power
+consumption of a computer , which is critically important for battery-powered
+laptops , and make hard drives more reliable .
+Barnetson estimates that $ 2 to $ 5 of flash memory in a
+hybrid hard drive could allow a battery to run as
+much as 30 minutes longer on charge .
+Samsung and Seagate are both working on the hybrid hard drives .
+They are expected to be sold at the end of
+the year , after Microsoft releases its new Vista operating system .

@@ -1,0 +1,13 @@
+A year ago I was asked by a manager to learn basic T-SQL.
+Primarily joins .
+I bought a shelf full of books including some in a series designed for "dumb " folk .
+I struggled trying to understand the vernacular in all of them and grew frustrated because I was n't able to find a single book that took me from " square one " .
+Without exception , all other books I saw were written to an audience with previous exposure to SQL.
+Then I read the introduction to this book and saw myself reflected there .
+Someone else who started one day not knowing anything beyond the fact that something called SQL was out there .
+This book provides a simple path to follow , written in terms easy to understand and based on sequential levels of learning .
+Working through each lab takes you from the basic " select * " statement to robust code , helping you understand the logic as you progress .
+I have finally found a book for the true novice .
+A book where I feel , " Okay , I can do this . "
+Instead of , " What ? "
+The only thing better than working through the book is taking the class with the author as your instructor .

@@ -1,0 +1,11 @@
+I own a micro-lathe and milling and it 's my dream to build an engine by myself .
+So I order couple of books from Amazon include this one .
+I have n't built this yet , but at the first glance , layout and description of the book is clear with step-by-step guidelines .
+Not really detailed but for sure , it 's enough for you to make one ( I assume you have engineering background ) .
+But I ca n't guarantee it turns .
+But sad to find out most critical parts demand you to have a foundry set-up , and the parts are quite impossible to make by lathe/milling machines .
+It is impossible for where I live ( apartment ) to have such set-up .
+Besides , from my experience , foundry is very hard to manage compared with lathe/mill , it needs a lot of practices .
+I wish I can figure out the work-around to have those parts made by lathe/mill .
+One more reminder for non-US customers is that , American use imperial measures not metric .
+Should not be a big problem but you either have to modify the design or you have to buy another set of tools/parts if you 're usung metric .

@@ -1,0 +1,9 @@
+I really enjoyed this book .
+I am an AS/400 programmer with 11 years experience and want to become more familiar with Windows programming .
+I started off with a Sam 's Teach Yourself Visual C++ in 21 days ( which I also liked ) and followed up with this one .
+The authors presented the material in an easy to read and follow format .
+I only had two issues with the book .
+One , the authors would occasionally pull a function out of nowhere and use it with little or no explanation as to why .
+And two , I thought they dragged out the examples on drawing too long .
+I would have preferred more time spent on the database chapter rather than the drawing examples .
+But , overall an excellent book and I highly recommend it .

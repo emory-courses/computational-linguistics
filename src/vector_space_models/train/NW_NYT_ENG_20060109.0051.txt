@@ -1,0 +1,106 @@
+Q : Over the years I have battled to keep my home
+movie collection in a format viewable with current technology .
+I 've
+transferred them from 8 mm film to VHS videotape .
+Later
+I transferred the VHS videotape onto DVD discs , viewable on
+my home DVD player .
+I read a recent story that the switch to HDTV is
+now definite .
+What is going to happen to all the
+current DVD discs out there , including my old home movies ?
+Am I going to have to convert the "old " DVD
+format into another format compatible with the HDTV that I
+will eventually have to buy ?
+I presume there will be
+new HDTV DVD disc media and new players to play
+the new media , as the file size of an HDTV
+movie will not fit onto a current DVD.
+Will these old discs still be compatible and play on the
+new HDTV DVD players and HDTV monitors ?
+Or am I
+facing another conversion process ?
+Will my existing DVD player 's output
+signal be viewable ( at a lower resolution ) on a HDTV
+monitor , or will an older DVD player even hook up
+to a new HDTV monitor ?
+-- Mike Aleksick
+A: There are a lot of good questions here , and I
+bet you are not alone in wondering about these issues .
+So let 's cut to the chase : All the video you
+have stored on DVD now will work fine as the
+broadcasters move from sending out analog signals to digital ones .
+Let 's stop here , just for the sake of accuracy : The real
+switch is from analog TV to digital TV .
+All HDTV
+sets are digital , but not all digital sets offer a
+high-definition picture .
+That said , you 're right in thinking that you 'll be able to
+buy a movie DVD recorded in HDTV before long .
+And
+if you have an HDTV player , you can pop that
+DVD in and be amazed at the improvement in resolution
+over today 's DVDs .
+The good news is that you 'll also
+be able to view your old DVDs on that same
+player .
+You also asked whether you 'd be able to connect your current
+DVD to an HDTV set .
+You sure can .
+My own
+DVD player is connected to my HDTV set right now .
+And it works just fine .
+Now , everything I 've said is true for the immediate future .
+During
+the first few years , as Americans move from analog to
+digital , the old and new should get along fine .
+But as time goes by , that will change .
+So you 'll face
+the day when you will once again need to transfer
+your old home movies to a new format -- maybe
+one that does n't even exist today .
+Q : I have SpyBot and Ad-aware Personal installed on my machine
+and run them periodically .
+They are , of course , the free
+versions .
+The other day , I saw an ad for a
+free download of Noadware 4.0, another anti-adware program .
+Immediately before I ran it , I ran SpyBot and Ad-aware .
+After
+cleaning up what they found , I ran Noadware 4.0.
+It
+found one registry item , 37 cookies and 29 files that
+it said should be deleted .
+The catch is , to remove these items one must pay $ 29.95 ,
+a one-time fee .
+Incidentally , Spybot said that Noadware was an
+adware/spyware item .
+So what is a body to do ?
+I
+would n't mind paying for a good system that would find
+all spyware/adware items .
+-- Meredith E. Bynum
+A: Noadware is not a program I can recommend .
+In my
+opinion , it uses advertising that is misleading .
+It also uses
+scare tactics to induce the user to pay for what
+had been billed as a free product .
+It 's not alone in using these tactics .
+Several other programs out
+there use the same methods .
+Here 's what a anti-adware product review site ( www.adwarereport.com ) had to say
+about Noadware :
+" It is heavily advertised on the Internet as an effective adware
+removal tool .
+Our tests indicate differently , however .
+We uncovered a
+product that was unable to detect real adware on our
+computer , and instead tried to fool us with 'false positive . '
+"
+The two programs you use now -- SpyBot and Ad-aware --
+are legitimate and effective .
+No one program will find all adware and spyware .
+But , used
+together , these two do a fine job .
+Bill Husted writes for the Atlanta Journal-Constitution . E-mail : bhusted AT ajc.com

@@ -1,0 +1,59 @@
+Hello , Jacki .
+Hello .
+Excuse me .
+Sorry .
+Oh , that 's OK .
+Go ahead .
+That 's all right .
+I 'm sure you 've heard about the stuff where parents can keep track of their kids with a GPS-enabled phone .
+Yes .
+Well , now there 's -- well , of course you are .
+You 're a parent .
+I 'm sure your kids do n't love it so much .
+Well , now there 's a thing where friends can keep track of each other .
+It 's a program called Looped ( ph ) , and we wanted to show you what it looks like here .
+It 's a map-based application .
+It looks exactly the same on your phone as it does on the computer , and you can keep track on both .
+So we wanted to show you -- it says , " You're here . "
+If you can circle that for me right there .
+Yes .
+Let 's do that .
+We 'll highlight right there .
+Well , there we go .
+It gives you your location there .
+Now , you 're the orange dot , right ?
+All the little green bubbles are your friends .
+Right .
+And you can program them in ...
+Does that mean you like them if they 're green ?
+Can you change the color if you 're not happy with them ?
+Well , you can actually turn them off if you 're not happy with them .
+Yes .
+There you go .
+Which is the great part .
+And you have a little picture just in case you forget what they look like .
+You can plug into their profile .
+Yes .
+What is Mark looking like these days ?
+Right .
+But you can plug it in and it will show you exactly how close or how far they are .
+It uses GPS , the satellite system .
+Right .
+What it will also do , if the GPS is n't working , is it will find out what the cell tower is that you 're closest to and sort of approximate based on that .
+So kind of triangulate .
+Exactly .
+Yes .
+It probably would n't be as precise as that .
+Exactly .
+There are all kinds of implications to this .
+Well , the question is , is it safe ?
+And we talked to EPIC , which is the Electronic Privacy Information Center , and they said the question becomes , who controls the information ?
+Do I have the right if I have this system to decide whether or not you get to see where I am ?
+And the answer is , according to Looped ( ph ) , yes .
+They say they talked to a whole bunch of safety organizations , including the National Center for Missing and Exploited Children , and they put some technologies in place to make sure that I can control the information .
+For example , it 's permission-based .
+You ca n't loop me in without my permission .
+You have to have my cell phone number .
+Now , if you do n't have my number , I ca n't just look online and say , oh , he 's cute and I want to add him in .
+You have to have my number .
+There 's other things like random text messages they send to verify , and they also want to make sure that once your location has passed , that location goes out of the system and the new location picks up .

@@ -1,0 +1,62 @@
+The U.S. Patent and Trademark Office plans to announce Tuesday that
+it will cooperate with open-source software developers on three initiatives
+that it says will improve the quality of software patents .
+The patent office has come under increasing pressure in recent years
+from critics who contend that it issues patents without adequate
+investigation of earlier inventions .
+As a result , conflicts over published
+patents have loosed an avalanche of intellectual property litigation .
+At a meeting last month with companies and organizations that support
+open-source software ( software that can be distributed and modified freely ) ,
+including IBM , Red Hat , Novell and some universities , officials of
+the patent office discussed how to give patent examiners access
+to better information and other ways to issue higher-quality patents .
+Two of the initiatives would rely on recently developed Internet technologies .
+An open patent review program would set up a system
+on the patent office Web site where visitors could submit
+search criteria and subscribe to electronic alerts about patent applications
+in specific areas .
+The third initiative is focused on the creation of a patent
+quality index that would serve as a tool for patent
+applicants to use in writing their applications .
+It is based
+on work done by R. Polk Wagner , an intellectual property
+expert at the University of Pennsylvania .
+" This is a great example of how the patent office can
+reach out to the community and how they can help
+us where we have difficulty getting prior art , " said John
+J.
+Doll , the commissioner for patents .
+The patent office has held similar discussions with other technology industries
+including biotechnology , nanotechnology and semiconductors , he said .
+The open-source project , being led by IBM , aims to build an
+automated system for creating a series of categories to organize
+software written by open-source programmers .
+The system would then be
+made available to help patent examiners search for earlier examples
+in patent applications .
+Doll said that Google had participated in the discussions and it
+was possible that its search technology would be used in
+the project .
+Jim Stalling , vice president for intellectual property and standards at IBM ,
+said , " We think that this initiative will lead to greater
+certainty in the patent system . "
+He added that any improvement
+in the general quality of patents would lower the costs
+of defending patents , and that money could again be focused
+on financing research and development .
+One frequent critic of the patent system , Gregory Aharonian , publisher of
+The Internet Patent News Service , said it was unlikely that
+the new initiatives would have a significant impact , because the
+patent office was not able to deal efficiently with the
+information it already had .
+" If the patent office ca n't figure out how to use the
+resources they already have , " he said , "what is the point ? "
+Diane Peters , general counsel for the Open Source Development Laboratories , a
+corporate consortium backed by Linux supporters , said that if the
+initiatives were successful it might lead the patent office to
+issue fewer but higher-quality patents .
+Separately , the patent office plans to announce Tuesday that IBM once
+again topped the list of private-sector patent recipients in 2005 .
+The company received 2,941 patents last year , compared with 3,248
+patents in 2004 .
