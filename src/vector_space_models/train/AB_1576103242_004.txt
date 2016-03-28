@@ -1,5 +1,0 @@
-I just finished reading the first five chapters of this book .
-And I already got a pretty good grip on What Visual C++ and Windows programming looks like .
-The only reason I gave it 4 stars instead of 5 is because the authur gives only minor explanation of the steps he asks the reader to do .
-I had to try and figure out myself why he did a certain step and what the code does exactly .
-<p>If you want a quick introduction to Visual C++ , its a good starting point .

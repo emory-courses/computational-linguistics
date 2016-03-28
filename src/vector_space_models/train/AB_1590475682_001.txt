@@ -1,2 +1,0 @@
-useful book to understand how to conduct sas code with fixed effect
-also , it helps understand the concept of the effect for beginners

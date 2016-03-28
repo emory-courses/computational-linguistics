@@ -1,6 +1,0 @@
-Rick has taken a complex and dry topic like SQL programming , and managed to make it interesting and engaging to read .
-What I especially like is that he approaches a new topic with engagng analogies and examples that are easy to understand , and then he builds on them bit by bit to drive home the point .
-I 've programmed in SQL before , but I still enjoyed reading some of these examples because they gave me a different perspective on databases .
-What I liked most was the bug-catchter game at the end of each chapater .
-These are a great way to build confidence in the stuff I just learnt .
-I also love the accompanying audio lessons - they provide a great intro to the topic , and Rick 's voice delivery held my attention .

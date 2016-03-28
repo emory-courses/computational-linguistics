@@ -1,3 +1,0 @@
-This is a great vac , however we were expecting it to turn on ( On Demand ) with the tool switch and shut off when the tool switch was turned off .
-It forces you to go back to the vac switch to shut it down .
-The 8 amp tool rating could also be increased to handle 10 to 12 amp saws and planers .

@@ -1,7 +1,0 @@
-Recently , I was asked to do some analysis on longitudinal patient data using fixed effects regression .
-This book provided an excellent , step-by-step approach on how to tackle the problem .
-The first two chapters cover an overview of fixed effects and random effects modeling in the context of ordinary least squares .
-Then , Prof. Allison devotes a chapter to each of several topics : modeling binary outcomes , modeling counting outcomes , and modeling time to event ( I admit that I stopped at Chapter 5 ) .
-I am particularly impressed by the way he shows different approaches to solving problems .
-And , that he compares the performance of different routines .
-It turns out that for many of my problems , proc genmod with GEE approximation is a good solution -- and one that finished in a few minutes rather than a few hours .

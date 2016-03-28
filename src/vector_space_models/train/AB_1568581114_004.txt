@@ -1,9 +1,0 @@
-I am currently on a Financial Markets course that is at Masters Level .
-I bought this book because of its small size and the basic details it covers .
-I have many other bigger books that go into more detail about stock pricing .
-However , this book really does explain the basics better than any other I have read .
-It explains in very simple and statistical terms areas such as the Simple Index Model ( SIM) , CAPM , Measuring performance of a portfolio , and Modern Portfolio theory .
-It also touches the surface of advanced moddelling in ARCH/GARCH.
-<p>But what really sets it apart is that it explains terms not from a purely academic point of view but a much more informative way by looking at how investors should and would approach a problem .
-If you have some understanding of statistics such as mean and variance ( although both are explained in the book ) then I would recommend this book to anyone who is thinking about embarking on an investment course of some kind .
-It is a definite read for any beginner and will make the course easier becasue it explains the fundamentals very well .

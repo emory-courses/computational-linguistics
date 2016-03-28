@@ -1,4 +1,0 @@
-This is one of the best T-SQL books I have ever read , it is easy to follow and full of good examples .
-I now , not only know the T-SQL language , but understand it .
-I look forward to more books by Rick Morelan .
-This book has made me hungry for more .
