@@ -53,6 +53,8 @@ filenames = glob.glob(os.path.join(IN_DIR,'*'))
 tf = [getTermFrequencies(open(filename)) for filename in filenames]
 df = getDocumentFrequencies(tf)
 sw = generateStopWords(tf, df, 200)
+print sw
 sw = generateStopWords(tf, df, .8)
-tfidf = getTFIDFs(tf, df, sw)
-getEuclideanDistance(tfidf[0], tfidf[1])
+print sw
+#tfidf = getTFIDFs(tf, df, sw)
+#getEuclideanDistance(tfidf[0], tfidf[1])
