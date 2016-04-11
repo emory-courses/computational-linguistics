@@ -46,7 +46,6 @@ K = 10
 vocab = readVocab(open(VOCAB_FILE))
 wv = readWordVectors(open(W2V_FILE), vocab)
 
-'''
 print 'king:'
 l = getSimilarities(wv, wv['king'])
 for (v, w) in l[:K]: print '  ', w, v
@@ -54,10 +53,3 @@ for (v, w) in l[:K]: print '  ', w, v
 print 'king - male + female:'
 l = getSimilarities(wv, wv['king'] - wv['male'] + wv['female'])
 for (v, w) in l[:K]: print '  ', w, v
-'''
-
-l = []
-
-for (w1,v1) in wv.items():
-    for (w2,v2) in wv.items():
-        if w1 != w2: l.append((getCosineSimilarity(v1,v2), w1, w2))
