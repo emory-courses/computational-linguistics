@@ -24,7 +24,7 @@ def readWordVectors(fin, vocab):
             if ch != b'\n':
                 word.append(ch)
 
-        if word in vocab: word_vectors[word] = np.fromstring(fin.read(binary_len), dtype='float32')
+        if vocab and word in vocab: word_vectors[word] = np.fromstring(fin.read(binary_len), dtype='float32')
         else: fin.read(binary_len)
 
     return word_vectors
@@ -39,13 +39,14 @@ def getSimilarities(wv, v1):
     l = [(getCosineSimilarity(v1, v2), w2) for (w2, v2) in wv.items()]
     return sorted(l, reverse=True)
 
-VOCAB_FILE = sys.argv[1]
-W2V_FILE = sys.argv[2]
+VOCAB_FILE = sys.argv[1] # vocab.txt
+W2V_FILE = sys.argv[2]   # w2v.bin
 K = 10
 
 vocab = readVocab(open(VOCAB_FILE))
 wv = readWordVectors(open(W2V_FILE), vocab)
 
+'''
 print 'king:'
 l = getSimilarities(wv, wv['king'])
 for (v, w) in l[:K]: print '  ', w, v
@@ -53,4 +54,10 @@ for (v, w) in l[:K]: print '  ', w, v
 print 'king - male + female:'
 l = getSimilarities(wv, wv['king'] - wv['male'] + wv['female'])
 for (v, w) in l[:K]: print '  ', w, v
+'''
 
+l = []
+
+for (w1,v1) in wv.items():
+    for (w2,v2) in wv.items():
+        if w1 != w2: l.append((getCosineSimilarity(v1,v2), w1, w2))
