@@ -10,5 +10,5 @@ Homework assignments may involve big data processing using cloud computing.
 
 Prerequisites: CS 171 (CS and LING students) or QTM 220 (QTM students).
 
-* [Syllabus](../../wiki/Syllabus)
-* [Schedule](../../wiki/Schedule)
+* [Syllabus](syllabus.md)
+* [Schedule](schedule.md)
