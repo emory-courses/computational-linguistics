@@ -37,15 +37,8 @@
   * Search and install for the `numpy` package.
 * Create a new package:
   * At any step, if it prompts you to add a new file/package to git, click `Add`.
-  * Create a python package called `quiz`.
-  * Create a python file called [`quiz0.py`](quiz0.py) under the `quiz` package and copy the following code:
-    ```python
-    import numpy as np
-
-    a = np.array([1,2,3])
-    b = np.array([4,5,6])
-    print((a + b) * 2)
-    ``` 
+  * Create a python package called [`src/quiz/`](../src/quiz/).
+  * Create a python file called [`quiz0.py`](../src/quiz/quiz0.py) under the `quiz` package and copy the code.
   * Run `quiz0` by clicking `[Run] - [Run]`.
   * If it prompts `[10 14 18]`, your program runs successfully.
 
@@ -61,8 +54,8 @@
   ```
   (venv) $ jupyter notebook
   ```
-* On the web-browser where it is launched, choose the `quiz` directory.
-* Create a new notebook called `quiz0` and run the above code.
+* On the web-browser where it is launched, choose the [`src/quiz/`](../src/quiz/) directory.
+* Create a new notebook called [`quiz0.ipynb`](../src/quiz/quiz0.ipynb) and run the code in [`quiz0.py`](../src/quiz/quiz0.py).
 * If it prompts `[10 14 18]`, your notebook runs successfully.
 
 
@@ -72,11 +65,11 @@
   * `quiz/quiz0.ipynb`
   * `quiz/quiz0.py`
 * Once the files are added to git, they should turn into green. If not, restart PyCharm and add the files again.
-* Create a file called `.gitignore` under the `cs329` directory and copy the followings:
+* Create a file called [`.gitignore`](../.gitignore) under the `cs329` directory and copy the followings:
   ```
   .idea/
   venv/
-  */.ipynb_checkpoints/
+  **/.ipynb_checkpoints/
   ```
 * Commit and push your changes to Github:
   * Right click on `cs329`, choose `[Git] - [Commit Directory]`, enter a commit message (e.g., "Submit quiz 0."), and click the `[Commit and Push]` button.
