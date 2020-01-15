@@ -11,7 +11,7 @@
 * Login to [Github](https://github.com) (create an account if you do not have one). 
 * Create a new repository called `cs329` and make it PRIVATE.
 * From the `[Settings]` menu, add the TAs as collaborators of this repository.
-  * Sarah Fillwock: `sfillwock`.
+  * Sarah Fillwock: `sfillwo`.
   * Liyan Xu: `lxucs`.
 
 
