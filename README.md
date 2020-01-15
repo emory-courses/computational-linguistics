@@ -12,9 +12,9 @@ As the information age has revolutionized the way human lives, we are experienci
 Although multimedia became a substantial part of big data, text is still the most primitive yet dominating medium.
 This interdisciplinary course addresses how to extract information in need from text (Linguistics), make statistical analysis of the extracted information (Quantitative Theory and Methods ), and write computer programs to automate this process (Computer Science).
 
+For Spring 2020, the special focus is on Computational Linguistics in Conversational AI.
+
 Prerequisites: CS 171 (CS and LING students) or QTM 220 (QTM students)
 
 * [Syllabus](doc/syllabus.md)
 * [Schedule](doc/schedule.md)
-
-For Spring 2020, the special focus is on Computational Linguistics in Conversational AI.
