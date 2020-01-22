@@ -4,11 +4,24 @@
 
 ### Regular Expressions
 
-* TBA
+* Create [`regular_expressions.py`](../src/regular_expressions.py) under the [`src/`](../src) directory and copy the contents.
+* Complete the `turn_1b()` method such that it prompts to ask the kind of user's smartphone if it is not provided during `Turn 0`.
+Once the information is retrieved, it should continue to `turn_1a()` as follows: 
+  ```
+  S: are you using a smartphone?
+  U: yes
+  S: what kind of smartphone do you have?
+  U: samsung galaxy
+  S: how long have you been using galaxy?
+  ...
+  ``` 
+* Complete the `turn_3a()` method such that it properly estimates how old user's iPhone is given any version provided by the user.
+Hint: use `res.d_iphone_v` defined in the main space.
 
 ### Submission
 
-* https://canvas.emory.edu/courses/71182/assignments/294356
+* Commit and push `src/regular_expression.py` to your GitHub repository.
+* Submit `regular_expression.py` to https://canvas.emory.edu/courses/71182/assignments/294356
 
 
 ## Quiz 2

@@ -1,11 +1,11 @@
 # Schedule
 
 |Date | Topic | Assignment |
-|:---:|:---:|:---:|
+|:---:|:---|:---:|
 |01/15| [Introduction](syllabus.md) | [quiz 0](getting_started.md) |
 |01/20| MLK Holiday |  |
-|01/22| [Regular Expressions](regular_expressions.ipynb) |  |
-|01/27| [Regular Expressions](regular_expressions.ipynb) | [quiz 1](quizzes.md#quiz-1) |
+|01/22| Regular Expressions ([note](regular_expressions.ipynb), [src](../src/regular_expressions.py)) |  |
+|01/27| Regular Expressions ([note](regular_expressions.ipynb), [src](../src/regular_expressions.py)) | [quiz 1](quizzes.md#quiz-1) |
 |01/29| [Dialogue Management]() | [hw 1](hw-text-matching.md) |
 |02/03| [Dialogue Management]() | [quiz 2](quizzes.md#quiz-2) |
 |02/05| [Ontology and Taxonomy]() |  |
