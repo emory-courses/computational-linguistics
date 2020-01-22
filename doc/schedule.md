@@ -1,7 +1,7 @@
 # Schedule
 
 |Date | Topic | Assignment |
-|:---:|:---|:---|
+|:---:|:---|:---:|
 |01/15| [Introduction](syllabus.md) | [quiz 0](getting_started.md) |
 |01/20| MLK Holiday |  |
 |01/22| Regular Expressions ([note](regular_expressions.ipynb), [src](../src/regular_expressions.py)) |  |
