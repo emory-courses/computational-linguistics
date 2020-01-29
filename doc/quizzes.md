@@ -28,7 +28,17 @@ Hint: use `res.d_iphone_v` defined in the main space.
 
 ### Ontology and Taxonomy
 
-* TBA
+* Create [`state_machine.py`](../src/state_machine.py) under the [`src/`](../src) directory and copy the contents.
+* Set up the appropriate transitions between state `U0` and state `S1a` such that it follows the middle branch of the state machine diagram shown in [`dialogue_management.ipynb`](../src/state_machine.py), except it transitions from `U1b` to `S1a` instead of from `U1b` to `end` (similar to the first task of Quiz 1). An example of a dialogue it should be capable of handling should look like this: 
+  ```
+  S: are you using a smartphone?
+  U: yes
+  S: what kind of smartphone do you have?
+  U: samsung galaxy
+  S: how long have you been using galaxy?
+  ...
+  ``` 
+* Modify the Phone Model Natex such that it uses ontology information to identify the phone company and the phone model.
 
 ### Submission
 
