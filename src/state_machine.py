@@ -1,12 +1,18 @@
 from emora_stdm import KnowledgeBase, DialogueFlow
 from enum import Enum
 
+################################
+# Modify State enum for any Quiz2 tasks as needed
+################################
+
 class State(Enum):
     START = 0
     PROMPT = 1
     MAMMAL = 2
     BIRD = 3
     ERR = 4
+
+################################
 
 ################################
 # Modify ont_dict for Quiz2 Task 3
