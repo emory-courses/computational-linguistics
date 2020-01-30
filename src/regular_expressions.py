@@ -67,7 +67,11 @@ def turn_1a(res: SimpleNamespace):
             res.in_phone_year = curr_year - d
         elif m == 'month':
             res.in_phone_year = curr_year - int(d / 12)
-            res.in_phone_month = (curr_month - d) % 12
+            res.in_phone_month = curr_month - (d % 12)
+            if res.in_phone_month <= 0:
+                month_diff = abs(res.in_phone_month)
+                res.in_phone_month = 12 - month_diff
+                res.in_phone_year -= 1
     elif any(from_date):
         res.in_phone_year = int(from_date[1])
         res.in_phone_month = res.d_month_to_number[from_date[0]] if from_date[0] else 1
@@ -93,13 +97,17 @@ def turn_2a(res: SimpleNamespace):
     res.in_phone_version = None
 
     if r:
-        v = next(models for month, models in r if month >= res.in_phone_month)
-        res.in_phone_version = v[0]
-        s = 'S: oh, are you using iphone {}?'.format(' or '.join(v))
-        u = input(s + '\nU: ')
+        v = next((models for month, models in r if month <= res.in_phone_month), None)
+        if v:
+            res.in_phone_version = v[0]
+            s = 'S: oh, are you using iphone {}?'.format(' or '.join(v))
+            u = input(s + '\nU: ')
 
-        yn = regex_matcher(res.re_yn, u)
-        if yn[1]: res.in_phone_version = None
+            yn = regex_matcher(res.re_yn, u)
+            if yn[1]: res.in_phone_version = None
+        else:
+            s = 'S: which version of iphone is your model?'
+            u = input(s + '\nU: ')
     else:
         s = 'S: which version of iphone is your model?'
         u = input(s + '\nU: ')
@@ -129,7 +137,7 @@ if __name__ == '__main__':
     # dictionaries
     res.d_month_to_number = {month: i for i, month in enumerate(['january','february','march','april','may','june','july','august','september','october','november','december'], 1)}
     res.d_iphone = {2019: [(9, ['11', '11 pro', '11 pro max'])], 2018: [(9, ['10s', '10s max'])], 2017: [(11, ['10']), (9, ['8', '8 plus'])], 2016: [(9, ['7', '7 plus'])], 2015: [(9, ['6s', '6s plus'])], 2014: [(9, ['6', '6 plus'])]}
-    res.d_iphone_v = {'11': 2019, '11 pro': 2019, '11 pro max': 2019, '10s': 2018, '10s max': 2018, '10': 2017, '8': 9, '8 plus': 9, '7': 2016, '7 plus': 2016, '6s': 9, '6s plus': 9, '6': 2014, '6 plus': 2014}
+    res.d_iphone_v = {'11': 2019, '11 pro': 2019, '11 pro max': 2019, '10s': 2018, '10s max': 2018, '10': 2017, '8': 2017, '8 plus': 2017, '7': 2016, '7 plus': 2016, '6s': 2015, '6s plus': 2015, '6': 2014, '6 plus': 2014}
 
     # run
     turn_0(res)
