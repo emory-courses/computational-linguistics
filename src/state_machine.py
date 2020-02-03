@@ -30,12 +30,12 @@ knowledge = KnowledgeBase()
 knowledge.load_json(ont_dict)
 df = DialogueFlow(State.START, initial_speaker=DialogueFlow.Speaker.SYSTEM, kb=knowledge)
 
-df.add_system_transition(State.START, State.PROMPT, 'Enter an animal":"')
+df.add_system_transition(State.START, State.PROMPT, '"Enter an animal"')
 df.add_user_transition(State.PROMPT, State.MAMMAL, "$animal={cat,dog}")
 df.add_user_transition(State.PROMPT, State.BIRD, "$animal={parrot,dove,crow}")
-df.add_system_transition(State.MAMMAL, State.PROMPT, '[! $animal is a mammal"," enter another animal":"]')
-df.add_system_transition(State.BIRD, State.PROMPT, '[! $animal is a bird"," enter another animal":"]')
-df.add_system_transition(State.ERR, State.PROMPT, '[! i dont know that one"," enter another animal":"]')
+df.add_system_transition(State.MAMMAL, State.PROMPT, '[! $animal " is a mammal, enter another animal"]')
+df.add_system_transition(State.BIRD, State.PROMPT, '[! $animal "is a bird, enter another animal"]')
+df.add_system_transition(State.ERR, State.PROMPT, '"i dont know that one, enter another animal"')
 df.set_error_successor(State.PROMPT, State.ERR)
 
 
