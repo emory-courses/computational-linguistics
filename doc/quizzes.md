@@ -26,13 +26,52 @@ Hint: use `res.d_iphone_v` defined in the main space.
 
 ## Quiz 2
 
-### Ontology and Taxonomy
+### Dialogue Management
 
-* TBA
+* Create [`state_machine.py`](../src/state_machine.py) under the [`src/`](../src) directory and copy the contents from the class source.
+* Task 1 
+
+  Set up the appropriate transitions such that the DialogueFlow can recognize `snake`, `lizard`, `turtle`, and `alligator` as `reptile`,
+similar to how it recognizes `mammal` and `bird` already.
+  ```
+  (System) Enter an animal:
+  (User) snake
+  (System) snake is a reptile, enter another animal: 
+  ...
+  ```
+* Task 2 
+
+  Set up the appropriate transitions using an ONTOLOGY reference such that the DialogueFlow can recognize `frog` and `salamander` as `amphibian`.
+
+   You must fill in the `ont_dict` variable with the `amphibian` ontology and use this ontology in the Natex expression you create for this case.
+  ```
+  (System) Enter an animal:
+  (User) frog
+  (System) frog is an amphibian, enter another animal: 
+  ...
+  ```   
+* Task 3 
+
+  Modify each of the user transitions from `State.PROMPT` (including any you added for Tasks 1 and 2) such that the transition matches as long as the user says at least one of the specified words.
+
+    In other words, if the user says more than just the specified words, the transition should still match. (This isn't currently true, test and see for yourself!)
+
+    Here is an example:
+  ```
+  (System) Enter an animal:
+  (User) what about frog
+  (System) frog is a reptile, enter another animal: 
+  (User) hmm cat i guess
+  (System) cat is a mammal, enter another animal:
+  (User) a parrot
+  (System) parrot is a bird, enter another animal:
+  ...
+  ``` 
 
 ### Submission
 
-* https://canvas.emory.edu/courses/71182/assignments/294365
+* Commit and push `src/state_machine.py` to your GitHub repository.
+* Submit `state_machine.py` to https://canvas.emory.edu/courses/71182/assignments/294365
 
 
 ## Quiz 3
