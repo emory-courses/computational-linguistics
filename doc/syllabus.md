@@ -41,7 +41,7 @@
 ## Project Proposal
 
 * You are expected to
-  * Group a team of 3-4 members that comprises at least 2 disciplines (CS: 33, QTM: 15, LING: 9).
+  * Group a team of 3-4 members that comprises at least 2 disciplines (CS: 31, QTM: 13, LING: 7).
   * Give a 15-mins presentation to propose your idea about the final project.
   * Write a proposal that illustrates details about your idea.
 * Your idea must
