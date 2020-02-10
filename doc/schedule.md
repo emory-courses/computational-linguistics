@@ -4,12 +4,12 @@
 |:---:|:---|:---|:---:|
 |01/15| [Introduction](syllabus.md) | | [quiz 0](getting_started.md) |
 |01/20| MLK Holiday | | |
-|01/22| [Regular Expressions](regular_expressions.ipynb) | [src](../src/regular_expressions.py) |  |
-|01/27| [Regular Expressions](regular_expressions.ipynb) | [src](../src/regular_expressions.py) | [quiz 1](quizzes.md#quiz-1) |
-|01/29| [Dialogue Management](dialogue_management.ipynb) | [src](../src/state_machine.py), [ex](dialogue_state_machine.ipynb) |  |
-|02/03| [Dialogue Management](dialogue_management.ipynb) | [src](../src/state_machine.py), [ex](dialogue_state_machine.ipynb) | [quiz 2](quizzes.md#quiz-2) |
-|02/05| [Ontology and Taxonomy]() |  | [hw 1](hw_text_matching.md) |
-|02/10| [Ontology and Taxonomy]() |  | [quiz 3](quizzes.md#quiz-3) |
+|01/22| Regular Expressions | [note](regular_expressions.ipynb), [src](../src/regular_expressions.py) |  |
+|01/27| Regular Expressions |  | [quiz 1](quizzes.md#quiz-1) |
+|01/29| Dialogue Management | [note](dialogue_management.ipynb), [src](../src/state_machine.py), [ex](dialogue_state_machine.ipynb) |  |
+|02/03| Dialogue Management |  | [quiz 2](quizzes.md#quiz-2) |
+|02/05| Ontology and Taxonomy | [note](ontology_taxonomy.ipynb), [src](../src/ontology_taxonomy.py), [pdf](ontology_taxonomy.pdf) | [hw 1](hw_text_matching.md) |
+|02/10| Ontology and Taxonomy |  | [quiz 3](quizzes.md#quiz-3) |
 |02/12| [Sequence Tagging]() |  |  |
 |02/17| [Sequence Tagging]() |  | [quiz 4](quizzes.md#quiz-4) |
 |02/19| [Structure Parsing]() |  | [hw 2](hw-lexicon-entity-matching.md) |

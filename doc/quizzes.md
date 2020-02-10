@@ -79,13 +79,17 @@ Here is an example:
 
 ## Quiz 3
 
-### Sequence Tagging
+### Ontology and Taxanomy
 
-* TBA
+* Create [`quiz2.py`](../src/quiz/quiz2.py) under the [`src/quiz/`](../src/quiz) directory and copy the contents.
+* Complete the `antonyms()` method that takes a word and an optional POS tag, and returns the list of antonyms of the word.
+* Complete the `lch_paths()` method that takes two words (not sense IDs), and returns the list of Synset list where each Synset list shows the path from every lowest common hypernym of the two words to its root.
+
 
 ### Submission
 
-* https://canvas.emory.edu/courses/71182/assignments/294364
+* Commit and push `src/quiz/quiz2.py` to your GitHub repository.
+* Submit `quiz2.py` to https://canvas.emory.edu/courses/71182/assignments/294364
 
 
 ## Quiz 4
