@@ -10,7 +10,7 @@
 |02/03| Dialogue Management |  | [quiz 2](quizzes.md#quiz-2) |
 |02/05| Ontology and Taxonomy | [note](ontology_taxonomy.ipynb), [src](../src/ontology_taxonomy.py), [pdf](ontology_taxonomy.pdf) | [hw 1](hw_text_matching.md) |
 |02/10| Ontology and Taxonomy |  | [quiz 3](quizzes.md#quiz-3) |
-|02/12| Sequence Tagging | [pdf](sequence_tagging.pdf) |  |
+|02/12| Sequence Tagging | [note](sequence_tagging.ipynb), [pdf](sequence_tagging.pdf) |  |
 |02/17| Sequence Tagging |  | [quiz 4](quizzes.md#quiz-4) |
 |02/19| [Structure Parsing]() |  | [hw 2](hw-lexicon-entity-matching.md) |
 |02/24| [Structure Parsing]() |  | [quiz 5](quizzes.md#quiz-5) |
