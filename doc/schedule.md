@@ -12,7 +12,7 @@
 |02/10| Ontology and Taxonomy |  | [quiz 3](quizzes.md#quiz-3) |
 |02/12| Sequence Tagging | [note](sequence_tagging.ipynb), [pdf](sequence_tagging.pdf) |  |
 |02/17| Sequence Tagging |  | [quiz 4](quizzes.md#quiz-4) |
-|02/19| [Structure Parsing]() |  | [hw 2](hw-lexicon-entity-matching.md) |
+|02/19| [Structure Parsing]() |  | [hw 2](hw_lexicon_entity_matching.md) |
 |02/24| [Structure Parsing]() |  | [quiz 5](quizzes.md#quiz-5) |
 |02/26| [Proposal Presentations]() |  |  |
 |03/02| [Proposal Presentations]() |  |  |

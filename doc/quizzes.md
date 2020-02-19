@@ -96,7 +96,7 @@ Here is an example:
 
 ### Letter of Intent
 
-Write a letter of intent that includes the followings:
+Create a PDF file called `loi.pdf` and write the following three contents:
 
 * The title of your project.
 * The name, discipline, and email address of each team member.
@@ -104,7 +104,6 @@ Write a letter of intent that includes the followings:
 
 ### Submission
 
-* Use the `loi.tex` template to generate a PDF file called `loi.pdf`.
 * Submit `loi.pdf` to https://canvas.emory.edu/courses/71182/assignments/294160
 * Only one submission is required per team.
 
