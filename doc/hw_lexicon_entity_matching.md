@@ -44,7 +44,7 @@ Remember, even though the interface by which you are testing your bot is through
 * Do not use input() in Macros; all input, output should be handled through the built-in state machine functionality
 * Do not include revealing information of authors, emory university, atlanta, or georgia
 * Do not name your bot
-* Include proper punctuation, especially commas
+* Include proper punctuation, especially commas (you use double quotation marks around the punctuated text to include it in Natex)
 * Do not include website links
 * Do not put use parentheses as a way to list options
 
