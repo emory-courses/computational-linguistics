@@ -35,12 +35,13 @@ Your task is to create a dialogue manager that talks about the topic of your cho
 
 
 
-## Note:
+## Note
 Remember, even though the interface by which you are testing your bot is through text, the ultimate goal is to create a conversation that is as natural as possible. Approach your responses as if they are being spoken in a real conversation, not typed. This makes things like long website urls or using parentheses as a way to list options not an appropriate choice.
 
-### Things to Avoid:
+### Things to Avoid
 * No infinite self-loops, prompting user to try again
 * Do not modify the format of the output (such as by inserting manual newlines with “S:” prompt in them)
+* Do not use input() in Macros; all input, output should be handled through the built-in state machine functionality
 * Do not include revealing information of authors, emory university, atlanta, or georgia
 * Do not name your bot
 * Include proper punctuation, especially commas
