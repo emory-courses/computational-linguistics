@@ -47,5 +47,6 @@ Remember, even though the interface by which you are testing your bot is through
 * Include proper punctuation, especially commas (you use double quotation marks around the punctuated text to include it in Natex)
 * Do not include website links
 * Do not put use parentheses as a way to list options
+* The bot responses should be conversational (e.g. replace commands like "enter" or "input" with a natural language question)
 
 
