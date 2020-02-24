@@ -112,11 +112,12 @@ Create a PDF file called `loi.pdf` and write the following three contents:
 
 ### Structure Parsing
 
-TBA
+* Answer the three questions in [quiz_phrase_structures.pdf](quiz_phrase_structures.pdf).
 
 ### Submission
 
-* https://canvas.emory.edu/courses/71182/assignments/294369
+* Create a PDF file `quiz5.pdf` and include your answers.
+* Submit `quiz5.pdf` to https://canvas.emory.edu/courses/71182/assignments/294369
 
 
 ## Quiz 6

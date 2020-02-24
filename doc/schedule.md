@@ -14,9 +14,9 @@
 |02/17| Sequence Tagging |  | [quiz 4](quizzes.md#quiz-4) |
 |02/19| Structure Parsing | [pdf](phrase_structures.md) | [hw 2](hw_lexicon_entity_matching.md) |
 |02/24| Structure Parsing |  | [quiz 5](quizzes.md#quiz-5) |
-|02/26| [Proposal Presentations]() |  | [proposal](proposal.md) |
-|03/02| [Proposal Presentations]() |  |  |
-|03/04| [Proposal Presentations]() |  | [quiz 6](quizzes.md#quiz-6) |
+|02/26| Proposal Presentations | [guide](proposal.md), [agenda](../projects/projects-2020.md) |  |
+|03/02| Proposal Presentations |  |  |
+|03/04| Proposal Presentations |  | [quiz 6](quizzes.md#quiz-6) |
 |03/09| Spring Break |  |  |
 |03/11| Spring Break |  |  |
 |03/16| [Special Topic]() |  |  |
