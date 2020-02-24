@@ -35,6 +35,18 @@ Your task is to create a dialogue manager that talks about the topic of your cho
 
 
 
+## Note
+Remember, even though the interface by which you are testing your bot is through text, the ultimate goal is to create a conversation that is as natural as possible. Approach your responses as if they are being spoken in a real conversation, not typed. This makes things like long website urls or using parentheses as a way to list options not an appropriate choice.
 
-## Submission
+### Things to Avoid
+* No infinite self-loops, prompting user to try again
+* Do not modify the format of the output (such as by inserting manual newlines with “S:” prompt in them)
+* Do not use input() in Macros; all input, output should be handled through the built-in state machine functionality
+* Do not include revealing information of authors, emory university, atlanta, or georgia
+* Do not name your bot
+* Include proper punctuation, especially commas (you use double quotation marks around the punctuated text to include it in Natex)
+* Do not include website links
+* Do not put use parentheses as a way to list options
+* The bot responses should be conversational (e.g. replace commands like "enter" or "input" with a natural language question)
+
 
