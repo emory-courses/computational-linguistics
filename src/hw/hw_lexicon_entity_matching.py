@@ -26,4 +26,5 @@ df.set_error_successor(State.PROMPT, State.ERR)
 # TODO: create your own dialogue manager
 
 
-df.run(debugging=False)
+if __name__ == '__main__':
+    df.run(debugging=False)
