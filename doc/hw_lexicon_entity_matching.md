@@ -10,6 +10,7 @@ Your task is to create a dialogue manager that talks about the topic of your cho
     * Follow all the conventions from the [previous homework](hw_text_matching.md), EXCEPT:
         * The minimum number of turns is reduced to 5, in favor of more breadth for your turns being handled.
     * Make use of a fairly large ontology and POS/NER tags.
+        * [Here](example_pos_ner_macro.py) is an example DialogueFlow using POS/NER tags
 * Write a report and save it as `hw2.pdf` that includes:
     * Names of the team members.
     * Diagrams of your dialogue flows.
