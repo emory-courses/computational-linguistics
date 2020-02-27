@@ -7,7 +7,8 @@ Your task is to create a dialogue manager that talks about the topic of your cho
 * Download [`hw_lexicon_entity_matching.py`](../src/hw/hw_lexicon_entity_matching.py) and put it under the [`src/`](../src) directory.
 * Choose 1 topic that you intend to proceed with the final project.
 * Your dialogue manager must: 
-    * Follow all the conventions from the [previous homework](hw_text_matching.md). 
+    * Follow all the conventions from the [previous homework](hw_text_matching.md), EXCEPT:
+        * The minimum number of turns is reduced to 5, in favor of more breadth for your turns being handled.
     * Make use of a fairly large ontology and POS/NER tags.
 * Write a report and save it as `hw2.pdf` that includes:
     * Names of the team members.
