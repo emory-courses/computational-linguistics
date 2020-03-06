@@ -14,7 +14,38 @@ kb_dict= {
         "child": ["son", "daughter"],
         "sibling": ["brother", "sister"],
         "relative": ["aunt", "uncle", "grandfather", "grandmother", "niece", "nephew", "cousin"]
-    }
+    },
+    "expressions": {
+        "negation": ["no", "not", "don't", "dont", "won't", "wont", "shouldn't", "shouldnt",
+                     "can't", "cant", "isn't", "isnt"],
+        "positive_sentiment": ["good", "great", "fantastic", "lovely", "awesome", "wonderful", "spectacular",
+                                "superb", "excellent", "nice", "sweet", "cute", "adorable", "fun", "perfect",
+                                "super"],
+        "negative_sentiment": ["bad", "stupid", "horrible", "awful", "dumb", "sad", "terrible"],
+
+        "someone": ["someone", "somebody", "some body", "some one"],
+        "anyone":  ["any one", "anyone", "any body", "anybody"],
+
+        "boyfriend": ["boyfriend","boy friend"],
+        "girlfriend": ["girlfriend","girl friend"],
+        "romantic_partner": ["lover", "significant other"],
+        "roommate": ["roommate","roomate","room mate"],
+        "mother": ["mother", "mom", "ma", "mama", "mommy"],
+        "father": ["father", "dad", "pa", "papa", "daddy"],
+        "child": ["kid", "kiddo", "offspring", "child"],
+        "son": ["son","boy"],
+        "daughter": ["daughter","girl"],
+        "grandfather": ["grandpa"],
+        "grandmother": ["grandma"],
+
+        "smart": ["smart","intelligent", "bright", "capable", "sharp"],
+        "funny": ["funny","humorous", "clever", "witty", "hilarious", "joker", "jokester"],
+        "outgoing": ["outgoing", "extraverted", "sociable", "social", "friendly", "warm"],
+        "shy": ["shy", "intraverted", "guarded", "loner"],
+        "polite": ["polite", "manners", "decent"],
+        "conceited": ["conceited", "overconfident", "arrogant", "full of", "narcissistic", "egotistic", "egotistical", "selfish"],
+        "beautiful": ["gorgeous", "pretty", "hot", "sexy"]
+      }
 }
 
 kb = KnowledgeBase()
