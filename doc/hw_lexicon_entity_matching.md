@@ -19,7 +19,9 @@ Your task is to create a dialogue manager that talks about the topic of your cho
 ### Note
 Remember, even though the interface by which you are testing your bot is through text, the ultimate goal is to create a conversation that is as natural as possible. Approach your responses as if they are being spoken in a real conversation, not typed. This makes things like long website urls or using parentheses as a way to list options not an appropriate choice.
 
-Also, your bot should be able to share its own opinions when interacting with the user. Try to avoid a sequence of questions with no variety of content.
+Also, your bot should be able to share its own opinions when interacting with the user. At all costs, avoid a sequence of questions with no variety of content. Your bot should have something of interest to say in response to user utterances. Try to strike a balance between engagingness of content and length, though, as paragraphs of text as a response are also not very natural.
+
+Make sure that you handle unexpected user input in ALL of your states, and do so in a manner that moves the conversation forward instead of forcing the user to repeat themselves until they say something you handle.
 
 #### Things to Avoid
 * No infinite self-loops, prompting user to try again
