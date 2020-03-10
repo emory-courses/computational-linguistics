@@ -45,8 +45,28 @@ Your task is to create a dialogue manager that talks about "technology".
 ### Team
 
 * Submit `hw_text_matching.py` and `hw1.pdf` to https://canvas.emory.edu/courses/71182/assignments/294070
-* Submit the URL of the GitHub repository that has the final copy of `hw_text_matching.py`. 
+* Submit the URL of the GitHub repository that has the final copy of `hw_text_matching.py`.
 
+## Grading Criteria
+| Item | Points | Description |
+| :--- | :---- | :--- |
+| Report | 0 | Negligible information
+| | 1 | Brief description; Unclear flowchart/conversational paths
+| | 2 | Simpler approach description; Flowchart/conversational path given but does not provide an easily digestible understanding of what the possible conversation paths are
+| | 3 | Detailed approach description; Clear flowchart; Easy to see the full paths of conversation (either from detailed flowchat or from fine-grained text description in report) 
+| Dialogue Quality | 0 | Unable to run
+| | 1 | Average experience
+| | 2 | Good experience
+| Depth | 0 | length minimum (10) not met
+| | 1 |  length minimum (10) met
+| Breadth | 0 | User transitions rely on any match, error transitions, or yes/no responses primarily
+| | 1 | Majority of user transitions capture multiple options of responses (more than yes/no)
+| Error Handling | 0 | Conversation breaks/Conversation loops infinitely in error case
+| | 1 | Conversation never breaks and does not get stuck in infinite loop
+| Uniqueness | 0 | Vanilla dialogueflow mechanisms (no ontology, no macros, no complex Natex)
+| | 1 | Macros, vars, ontology, or complex Natex used
+| Flow | 0 |Primarily abrupt topic changes, just a sequence of back to back questions, illogical sequence
+| | 1 | Interesting, specific system responses focusing on opinions/experiences
 
 
 

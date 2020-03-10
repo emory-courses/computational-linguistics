@@ -7,8 +7,10 @@ Your task is to create a dialogue manager that talks about the topic of your cho
 * Download [`hw_lexicon_entity_matching.py`](../src/hw/hw_lexicon_entity_matching.py) and put it under the [`src/`](../src) directory.
 * Choose 1 topic that you intend to proceed with the final project.
 * Your dialogue manager must: 
-    * Follow all the conventions from the [previous homework](hw_text_matching.md). 
+    * Follow all the conventions from the [previous homework](hw_text_matching.md), EXCEPT:
+        * The minimum number of turns is reduced to 5, in favor of more breadth for your turns being handled.
     * Make use of a fairly large ontology and POS/NER tags.
+        * [Here](example_pos_ner_macro.py) is an example DialogueFlow using POS/NER tags
 * Write a report and save it as `hw2.pdf` that includes:
     * Names of the team members.
     * Diagrams of your dialogue flows.
@@ -17,7 +19,9 @@ Your task is to create a dialogue manager that talks about the topic of your cho
 ### Note
 Remember, even though the interface by which you are testing your bot is through text, the ultimate goal is to create a conversation that is as natural as possible. Approach your responses as if they are being spoken in a real conversation, not typed. This makes things like long website urls or using parentheses as a way to list options not an appropriate choice.
 
-Also, your bot should be able to share its own opinions when interacting with the user. Try to avoid a sequence of questions with no variety of content.
+Also, your bot should be able to share its own opinions when interacting with the user. At all costs, avoid a sequence of questions with no variety of content. Your bot should have something of interest to say in response to user utterances. Try to strike a balance between engagingness of content and length, though, as paragraphs of text as a response are also not very natural.
+
+Make sure that you handle unexpected user input in ALL of your states, and do so in a manner that moves the conversation forward instead of forcing the user to repeat themselves until they say something you handle.
 
 #### Things to Avoid
 * No infinite self-loops, prompting user to try again
