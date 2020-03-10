@@ -124,7 +124,7 @@ Create a PDF file called `loi.pdf` and write the following three contents:
 
 ### Proposal Ranking
 
-* Select three proposals other than yours that you find most interesting. Proposals must be indicated by the titles.
+* Select three proposals other than yours that you find most interesting. Proposals must be indicated by the project IDs and the titles.
 * Give a brief explanation of why you choose those proposals.
 * The explanation should be 50 - 100 words per proposal.
 
