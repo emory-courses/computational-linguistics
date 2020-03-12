@@ -19,8 +19,8 @@
 |03/04| Proposal Presentations |  | [quiz 6](quizzes.md#quiz-6) |
 |03/09| Spring Break |  |  |
 |03/11| Spring Break |  |  |
-|03/16| [Special Topic]() |  |  |
-|03/18| [Special Topic]() |  |  |
+|03/16| Spring Break |  |  |
+|03/18| Spring Break |  |  |
 |03/23| [Vector Space Models]() |  |  |
 |03/25| [Vector Space Models]() |  | [quiz 7](quizzes.md#quiz-7) |
 |03/30| [Machine Learning]() |  |  |
