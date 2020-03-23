@@ -12,17 +12,17 @@
 |02/10| Ontology and Taxonomy |  | [quiz 3](quizzes.md#quiz-3) |
 |02/12| Sequence Tagging | [note](sequence_tagging.ipynb), [pdf](sequence_tagging.pdf) |  |
 |02/17| Sequence Tagging |  | [quiz 4](quizzes.md#quiz-4) |
-|02/19| Structure Parsing | [pdf](phrase_structures.md) | [hw 2](hw_lexicon_entity_matching.md) |
-|02/24| Structure Parsing |  | [quiz 5](quizzes.md#quiz-5) |
-|02/26| Proposal Presentations | [guide](proposal.md), [agenda](../projects/projects-2020.md) |  |
+|02/19| Phrase Structures | [pdf](phrase_structures.pdf) | [hw 2](hw_lexicon_entity_matching.md) |
+|02/24| Phrase Structures |  | [quiz 5](quizzes.md#quiz-5) |
+|02/26| Proposal Presentations | [guidelines](proposal.md), [schedule](../projects/projects-2020.md) |  |
 |03/02| Proposal Presentations |  |  |
 |03/04| Proposal Presentations |  | [quiz 6](quizzes.md#quiz-6) |
 |03/09| Spring Break |  |  |
 |03/11| Spring Break |  |  |
 |03/16| Spring Break |  |  |
 |03/18| Spring Break |  |  |
-|03/23| [Vector Space Models]() |  |  |
-|03/25| [Vector Space Models]() |  | [quiz 7](quizzes.md#quiz-7) |
+|03/23| [Dependency Structures]() | [pdf](dependency_structures.pdf) |  |
+|03/25| [Dependency Structures]() |  | [quiz 7](quizzes.md#quiz-7) |
 |03/30| [Machine Learning]() |  |  |
 |04/01| [Machine Learning]() |  | [quiz 8](quizzes.md#quiz-8) |
 |04/06| [Language Modeling]() |  |  |
