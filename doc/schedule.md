@@ -22,7 +22,7 @@
 |03/16| Spring Break |  |  |
 |03/18| Spring Break |  |  |
 |03/23| [Dependency Structures](https://emory.zoom.us/rec/share/_MZvCJ_azmZOAc-OtFrUfY4-Dqbjaaa80Cca8vNYmRmvwuln1rCajN3grpKEixcS) | [pdf](dependency_structures.pdf) |  |
-|03/25| [Dependency Structures]() |  | [quiz 7](quizzes.md#quiz-7) |
+|03/25| [Dependency Structures](https://emory.zoom.us/rec/share/-sFlEbzz6kpLZM_W2BHVQa8RBbrIX6a80yQY-vcIyUfRD1WpbTpZn0Kp-6bVSqH5) |  | [quiz 7](quizzes.md#quiz-7) |
 |03/30| [Machine Learning]() |  |  |
 |04/01| [Machine Learning]() |  | [quiz 8](quizzes.md#quiz-8) |
 |04/06| [Language Modeling]() |  |  |
