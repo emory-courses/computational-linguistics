@@ -135,13 +135,14 @@ Create a PDF file called `loi.pdf` and write the following three contents:
 
 ## Quiz 7
 
-### Vector Space Models
+### Dependency Parsing
 
-* TBA
+* Answer the question in [quiz_dependency_structures.pdf](quiz_dependency_structures.pdf).
 
 ### Submission
 
-* https://canvas.emory.edu/courses/71182/assignments/294379
+* Create a PDF file `quiz7.pdf` and include your answers.
+* Submit `quiz7.pdf` to https://canvas.emory.edu/courses/71182/assignments/294379
 
 
 ## Quiz 8
