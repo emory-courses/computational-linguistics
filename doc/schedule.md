@@ -25,10 +25,10 @@
 |03/25| [Dependency Structures](https://emory.zoom.us/rec/share/-sFlEbzz6kpLZM_W2BHVQa8RBbrIX6a80yQY-vcIyUfRD1WpbTpZn0Kp-6bVSqH5) |  |  |
 |03/30| [Dependency Structures](https://emory.zoom.us/rec/share/-vBPdumu-z5Ib9aV7HycQohwA7_hT6a80SEbqKANzEgU3R2GX6e14TYfOquCXVC3) |  | [quiz 7](quizzes.md#quiz-7) |
 |04/01| [Machine Learning](https://emory.zoom.us/rec/share/-s1Vco3u1WdIZ5Xv5W3geaUsIaf6eaa80XIbq_JZyEystNKibuQKEwiHPtL8Ubpz) | [pdf](machine_learning.pdf) |  |
-|04/06| [Machine Learning]() |  | [quiz 8](quizzes.md#quiz-8) |
-|04/08| [Distributional Semantics]() |  |  |
-|04/13| [Distributional Semantics]() |  | [quiz 9](quizzes.md#quiz-9) |
+|04/06| [Machine Learning](https://emory.zoom.us/rec/share/wtJrMLCu2ElOYrPt5RyOfP4NOIm6X6a81HJPqKcMn0cPAWv2p3Ig716C8pZvcevD) |  |  |
+|04/08| [Distributional Semantics](https://emory.zoom.us/rec/share/3ulsFZfI8lpJRonB9l2PSPAvH4rIaaa8gygXrPMMzaQ8dYBkJJvoji9MWDM2-s4 ) |  |  |
+|04/13| [Distributional Semantics]() |  | [quiz 8](quizzes.md#quiz-8) |
 |04/15| [Final Presentations]() |  |  |
 |04/20| [Final Presentations]() |  |  |
 |04/22| [Final Presentations]() |  |  |
-|04/27| [Final Presentations]() |  | [quiz 10](quizzes.md#quiz-10) |
+|04/27| [Final Presentations]() |  | [quiz 9](quizzes.md#quiz-9) |
