@@ -149,11 +149,14 @@ Create a PDF file called `loi.pdf` and write the following three contents:
 
 ### Machine Learning
 
-* TBA
+* What is the difference between expected risk and empirical risk?
+* What is the difference between logistic regression and perceptron in terms of loss functions?
+* How does Word2Vec learn the vector representation for each word?
 
 ### Submission
 
-* https://canvas.emory.edu/courses/71182/assignments/294441
+* Create a PDF file `quiz8.pdf` and include the answers to the above three questions.
+* Submit `quiz8.pdf` to https://canvas.emory.edu/courses/71182/assignments/294441
 
 
 ## Quiz 9

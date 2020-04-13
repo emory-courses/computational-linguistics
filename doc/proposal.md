@@ -1,6 +1,5 @@
 # Project Proposal
 
-
 ## Presentation
 
 * Every team is expected to give a 10 mins presentation followed by 2-3 mins discussion.
@@ -11,8 +10,6 @@
   * **Techniques and Data**: what are the techniques or datasets you will use to derive richer conversations?
   * **Novelty**: what are distinguished features of your approach?
   * **Timeline**: give a weekly plan that shows the contribution of each team member to accomplish this project.
-
-
 
 ## Report
 

@@ -28,7 +28,7 @@
 |04/06| [Machine Learning](https://emory.zoom.us/rec/share/wtJrMLCu2ElOYrPt5RyOfP4NOIm6X6a81HJPqKcMn0cPAWv2p3Ig716C8pZvcevD) |  |  |
 |04/08| [Distributional Semantics](https://emory.zoom.us/rec/share/3ulsFZfI8lpJRonB9l2PSPAvH4rIaaa8gygXrPMMzaQ8dYBkJJvoji9MWDM2-s4 ) |  |  |
 |04/13| [Distributional Semantics]() |  | [quiz 8](quizzes.md#quiz-8) |
-|04/15| [Final Presentations]() |  |  |
+|04/15| [Final Presentations]() | [guidelines](project.md), [schedule](../projects/projects-2020.md) |  |
 |04/20| [Final Presentations]() |  |  |
 |04/22| [Final Presentations]() |  |  |
 |04/27| [Final Presentations]() |  | [quiz 9](quizzes.md#quiz-9) |
