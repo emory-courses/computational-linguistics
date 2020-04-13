@@ -42,7 +42,7 @@
    * [Abstract](https://drive.google.com/open?id=1co_6zBO-v6jswUgUx5J8orlZLBprhDvY), [Proposal](https://drive.google.com/open?id=1-mftOH0biEJWI56k_kCWUi40WXomo1YD) ([sides](https://drive.google.com/open?id=1CFNvZfmNnobnnmaUzXS5GU5ppYVK0-L9))<sup>13</sup>, Final (slides)
 1. **NBA Chatbot**
    * Andrew Chiang, Sunny Chung, Alex Fan, Anthony Wong
-   * [Abstract](https://drive.google.com/open?id=1iqcaUzRmQF9JnRCQY3M383SFcztalREN), [Proposal](https://drive.google.com/open?id=129Mw5QxNv4F9qfNLAqipW_qbHcWoYR0I) ([sides](https://drive.google.com/open?id=129Mw5QxNv4F9qfNLAqipW_qbHcWoYR0I))<sup>16</sup>, Final (slides)
+   * [Abstract](https://drive.google.com/open?id=1iqcaUzRmQF9JnRCQY3M383SFcztalREN), [Proposal](https://drive.google.com/open?id=1jXsnOFk4iKsHTH-aq6atRRrTIMQQjScU) ([sides](https://drive.google.com/open?id=129Mw5QxNv4F9qfNLAqipW_qbHcWoYR0I))<sup>16</sup>, Final (slides)
 
 
 ### Proposal Presentations
