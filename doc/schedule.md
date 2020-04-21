@@ -29,6 +29,6 @@
 |04/08| [Distributional Semantics](https://emory.zoom.us/rec/share/3ulsFZfI8lpJRonB9l2PSPAvH4rIaaa8gygXrPMMzaQ8dYBkJJvoji9MWDM2-s4 ) |  |  |
 |04/13| [Distributional Semantics](https://emory.zoom.us/rec/share/tOFWDpjA0j1JHbfkw3zOXrYkF4jpT6a8gyQe-fcLzBl7nksHBvmOckVqcWS2bim2) |  | [quiz 8](quizzes.md#quiz-8) |
 |04/15| [Final Presentations](https://emory.zoom.us/rec/share/6cZJM7_75zNOfKPv4k7dVaM8Ot71X6a81ilM-fMKzElwFBMo6WhH3MCkoSendlI-) | [guidelines](project.md), [schedule](../projects/projects-2020.md) |  |
-|04/20| [Final Presentations]() |  |  |
+|04/20| [Final Presentations](https://emory.zoom.us/rec/share/w-lTF6Pa8n9IEoXUr2aCZo4jWangX6a81XMWrqEJmtnVwmlDaMxZIYatu6yAzcM) |  |  |
 |04/22| [Final Presentations]() |  |  |
 |04/27| [Final Presentations]() |  | [quiz 9](quizzes.md#quiz-9) |
