@@ -20,7 +20,7 @@ The final report should use the following format:
 * Line spacing: single line
 * Font: Times New Roman, 11pt
 
-The report should be in 10 pages that include:
+The report should be in 8-10 pages that include:
 
 * Introduction
   *	Overview: what is your project?
