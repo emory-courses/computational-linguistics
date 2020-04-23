@@ -36,7 +36,7 @@
    * [Abstract](https://drive.google.com/open?id=1lwcX83CIUMSJx4mrD3t4xhY1TRbXGJkJ), [Proposal](https://drive.google.com/open?id=1lwcX83CIUMSJx4mrD3t4xhY1TRbXGJkJ) ([sides](https://drive.google.com/open?id=1Vc1Uw1QpBKNg5YxVuJcSA6PylTR8S_mG))<sup>7</sup>, Final (slides)
 1. **Artificial Poetry**
    * Alexa Yanar, Ryan Zhao
-   * [Abstract](https://drive.google.com/open?id=1LCy4U7d4yxS9CSHDz9i-wassH8E68sSU), Proposal ([sides](https://drive.google.com/open?id=1bYnfCx7tfB0hKstu8GtRRweroScmdK8e))<sup>5</sup>, Final (slides)
+   * [Abstract](https://drive.google.com/open?id=1LCy4U7d4yxS9CSHDz9i-wassH8E68sSU), [Proposal](https://drive.google.com/file/d/1-69pEh3qdsFRsrugtbvsupO07ujZFd8I/view?usp=sharing) ([sides](https://drive.google.com/open?id=1bYnfCx7tfB0hKstu8GtRRweroScmdK8e))<sup>5</sup>, Final (slides)
 1. **dotEDU: A College Conversation**
    * Ben Fertig, Priyam Mazumdar, Daisy Mohiuddin, Sarah Saltzman
    * [Abstract](https://drive.google.com/open?id=1co_6zBO-v6jswUgUx5J8orlZLBprhDvY), [Proposal](https://drive.google.com/open?id=1-mftOH0biEJWI56k_kCWUi40WXomo1YD) ([sides](https://drive.google.com/open?id=1CFNvZfmNnobnnmaUzXS5GU5ppYVK0-L9))<sup>13</sup>, Final (slides)
