@@ -161,17 +161,6 @@ Create a PDF file called `loi.pdf` and write the following three contents:
 
 ## Quiz 9
 
-### Language Modeling
-
-* TBA
-
-### Submission
-
-* https://canvas.emory.edu/courses/71182/assignments/294442
-
-
-## Quiz 10
-
 ### Project Ranking
 
 * Select three projects other than yours that you find most interesting. Projects must be indicated by the titles.
@@ -181,3 +170,19 @@ Create a PDF file called `loi.pdf` and write the following three contents:
 ### Submission
 
 * Submit your explanations to https://canvas.emory.edu/courses/71182/assignments/294443
+
+
+## Quiz 10
+
+### Project Contribution
+
+* For each member in your team (except you), score one's contribution in the scale of:
+  * `0`: no contribution
+  * `1`: weak contribution
+  * `2`: good contribution
+  * `3`: significant contribution
+* Give a brief explanation of your score.
+
+### Submission
+
+* Submit your explanations to https://canvas.emory.edu/courses/71182/assignments/323946
