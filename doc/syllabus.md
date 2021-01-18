@@ -14,8 +14,7 @@
 
 ## Grading
 
-* 2 homework assignments: 20%
-* 12 take-home quizzes: 30%
+* 12 take-home quizzes: 50%
 * Project proposal: 20%
 * Final project: 30%
 * Homework assignments and quizzes must be submitted individually unless they are assigned as group projects. Discussions are allowed; however, your work must be original.
