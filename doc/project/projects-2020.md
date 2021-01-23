@@ -2,8 +2,6 @@
 
 ## Spring 2020
 
-### Projects
-
 Superscripts show the number of votes that each team received from the class.
 
 1. **Sabrina: Your Virtual Peer Mentor**
@@ -45,18 +43,3 @@ Superscripts show the number of votes that each team received from the class.
 1. **NBA Chatbot**
    * Andrew Chiang, Sunny Chung, Alex Fan, Anthony Wong
    * [Abstract](https://drive.google.com/open?id=1iqcaUzRmQF9JnRCQY3M383SFcztalREN), [Proposal](https://drive.google.com/open?id=1jXsnOFk4iKsHTH-aq6atRRrTIMQQjScU) ([sides](https://drive.google.com/open?id=129Mw5QxNv4F9qfNLAqipW_qbHcWoYR0I))<sup>16</sup>, [Final](https://drive.google.com/open?id=1HfQ9Vj4HcSQEoOnbAmJCW5KE_IPPyUiU) ([slides](https://drive.google.com/open?id=1X8ywGlNm5W7x3bGmS-ORGLEVs03PoME1), [demo](https://drive.google.com/open?id=1exjk_qfTYPa4A5s7PVy9aj8QLy89YryT))<sup>18</sup>
-
-
-### Proposal Presentations
-
-* `02/26`: 2, 4, 7, 10, 11
-* `03/02`: 6, 8, 9, 12
-* `03/04`: 1, 3, 5, 13
-
-
-### Final Presentations
-
-* `04/15`: 1, 8, 9
-* `04/20`: 3, 5, 13
-* `04/22`: 6, 7, 12
-* `04/27`: 2, 4, 10, 11
