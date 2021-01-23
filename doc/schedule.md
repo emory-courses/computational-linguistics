@@ -33,12 +33,13 @@
 |05/03| NLP Applications |  |  |
 
 
-<!-- quiz0: 2
-quiz1: 7
-quiz2: 7
-quiz3: 7
-quiz4: 3
-quiz5: 7
-quiz6: 7
-quiz7: 7
-quiz8: 3 -->
+<!--
+0: 2
+1: 7
+2: 7
+3: 7
+4: 3
+5: 7
+6: 7
+7: 7
+8: 3 -->

@@ -1,4 +1,4 @@
-# Quiz 0
+# Quiz 0: Getting Started
 
 ## Submission
 
