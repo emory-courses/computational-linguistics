@@ -16,4 +16,4 @@ Prerequisites: CS 171 (CS and LING students) or QTM 220 (QTM students)
 
 * [Syllabus](doc/syllabus.md)
 * [Schedule](doc/schedule.md)
-* Projects: [2020](doc/project/projects-2020.md).
+* Projects: [2020](doc/project/projects-2020.md)
