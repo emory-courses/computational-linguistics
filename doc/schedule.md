@@ -2,7 +2,7 @@
 
 |Date | Topic | Resource | Assignment |
 |:---:|:---:|:---:|:---:|
-|01/25| Introduction | [md](getting_started.md) | [Quiz 0](quiz/quiz0.md) |
+|01/25| [Introduction](https://emory.zoom.us/rec/share/BJqn-ESYXsCp115Iln6onTX_3GEPiP-cNpYGBkYf1Kv0rfjEBO0tZAew9Kz5o62S.6uzA6p77cYx5vHh5) | [md](syllabus.md) | [Quiz 0](quiz/quiz0.md) |
 |01/27| Regular Expressions | [md](regular_expressions.md) |  |
 |02/01| Regular Expressions |  |  |
 |02/03| Regular Expressions |  | [Quiz 1](quiz/quiz1.md) |
