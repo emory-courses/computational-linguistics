@@ -11,7 +11,8 @@
 * Create a new repository called `cs329` and make it **private**.
 * From the `[Settings]` menu, add the instructors as collaborators of this repository.
   * Jinho Choi: `jdchoi77`
-  * Shaojun Yu: ``
+  * Shaojun Yu: `shaojunyu`
+  * Lydia Feng: `f3Lng`
 
 ## PyCharm
 

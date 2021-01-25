@@ -13,6 +13,8 @@
   : MW 5:40pm - 7:00pm
 * [Shaojun Yu](https://github.com/shaojunyu) - PhD Student in Computer Science<br>
   : TuTh 10:00am - 12:00pm
+* [Lydia Feng](https://github.com/f3Lng) - Senior in Computer Science & Linguistics<br>
+  : Tu 12:00pm - 1:30pm, F 10am - 11:30am
 * Office hour location<br>
   : https://emory.zoom.us/j/93071569310
 
