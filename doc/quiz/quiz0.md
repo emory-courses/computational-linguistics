@@ -1,5 +1,9 @@
 # Quiz 0: Getting Started
 
+## Tasks
+
+* Complete all the tasks in the [Getting Started](../getting_started.md) page.
+
 ## Submission
 
 * Create a file called [`.gitignore`](../../.gitignore) under the `cs329` directory and copy the followings:
