@@ -3,7 +3,7 @@
 |Date | Topic | Resource | Assignment |
 |:---:|:---:|:---:|:---:|
 |01/25| [Introduction](syllabus.md) | [zoom](https://emory.zoom.us/rec/share/BJqn-ESYXsCp115Iln6onTX_3GEPiP-cNpYGBkYf1Kv0rfjEBO0tZAew9Kz5o62S.6uzA6p77cYx5vHh5) | [Quiz 0](quiz/quiz0.md) |
-|01/27| [Regular Expressions](regular_expressions.ipynb) |  |  |
+|01/27| [Regular Expressions](regular_expressions.ipynb) | [zoom](https://emory.zoom.us/rec/share/9gs85hOmJbjJpiLhExyDqBCh42p0Cnd0hlvVUqPHkYTWN5g0E0huvvGw9rysLx2n.q8ZucWgbs_-gbzDA) |  |
 |02/01| Regular Expressions |  |  |
 |02/03| Regular Expressions |  | [Quiz 1](quiz/quiz1.md) |
 |02/08| Word Categorization |  |  |
