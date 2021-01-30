@@ -15,63 +15,7 @@
 # ========================================================================
 import re
 
-STARTS = ['"']
-ENDS = ["n't", '.', ',', '"']
 RE_TOK = re.compile(r'([",.]|n\'t|\s+)')
-
-
-def tokenize_strmat_0(text):
-    tokens = text.split()
-    new_tokens = []
-
-    for token in tokens:
-        start = next((t for t in STARTS if token.startswith(t)), None)
-        if start:
-            n = len(start)
-            t1 = token[:n]
-            t2 = token[n:]
-            new_tokens.extend([t1, t2])
-            continue
-
-        end = next((t for t in ENDS if token.endswith(t)), None)
-        if end:
-            n = len(end)
-            t1 = token[:-n]
-            t2 = token[-n:]
-            if not (t1 == 'Mr' and t2 == '.'):
-                new_tokens.extend([t1, t2])
-                continue
-
-        new_tokens.append(token)
-
-    return new_tokens
-
-
-def tokenize_strmat_1(text):
-    tokens = text.split()
-    new_tokens = []
-
-    def aux(token):
-        start = next((t for t in STARTS if token.startswith(t)), None)
-        if start:
-            n = len(start)
-            new_tokens.append(token[:n])
-            aux(token[n:])
-            return
-
-        end = next((t for t in ENDS if token.endswith(t)), None)
-        if end:
-            n = len(end)
-            t1, t2 = token[:-n], token[-n:]
-            if not (t1 in {'Mr', 'Ms'} and t2 == '.'):
-                aux(t1)
-                new_tokens.append(t2)
-                return
-
-        new_tokens.append(token)
-
-    for token in tokens: aux(token)
-    return new_tokens
 
 
 def tokenize_regex_0(text):
@@ -101,11 +45,6 @@ def tokenize_regex_1(text):
 if __name__ == '__main__':
     text0 = 'Mr. Wayne isn\'t the hero we need, but "the one" we deserve.'
     text1 = 'Ms. Wayne is "Batgirl" but not "the one".'
-
-    print(tokenize_strmat_0(text0))
-    print(tokenize_strmat_0(text1))
-
-    print(tokenize_strmat_1(text1))
 
     print(tokenize_regex_0(text0))
     print(tokenize_regex_0(text1))
