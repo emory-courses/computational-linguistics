@@ -16,9 +16,15 @@
 import re
 
 RE_TOK = re.compile(r'([",.]|n\'t|\s+)')
+RE_ABBR = re.compile(r'((?:Mr|Mrs|Ms|Dr)\.)|((?:[A-Z]\.){2,})')  # Mr. Dr. Mrs. U.S.A. USA.
+RE_APOS = re.compile(r'\'(\d\ds?|cause)')
+RE_CONC = re.compile(r'([A-Za-z]+)(n\'t)|(gon)(na)|(can)(not)')
+RE_HYPE = re.compile(r'(https?:\/\/\S+)')
+RE_NUMB = re.compile(r'(\d+\/\d+)|(\d{3}-\d{3}-\d{4})|(\d(?:,\d{3})+)')
+RE_UNIT = re.compile(r'([$#])?(\d+)([km]g)?')
 
 
-def tokenize_regex_0(text):
+def tokenize_regex(text):
     prev_idx = 0
     tokens = []
     for m in RE_TOK.finditer(text):
@@ -35,16 +41,9 @@ def tokenize_regex_0(text):
     return tokens
 
 
-def tokenize_regex_1(text):
-    tokens = []
-    # to be filled
-    return tokens
-
-
-
 if __name__ == '__main__':
     text0 = 'Mr. Wayne isn\'t the hero we need, but "the one" we deserve.'
     text1 = 'Ms. Wayne is "Batgirl" but not "the one".'
 
-    print(tokenize_regex_0(text0))
-    print(tokenize_regex_0(text1))
+    print(tokenize_regex(text0))
+    print(tokenize_regex(text1))
