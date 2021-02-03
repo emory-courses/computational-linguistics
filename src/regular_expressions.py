@@ -38,6 +38,8 @@ def tokenize_regex(text):
                 tokens.append(t)
         prev_idx = m.end()
 
+    t = text[prev_idx:].strip()
+    if t: tokens.append(t)
     return tokens
 
 
