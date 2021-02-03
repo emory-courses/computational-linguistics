@@ -5,7 +5,7 @@
 |01/25| [Introduction](https://emory.zoom.us/rec/share/BJqn-ESYXsCp115Iln6onTX_3GEPiP-cNpYGBkYf1Kv0rfjEBO0tZAew9Kz5o62S.6uzA6p77cYx5vHh5) | [note](syllabus.md) | [Quiz 0](quiz/quiz0.md) |
 |01/27| [Tokenization](https://emory.zoom.us/rec/share/9gs85hOmJbjJpiLhExyDqBCh42p0Cnd0hlvVUqPHkYTWN5g0E0huvvGw9rysLx2n.q8ZucWgbs_-gbzDA) | [note](tokenization.ipynb), [src](../src/tokenization.py) |  |
 |02/01| [Regular Expressions](https://emory.zoom.us/rec/share/zAvexqqP5rEUpXSyPWUsw8ioyysGlmIig2xapmGrXQkqCRwFwIebNE_L86kdoY6l.lvZ24Kl9pK1WlfaS) | [note](regular_expressions.ipynb), [src](../src/regular_expressions.py) |  |
-|02/03| Regular Expressions |  | [Quiz 1](quiz/quiz1.md) |
+|02/03| [Regular Expressions](https://emory.zoom.us/rec/share/5rkfwup7N-KYy9MQyeRHFLOazIQaYz8Ih7tWTS1eQQhUZl478S1-CS9mrO22iKK1.hYYEuqlpDAsNXl1n) |  | [Quiz 1](quiz/quiz1.md) |
 |02/08| Word Categorization |  |  |
 |02/10| Word Categorization |  |  |
 |02/15| Word Categorization |  | [Quiz 2](quiz/quiz2.md) |
