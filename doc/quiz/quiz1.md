@@ -20,5 +20,5 @@
 
 * Update `normalize()` to handle the case of indefinite articles (e.g., `a`, `an`) being used to indicate quantities.
 In the example below, `a boy` should not be converted into `1 boy` whereas `a sister` should because it indicates the quantity:
-  > I know a boy who has **a** sister &rarr; I know a boy who has **1** sister
+  * I know a boy who has **a** sister &rarr; I know a boy who has **1** sister
 * Write a report `quiz1.pdf` that explains how you handle this special case and submit: https://canvas.emory.edu/courses/83264/assignments/451636
