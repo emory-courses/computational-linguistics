@@ -20,6 +20,12 @@ from nltk.corpus.reader import Synset
 
 
 def synonyms(word: str, pos: Optional[str] = None, count: Optional[int] = 0) -> Set[str]:
+    """
+    :param word: the word to retrieve synonyms for.
+    :param pos: the part-of-speech tag of the word; if None, retrieve synonyms across all part-of-speeches.
+    :param count: the minimum frequency of the synonym to be retrieved.
+    :return: the lemma set of all synonyms of the specific word.
+    """
     syns = set()
 
     for synset in wn.synsets(word, pos):
@@ -46,7 +52,7 @@ def lch_paths(sense_0: str, sense_1: str) -> List[List[Synset]]:
 
 
 if __name__ == '__main__':
-    dog_syns = synonyms('dog', pos='n')
-    print(dog_syns)
+    print(synonyms('dog', pos='n'))
+
     paths = lch_paths('dog.n.01', 'cat.n.01')
     for path in paths: print(' -> '.join([syn.name() for syn in path]))
