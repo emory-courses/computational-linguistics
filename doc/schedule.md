@@ -6,7 +6,7 @@
 |01/27| [Tokenization](https://emory.zoom.us/rec/share/9gs85hOmJbjJpiLhExyDqBCh42p0Cnd0hlvVUqPHkYTWN5g0E0huvvGw9rysLx2n.q8ZucWgbs_-gbzDA) | [note](tokenization.ipynb), [src](../src/tokenization.py) |  |
 |02/01| [Regular Expressions](https://emory.zoom.us/rec/share/zAvexqqP5rEUpXSyPWUsw8ioyysGlmIig2xapmGrXQkqCRwFwIebNE_L86kdoY6l.lvZ24Kl9pK1WlfaS) | [note](regular_expressions.ipynb), [src](../src/regular_expressions.py) |  |
 |02/03| [Regular Expressions](https://emory.zoom.us/rec/share/5rkfwup7N-KYy9MQyeRHFLOazIQaYz8Ih7tWTS1eQQhUZl478S1-CS9mrO22iKK1.hYYEuqlpDAsNXl1n) |  | [Quiz 1](quiz/quiz1.md) |
-|02/08| Word Categorization |  |  |
+|02/08| Ontology and Taxonomy | [node](ontology_taxonomy.ipynb), [src](../src/ontology_taxonomy.py) |  |
 |02/10| Word Categorization |  |  |
 |02/15| Word Categorization |  | [Quiz 2](quiz/quiz2.md) |
 |02/17| Spring Rest Day |  |  |

@@ -53,6 +53,7 @@ def lch_paths(sense_0: str, sense_1: str) -> List[List[Synset]]:
 
 if __name__ == '__main__':
     print(synonyms('dog', pos='n'))
+    print(synonyms('dog', pos='n'))
 
     paths = lch_paths('dog.n.01', 'cat.n.01')
     for path in paths: print(' -> '.join([syn.name() for syn in path]))
