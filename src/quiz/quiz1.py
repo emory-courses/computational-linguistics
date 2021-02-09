@@ -19,6 +19,11 @@ def normalize(text):
     return text
 
 
+def normalize_extra(text):
+    # TODO: to be updated
+    return text
+
+
 if __name__ == '__main__':
     S = [
         'I met twelve people',
