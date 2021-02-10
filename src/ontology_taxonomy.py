@@ -37,6 +37,11 @@ def synonyms(word: str, pos: Optional[str] = None, count: Optional[int] = 0) -> 
 
 
 def lch_paths(sense_0: str, sense_1: str) -> List[List[Synset]]:
+    """
+    :param sense_0: the ID of the first sense.
+    :param sense_1: the ID of the second sense.
+    :return: the list of LCH paths where each LCH path shows the path from the LCD to its root.
+    """
     synset_0 = wn.synset(sense_0)
     synset_1 = wn.synset(sense_1)
     hypernym_paths_0 = synset_0.hypernym_paths()
