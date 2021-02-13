@@ -23,8 +23,11 @@
   * Decimals (e.g., `five point two`).
   * Fractions (e.g., `a half`, `two third`).
 * Other than the converted cardinals, all the other parts of the string should stay as the original forms including consecutive spaces and symbols.
+* The converted cardinals should not include comma. For example, `one thousand one` should be converted to `1001`, not `1,001`.
 * More conversion examples:
   * `Three hundred` and `Sixty Five` &rarr; `300` and `65`
+  * `Twenty three hundred` &rarr; `2300`
+
 
 ## Submission
 
