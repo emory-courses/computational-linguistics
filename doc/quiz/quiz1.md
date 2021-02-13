@@ -15,10 +15,16 @@
 
 * Your program should handle:
   * Both uppercase and lowercase letters.
-  * Hyphenated words (e.g., `thirty-five`).
+  * Hyphenated words (e.g., `thirty-five` &rarr; `35`).
+  * Preceding and succeeding symbols (e.g., `one, "two", three!?` &rarr; `1, "2", 3!?`).
 * Your program should not convert:
   * Indefinite articles except for the case when they are followed by numbers such as `hundred`, `thousand`, etc.
   * Ordinals (e.g., `first`, `fifth`).
+  * Decimals (e.g., `five point two`).
+  * Fractions (e.g., `a half`, `two third`).
+* Other than the converted cardinals, all the other parts of the string should stay as the original forms including consecutive spaces and symbols.
+* More conversion examples:
+  * `Three hundred` and `Sixty Five` &rarr; `300` and `65`
 
 ## Submission
 
