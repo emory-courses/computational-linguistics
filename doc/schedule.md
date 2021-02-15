@@ -8,7 +8,7 @@
 |02/03| [Regular Expressions](https://emory.zoom.us/rec/share/5rkfwup7N-KYy9MQyeRHFLOazIQaYz8Ih7tWTS1eQQhUZl478S1-CS9mrO22iKK1.hYYEuqlpDAsNXl1n) |  | [Quiz 1](quiz/quiz1.md) |
 |02/08| [Ontology and Taxonomy](https://emory.zoom.us/rec/share/MiTnO5TqQ7THHE7gPTd-GzsfS_L7cEKE5oMJUMKPQSCZrmF2xeQ4RoRMZHpsBwYa.E9w_829R-QAebD8I) | [note](ontology_taxonomy.ipynb), [src](../src/ontology_taxonomy.py) |  |
 |02/10| [Ontology and Taxonomy](https://emory.zoom.us/rec/share/MDY1OBEltQjcbklFHwlAg2lc6omkglgeEuHRpGBzntIx2dvFIjf37voBhaLw_FRO.tz1ILs3WdyliVvsv) |  |  |
-|02/15| Word Categorization |  | [Quiz 2](quiz/quiz2.md) |
+|02/15| Part-of-Speech Tags | [note](part_of_speech_tags.ipynb), [src](../src/part_of_speech_tags.py) | [Quiz 2](quiz/quiz2.md) |
 |02/17| Spring Rest Day |  |  |
 |02/22| Project Description |  |  |
 |02/24| Computational Grammars |  |  |
