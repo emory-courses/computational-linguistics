@@ -14,21 +14,19 @@
 # limitations under the License.
 # ========================================================================
 from typing import Set, Optional, List
-
 from nltk.corpus.reader import Synset
 
 
-def antonyms(word: str, pos: Optional[str] = None) -> Set[str]:
-    # TODO: to be filled
+def antonyms(word: str, pos: Optional[str] = None) -> Set[Synset]:
+    # TODO: to be updated
     pass
 
 
-def lch_paths(word_0: str, word_1: str) -> List[List[Synset]]:
-    # TODO: to be filled
+def path(sense_0: str, sense_1: str) -> List[Synset]:
+    # TODO: to be updated
     pass
 
 
 if __name__ == '__main__':
-    print(antonyms('buy', pos='v'))
-    for path in lch_paths('dog', 'cat'):
-        print(path)
+    print(antonyms('purchase', pos='v'))
+    print([s.name() for s in path('dog.n.01', 'cat.n.01')])

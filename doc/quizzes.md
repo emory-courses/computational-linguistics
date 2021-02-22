@@ -81,7 +81,7 @@ Here is an example:
 
 ### Ontology and Taxanomy
 
-* Create [`quiz3.py`](../src/quiz/quiz3.py) under the [`src/quiz/`](../src/quiz) directory and copy the contents.
+* Create [`quiz3.py`](../src/quiz/quiz2.py) under the [`src/quiz/`](../src/quiz) directory and copy the contents.
 * Complete the `antonyms()` method that takes a word and an optional POS tag, and returns the list of antonyms of the word.
 * Complete the `lch_paths()` method that takes two words (not sense IDs), and returns the list of Synset list where each Synset list shows the path from every lowest common hypernym of the two words to its root.
 

@@ -67,6 +67,10 @@ def create_uni_pos_dict(data: List[List[Tuple[str, str]]]) -> Dict[str, List[Tup
     # To be updated
     return model
 
+import nltk
+def postag(text):
+    tokens = nltk.word_tokenize("And now for something completely different")
+
 
 if __name__ == '__main__':
     # create a directory to download pos data

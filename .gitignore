@@ -1,3 +1,6 @@
 .idea/
 venv/
 **/.ipynb_checkpoints/
+
+# solutions
+src/quiz/quiz0_sol.py
