@@ -14,10 +14,10 @@
 # limitations under the License.
 # ========================================================================
 
-from pathlib import Path
-from typing import List, Tuple, Dict
-
 import requests
+from pathlib import Path
+from collections import Counter
+from typing import List, Tuple, Dict
 
 
 def download_data(path):
@@ -60,16 +60,27 @@ def word_count(data: List[List[Tuple[str, str]]]) -> int:
 
 def create_uni_pos_dict(data: List[List[Tuple[str, str]]]) -> Dict[str, List[Tuple[str, float]]]:
     """
-    :param data: a list of tuple list where each inner list represents a sentence and every tuple is a (word, pos) pair.
+    :param data: a list of tuple lists where each inner list represents a sentence and every tuple is a (word, pos) pair.
     :return: a dictionary where the key is a word and the value is the list of possible POS tags with probabilities in descending order.
     """
     model = dict()
-    # To be updated
+
+    for sentence in data:
+        for word, pos in sentence:
+            model.setdefault(word, Counter()).update([pos])
+
+    for word, counter in model.items():
+        ts = counter.most_common()
+        total = sum([count for _, count in ts])
+        model[word] = [(pos, count/total) for pos, count in ts]
+
     return model
 
 import nltk
 def postag(text):
     tokens = nltk.word_tokenize("And now for something completely different")
+    t = nltk.pos_tag(tokens)
+    print(t)
 
 
 if __name__ == '__main__':
@@ -92,3 +103,10 @@ if __name__ == '__main__':
 
     # word count
     print(word_count(trn_data))
+
+    # unigram model
+    pos_model = create_uni_pos_dict(trn_data)
+
+    sentence = "I bought a car yesterday that was blue"
+    for token in sentence.split():
+        print(token, pos_model.get(token, None))
