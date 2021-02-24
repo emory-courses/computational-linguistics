@@ -17,16 +17,22 @@ from typing import Set, Optional, List
 from nltk.corpus.reader import Synset
 
 
-def antonyms(word: str, pos: Optional[str] = None) -> Set[Synset]:
+def antonyms(sense: str) -> Set[Synset]:
+    """
+    :param sense: the ID of the sense (e.g., 'dog.n.01').
+    :return: a set of Synsets representing the union of all antonyms of the sense as well as its synonyms.
+    """
     # TODO: to be updated
-    pass
+    return set()
 
 
-def path(sense_0: str, sense_1: str) -> List[Synset]:
+def paths(sense_0: str, sense_1: str) -> List[List[Synset]]:
     # TODO: to be updated
-    pass
+    return list(list())
 
 
 if __name__ == '__main__':
-    print(antonyms('purchase', pos='v'))
-    print([s.name() for s in path('dog.n.01', 'cat.n.01')])
+    print(antonyms('purchase.v.01'))
+
+    for path in paths('dog.n.01', 'cat.n.01'):
+        print([s.name() for s in path])
