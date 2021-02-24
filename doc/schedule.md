@@ -10,7 +10,7 @@
 |02/10| [Ontology and Taxonomy](https://emory.zoom.us/rec/share/MDY1OBEltQjcbklFHwlAg2lc6omkglgeEuHRpGBzntIx2dvFIjf37voBhaLw_FRO.tz1ILs3WdyliVvsv) |  |  |
 |02/15| [Ontology and Taxonomy](https://emory.zoom.us/rec/share/UyyZlFtkVPEn4y6ajkWaKryNTrS_7ww9x2JMGzyMx1ol-hDEB_4OXFzG-6RWKfl7.0kmjpTcKZ6Co5A81) |  |  |
 |02/17| Spring Rest Day |  |  |
-|02/22| [Project Description](https://emory.zoom.us/rec/share/5Rpyg7h0CUYFaWsxjbVTDsJ7fSc4zvOyKQuqHAiEaVTsl0XeA5Ugcjsn3mrf-_wb.lfiPFiCVvfXIZyzH) |  | [Quiz 2](quiz/quiz2.md) |
+|02/22| [Project Description](https://emory.zoom.us/rec/share/5Rpyg7h0CUYFaWsxjbVTDsJ7fSc4zvOyKQuqHAiEaVTsl0XeA5Ugcjsn3mrf-_wb.lfiPFiCVvfXIZyzH) | [node](project/projects-2021.md) | [Quiz 2](quiz/quiz2.md) |
 |02/24| Part-of-Speech Tags | [note](part_of_speech_tags.ipynb), [src](../src/part_of_speech_tags.py) |  |
 |03/01| Named Entities |  |  |
 |03/03| Computational Grammars |  | [Quiz 3](quiz/quiz3.md) |
