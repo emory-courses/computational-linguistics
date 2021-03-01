@@ -50,4 +50,6 @@
 
 ## Ideas
 
-* 
+* Given one or more named entities, list the most relevant events in time order using the [NYTimes APIs](https://developer.nytimes.com/get-started).
+* Given a situation in text, find the most relevant qutoes from the [Wise Quotes](https://canvas.emory.edu/courses/83264/files/5410197/download?download_frd=1).
+* Given one or more events, find the most relevant stories from the [Aesop's Fables](https://canvas.emory.edu/courses/83264/files/5410213/download?download_frd=1).
