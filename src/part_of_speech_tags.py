@@ -18,7 +18,7 @@ import nltk
 import requests
 from pathlib import Path
 from collections import Counter
-from typing import List, Tuple, Dict
+from typing import List, Tuple, Dict, Any
 
 
 PREV_DUMMY = '!@#$'
@@ -61,6 +61,14 @@ def word_count(data: List[List[Tuple[str, str]]]) -> int:
     return sum([len(sentence) for sentence in data])
 
 
+def to_probs(model: Dict[Any, Counter]) -> Dict[str, List[Tuple[str, float]]]:
+    for feature, counter in model.items():
+        ts = counter.most_common()
+        total = sum([count for _, count in ts])
+        model[feature] = [(pos, count/total) for pos, count in ts]
+    return model
+
+
 def create_uni_pos_dict(data: List[List[Tuple[str, str]]]) -> Dict[str, List[Tuple[str, float]]]:
     """
     :param data: a list of tuple lists where each inner list represents a sentence and every tuple is a (word, pos) pair.
@@ -72,12 +80,7 @@ def create_uni_pos_dict(data: List[List[Tuple[str, str]]]) -> Dict[str, List[Tup
         for word, pos in sentence:
             model.setdefault(word, Counter()).update([pos])
 
-    for word, counter in model.items():
-        ts = counter.most_common()
-        total = sum([count for _, count in ts])
-        model[word] = [(pos, count/total) for pos, count in ts]
-
-    return model
+    return to_probs(model)
 
 
 def create_bi_pos_dict(data: List[List[Tuple[str, str]]]) -> Dict[str, List[Tuple[str, float]]]:
@@ -92,12 +95,37 @@ def create_bi_pos_dict(data: List[List[Tuple[str, str]]]) -> Dict[str, List[Tupl
             prev_pos = sentence[i-1][1] if i > 0 else PREV_DUMMY
             model.setdefault(prev_pos, Counter()).update([curr_pos])
 
-    for key, counter in model.items():
-        ts = counter.most_common()
-        total = sum([count for _, count in ts])
-        model[key] = [(pos, count/total) for pos, count in ts]
+    return to_probs(model)
 
-    return model
+
+def create_bi_wp_dict(data: List[List[Tuple[str, str]]]) -> Dict[str, List[Tuple[str, float]]]:
+    """
+    :param data: a list of tuple lists where each inner list represents a sentence and every tuple is a (word, pos) pair.
+    :return: a dictionary where the key is the previous word and the value is the list of possible POS tags with probabilities in descending order.
+    """
+    model = dict()
+
+    for sentence in data:
+        for i, (_, curr_pos) in enumerate(sentence):
+            prev_word = sentence[i-1][0] if i > 0 else PREV_DUMMY
+            model.setdefault(prev_word, Counter()).update([curr_pos])
+
+    return to_probs(model)
+
+
+def create_bi_wn_dict(data: List[List[Tuple[str, str]]]) -> Dict[str, List[Tuple[str, float]]]:
+    """
+    :param data: a list of tuple lists where each inner list represents a sentence and every tuple is a (word, pos) pair.
+    :return: a dictionary where the key is the previous word and the value is the list of possible POS tags with probabilities in descending order.
+    """
+    model = dict()
+
+    for sentence in data:
+        for i, (_, curr_pos) in enumerate(sentence):
+            next_word = sentence[i+1][0] if i+1 < len(sentence) else PREV_DUMMY
+            model.setdefault(next_word, Counter()).update([curr_pos])
+
+    return to_probs(model)
 
 
 def predict_uni_pos_dict(uni_pos_dict: Dict[str, List[Tuple[str, float]]], tokens: List[str], pprint=False) -> List[Tuple[str, float]]:
@@ -119,7 +147,7 @@ def predict_bi_pos_dict(uni_pos_dict: Dict[str, List[Tuple[str, float]]], bi_pos
     for i in range(len(tokens)):
         pos = uni_pos_dict.get(tokens[i], None)
         if pos is None:
-            pos = bi_pos_dict.get(output[i-1], None)
+            pos = bi_pos_dict.get(output[i-1][0] if i > 0 else PREV_DUMMY, None)
         output.append(pos[0] if pos else ('XX', 0.0))
 
     return output
@@ -153,6 +181,66 @@ def evaluate_nltk(data: List[List[Tuple[str, str]]]):
         total += len(tokens)
         correct += len([1 for g, p in zip(gold, pred) if g == p])
     print('{:5.2f}% ({}/{})'.format(100.0 * correct / total, correct, total))
+
+
+def predict_interporlation(
+        uni_pos_dict: Dict[str, List[Tuple[str, float]]],
+        bi_pos_dict: Dict[str, List[Tuple[str, float]]],
+        bi_wp_dict: Dict[str, List[Tuple[str, float]]],
+        bi_wn_dict: Dict[str, List[Tuple[str, float]]],
+        uni_pos_weight: float,
+        bi_pos_weight: float,
+        bi_wp_weight: float,
+        bi_wn_weight: float,
+        tokens: List[str]) -> List[Tuple[str, float]]:
+    output = []
+
+    for i in range(len(tokens)):
+        scores = dict()
+        curr_word = tokens[i]
+        prev_pos = output[i-1][0] if i > 0 else PREV_DUMMY
+        prev_word = tokens[i-1] if i > 0 else PREV_DUMMY
+        next_word = tokens[i+1] if i+1 < len(tokens) else PREV_DUMMY
+
+        for pos, prob in uni_pos_dict.get(curr_word, dict()).items():
+            scores[pos] = scores.get(pos, 0) + prob * uni_pos_weight
+
+        for pos, prob in bi_pos_dict.get(prev_pos, dict()).items():
+            scores[pos] = scores.get(pos, 0) + prob * bi_pos_weight
+
+        for pos, prob in bi_wp_dict.get(prev_word, dict()).items():
+            scores[pos] = scores.get(pos, 0) + prob * bi_wp_weight
+
+        for pos, prob in bi_wn_dict.get(next_word, dict()).items():
+            scores[pos] = scores.get(pos, 0) + prob * bi_wn_weight
+
+        o = max(scores.items(), key=lambda k, v: v) if scores else ('XX', 0.0)
+        output.append(o)
+
+    return output
+
+
+def evaluate_interpolation(
+        uni_pos_dict: Dict[str, List[Tuple[str, float]]],
+        bi_pos_dict: Dict[str, List[Tuple[str, float]]],
+        bi_wp_dict: Dict[str, List[Tuple[str, float]]],
+        bi_wn_dict: Dict[str, List[Tuple[str, float]]],
+        uni_pos_weight: float,
+        bi_pos_weight: float,
+        bi_wp_weight: float,
+        bi_wn_weight: float,
+        data: List[List[Tuple[str, str]]],
+        pprint=False):
+    total, correct = 0, 0
+    for sentence in data:
+        tokens, gold = tuple(zip(*sentence))
+        pred = [t[0] for t in predict_interporlation(uni_pos_dict, bi_pos_dict, bi_wp_dict, bi_wn_dict, uni_pos_weight, bi_pos_weight, bi_wp_weight, bi_wn_weight, tokens)]
+        total += len(tokens)
+        correct += len([1 for g, p in zip(gold, pred) if g == p])
+    accuracy = 100.0 * correct / total
+    print('{:5.2f}% ({}/{}) - uni_pos: {:3.1f}, bi_pos: {:3.1f}, bi_wp: {:3.1f}, bi_np: {:3.1f}'.format(accuracy, correct, total, uni_pos_weight, bi_pos_weight, bi_wp_weight, bi_wn_weight))
+    return accuracy
+
 
 
 def postag(text):
