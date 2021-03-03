@@ -13,7 +13,7 @@
 |02/22| [Project Description](https://emory.zoom.us/rec/share/5Rpyg7h0CUYFaWsxjbVTDsJ7fSc4zvOyKQuqHAiEaVTsl0XeA5Ugcjsn3mrf-_wb.lfiPFiCVvfXIZyzH) | [note](project/projects-2021.md) | [Quiz 2](quiz/quiz2.md) |
 |02/24| [Part-of-Speech Tags](https://emory.zoom.us/rec/share/TLTQxRa-ZHdWiRJa0JG-XEbMbhp04jC6bD6XEJq1lybsNYIf2-GvouROKT6MtRu8._ESscZKQcqbQ613w) | [note](part_of_speech_tags.ipynb), [src](../src/part_of_speech_tags.py) |  |
 |03/01| [Part-of-Speech Tags](https://emory.zoom.us/rec/share/NFcLDV-uXkTyX7Us5E7NK7WEmPRFge1ePoRCrOzsyOn8kAXUA6BMA83wpcfajQ78.qoCkRi7RK1bN5obM) |  |  |
-|03/03| Computational Grammars |  | [Quiz 3](quiz/quiz3.md) |
+|03/03| [Part-of-Speech Tags](https://emory.zoom.us/rec/share/w8VdqHkf1KeUuynpfrCN_Z6_h-7J00z6BPq4nYrGQyHQPC3fxxc9dxaYgi1kbScY.ZvlETfzRwRBWb_1G) |  | [Quiz 3](quiz/quiz3.md) |
 |03/08| Proposal Presentations |  |  |
 |03/10| Proposal Presentations |  |  |
 |03/15| Proposal Presentations |  | [Quiz 4](quiz/quiz4.md) |
