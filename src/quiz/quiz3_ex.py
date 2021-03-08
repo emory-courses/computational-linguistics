@@ -43,6 +43,17 @@ def to_probs(model: Dict[Any, Counter]) -> Dict[str, List[Tuple[str, float]]]:
     return probs
 
 
+def evaluate(data: List[List[Tuple[str, str]]], *args):
+    total, correct = 0, 0
+    for sentence in data:
+        tokens, gold = tuple(zip(*sentence))
+        pred = [t[0] for t in predict(tokens, *args)]
+        total += len(tokens)
+        correct += len([1 for g, p in zip(gold, pred) if g == p])
+    accuracy = 100.0 * correct / total
+    return accuracy
+
+
 def create_cw_dict(data: List[List[Tuple[str, str]]]) -> Dict[str, List[Tuple[str, float]]]:
     """
     :param data: a list of tuple lists where each inner list represents a sentence and every tuple is a (word, pos) pair.
@@ -133,17 +144,6 @@ def predict(tokens: List[str], *args) -> List[Tuple[str, float]]:
         output.append(o)
 
     return output
-
-
-def evaluate(data: List[List[Tuple[str, str]]], *args):
-    total, correct = 0, 0
-    for sentence in data:
-        tokens, gold = tuple(zip(*sentence))
-        pred = [t[0] for t in predict(tokens, *args)]
-        total += len(tokens)
-        correct += len([1 for g, p in zip(gold, pred) if g == p])
-    accuracy = 100.0 * correct / total
-    return accuracy
 
 
 def experiment(trn_data: List[List[Tuple[str, str]]], dev_data: List[List[Tuple[str, str]]]) -> Tuple:
