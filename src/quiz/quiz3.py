@@ -13,7 +13,8 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 # ========================================================================
-from typing import List, Tuple
+from collections import Counter
+from typing import List, Tuple, Dict, Any
 
 
 def read_data(filename: str):
@@ -31,13 +32,33 @@ def read_data(filename: str):
     return data
 
 
-def train(data: List[List[Tuple[str, str]]]) -> Tuple[...]:
+def to_probs(model: Dict[Any, Counter]) -> Dict[str, List[Tuple[str, float]]]:
+    probs = dict()
+    for feature, counter in model.items():
+        ts = counter.most_common()
+        total = sum([count for _, count in ts])
+        probs[feature] = [(label, count/total) for label, count in ts]
+    return probs
+
+
+def evaluate(data: List[List[Tuple[str, str]]], *args):
+    total, correct = 0, 0
+    for sentence in data:
+        tokens, gold = tuple(zip(*sentence))
+        pred = [t[0] for t in predict(tokens, args)]
+        total += len(tokens)
+        correct += len([1 for g, p in zip(gold, pred) if g == p])
+    accuracy = 100.0 * correct / total
+    return accuracy
+
+
+def train(data: List[List[Tuple[str, str]]]) -> Tuple:
     """
     :param data: a list of tuple lists where each inner list represents a sentence and every tuple is a (word, pos) pair.
-    :return: a tuple of a variable number of dictionaries
+    :return: a tuple of a variable number of models
     """
-    # To be updated
-    # The returned tuple can be something like (uni_pos_dict, bi_pos_dict, bi_wp_dict, bi_wn_dict, uni_pos_weight, bi_pos_weight, bi_wp_weight, bi_wn_weight)
+    # TODO: to be updated
+    # e.g., returned tuple = (cw_dict, pp_dict, pw_dict, nw_dict)
     return tuple()
 
 
@@ -51,16 +72,14 @@ def predict(tokens: List[str], *args) -> List[Tuple[str, float]]:
     return [('XX', 0) for _ in range(len(tokens))]
 
 
-def experiment(trn_data: List[List[Tuple[str, str]]], dev_data: List[List[Tuple[str, str]]]):
-    model = train(trn_data)
-    total, correct = 0, 0
-    for sentence in dev_data:
-        tokens, gold = tuple(zip(*sentence))
-        pred = [t[0] for t in predict(tokens, *model)]
-        total += len(tokens)
-        correct += len([1 for g, p in zip(gold, pred) if g == p])
-    print('{:5.2f}% ({}/{})'.format(100.0 * correct / total, correct, total))
-
+def experiment(trn_data: List[List[Tuple[str, str]]], dev_data: List[List[Tuple[str, str]]]) -> Tuple:
+    """
+    :param trn_data: the training set
+    :param dev_data: the development set
+    :return: a tuple of all parameters necessary to perform part-of-speech tagging
+    """
+    # TODO: to be updated
+    return ()
 
 if __name__ == '__main__':
     path = 'cs329/dat/pos/'

@@ -202,16 +202,16 @@ def predict_interporlation(
         prev_word = tokens[i-1] if i > 0 else PREV_DUMMY
         next_word = tokens[i+1] if i+1 < len(tokens) else PREV_DUMMY
 
-        for pos, prob in uni_pos_dict.get(curr_word, dict()).items():
+        for pos, prob in uni_pos_dict.get(curr_word, dict()):
             scores[pos] = scores.get(pos, 0) + prob * uni_pos_weight
 
-        for pos, prob in bi_pos_dict.get(prev_pos, dict()).items():
+        for pos, prob in bi_pos_dict.get(prev_pos, dict()):
             scores[pos] = scores.get(pos, 0) + prob * bi_pos_weight
 
-        for pos, prob in bi_wp_dict.get(prev_word, dict()).items():
+        for pos, prob in bi_wp_dict.get(prev_word, dict()):
             scores[pos] = scores.get(pos, 0) + prob * bi_wp_weight
 
-        for pos, prob in bi_wn_dict.get(next_word, dict()).items():
+        for pos, prob in bi_wn_dict.get(next_word, dict()):
             scores[pos] = scores.get(pos, 0) + prob * bi_wn_weight
 
         o = max(scores.items(), key=lambda k, v: v) if scores else ('XX', 0.0)
