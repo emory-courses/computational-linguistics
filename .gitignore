@@ -3,5 +3,5 @@ venv/
 **/.ipynb_checkpoints/
 
 # solutions
-src/quiz/quiz2_sol.py
+src/quiz/quiz1_sol.py
 src/quiz/quiz2_sol.py
