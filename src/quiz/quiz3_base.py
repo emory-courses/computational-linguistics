@@ -13,6 +13,7 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 # ========================================================================
+import pickle
 from collections import Counter
 from typing import List, Tuple, Dict, Any
 
@@ -105,16 +106,29 @@ def create_nw_dict(data: List[List[Tuple[str, str]]]) -> Dict[str, List[Tuple[st
     return to_probs(model)
 
 
-def train(data: List[List[Tuple[str, str]]]) -> Tuple:
+def train(trn_data: List[List[Tuple[str, str]]], dev_data: List[List[Tuple[str, str]]]) -> Tuple:
     """
-    :param data: a list of tuple lists where each inner list represents a sentence and every tuple is a (word, pos) pair.
-    :return: a tuple of a variable number of models
+    :param trn_data: the training set
+    :param dev_data: the development set
+    :return: a tuple of all parameters necessary to perform part-of-speech tagging
     """
-    cw_dict = create_cw_dict(data)
-    pp_dict = create_pp_dict(data)
-    pw_dict = create_pw_dict(data)
-    nw_dict = create_nw_dict(data)
-    return cw_dict, pp_dict, pw_dict, nw_dict
+    cw_dict = create_cw_dict(trn_data)
+    pp_dict = create_pp_dict(trn_data)
+    pw_dict = create_pw_dict(trn_data)
+    nw_dict = create_nw_dict(trn_data)
+    best_acc, best_args = -1, None
+    grid = [0.1, 0.5, 1.0]
+
+    for cw_weight in grid:
+        for pp_weight in grid:
+            for pw_weight in grid:
+                for nw_weight in grid:
+                    args = (cw_dict, pp_dict, pw_dict, nw_dict, cw_weight, pp_weight, pw_weight, nw_weight)
+                    acc = evaluate(dev_data, *args)
+                    print('{:5.2f}% - cw: {:3.1f}, pp: {:3.1f}, pw: {:3.1f}, nw: {:3.1f}'.format(acc, cw_weight, pp_weight, pw_weight, nw_weight))
+                    if acc > best_acc: best_acc, best_args = acc, args
+
+    return best_args
 
 
 def predict(tokens: List[str], *args) -> List[Tuple[str, float]]:
@@ -146,31 +160,15 @@ def predict(tokens: List[str], *args) -> List[Tuple[str, float]]:
     return output
 
 
-def experiment(trn_data: List[List[Tuple[str, str]]], dev_data: List[List[Tuple[str, str]]]) -> Tuple:
-    """
-    :param trn_data: the training set
-    :param dev_data: the development set
-    :return: a tuple of all parameters necessary to perform part-of-speech tagging
-    """
-    models = train(trn_data)
-    best_acc, best_args = -1, None
-    grid = [0.1, 0.5, 1.0]
-
-    for cw_weight in grid:
-        for pp_weight in grid:
-            for pw_weight in grid:
-                for nw_weight in grid:
-                    args = (*models, cw_weight, pp_weight, pw_weight, nw_weight)
-                    acc = evaluate(dev_data, *args)
-                    print('{:5.2f}% - cw: {:3.1f}, pp: {:3.1f}, pw: {:3.1f}, nw: {:3.1f}'.format(acc, cw_weight, pp_weight, pw_weight, nw_weight))
-                    if acc > best_acc: best_acc, best_args = acc, args
-
-    return best_args
-
-
 if __name__ == '__main__':
-    path = 'dat/pos/'
-    trn_data = read_data(path + 'wsj-pos.trn.gold.tsv')
-    dev_data = read_data(path + 'wsj-pos.dev.gold.tsv')
-    args = experiment(trn_data, dev_data)
+    path = './'  # path to the cs329 directory
+    trn_data = read_data(path + 'dat/pos/wsj-pos.trn.gold.tsv')
+    dev_data = read_data(path + 'dat/pos/wsj-pos.dev.gold.tsv')
+    model_path = path + 'src/quiz/quiz3.pkl'
+
+    # save model
+    args = train(trn_data, dev_data)
+    pickle.dump(args, open(model_path, 'wb'))
+    # load model
+    args = pickle.load(open(model_path, 'rb'))
     print(evaluate(dev_data, *args))
