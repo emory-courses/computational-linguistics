@@ -15,7 +15,7 @@
 |03/01| [Part-of-Speech Tags](https://emory.zoom.us/rec/share/NFcLDV-uXkTyX7Us5E7NK7WEmPRFge1ePoRCrOzsyOn8kAXUA6BMA83wpcfajQ78.qoCkRi7RK1bN5obM) |  |  |
 |03/03| [Part-of-Speech Tags](https://emory.zoom.us/rec/share/w8VdqHkf1KeUuynpfrCN_Z6_h-7J00z6BPq4nYrGQyHQPC3fxxc9dxaYgi1kbScY.ZvlETfzRwRBWb_1G) |  | [Quiz 3](quiz/quiz3.md) |
 |03/08| [Proposal Presentations](https://emory.zoom.us/rec/share/7TcLk8tb-A6cCQ6X5xEDuuJQFDKMhGdlZn6epuH9yHY6W8owAohMk1tfvnF7At8S.6M6CzlLBnQ9inbBd)|  |  |
-|03/10| Proposal Presentations |  |  |
+|03/10| [Proposal Presentations](https://emory.zoom.us/rec/share/__xGr0Tq3JJUOhkxXREbWsyKvQM7aQw-F1oYeJFRoymUFe64DyNb54Qlrcm6OhFI.xNuj85V9Ktkth4CT) |  |  |
 |03/15| Proposal Presentations |  | [Quiz 4](quiz/quiz4.md) |
 |03/17| Computational Grammars |  |  |
 |03/22| Meaning Representations |  |  |
