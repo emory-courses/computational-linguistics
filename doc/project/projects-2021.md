@@ -28,16 +28,16 @@
    * Proposal ([slides](https://drive.google.com/file/d/1cef6Q707K9RCvph06e4kBqxccqcVu6Ks/view?usp=sharing), [video](https://drive.google.com/file/d/1B7en6YVsAzGDMhflXdh8wymSZ8WlUvWQ/view?usp=sharing)), Final (slides)
 1. Gender Bias Detetion in Book Reviews
    * Cahill Carusos, Adam Lax, Ria Tomar
-   * Proposal (slides, [video](https://drive.google.com/file/d/1effMOZc77OhIGH8sHqMXv1VogKyuJkTT/view?usp=sharing)), Final (slides)
+   * Proposal ([slides](https://drive.google.com/file/d/19IYEXIdAZEHfzsRVecJr6Zyz2CuOcxEC/view?usp=sharing), [video](https://drive.google.com/file/d/1effMOZc77OhIGH8sHqMXv1VogKyuJkTT/view?usp=sharing)), Final (slides)
 1. Nosedive
    * Abraham Arevalo, Brenda Cano, Wali Khan, Matthew Moreno
    * Proposal ([slides](https://drive.google.com/file/d/190sJk9RF9AJbRJ8FY7KhqfTSkQ9ThkmG/view?usp=sharing), [video](https://drive.google.com/file/d/1Y7WukqCNVnfWNFsjp5RrjnoEy6Yn6Dgv/view?usp=sharing)), Final (slides)
 1. Gen-Q
    * Joseph Hodson, Sophie Kaplan, Deidra Papakostas, Blaise Picchietti, Blake Wheaton
-   * Proposal ([slides](https://drive.google.com/file/d/1RXyY_rgVVwzwHKsfsgYZWowwrEKkZS2t/view?usp=sharing)), Final (slides)    
-1. Group 13 
+   * Proposal ([slides](https://drive.google.com/file/d/1RXyY_rgVVwzwHKsfsgYZWowwrEKkZS2t/view?usp=sharing)), Final (slides)
+1. FoodSwap: the Intelligent Recipe Adjustment Tool 
    * Dorrie Hammond, Issac Ling, Arvin Wang, Kaifu Xiao
-   * Proposal (slides), Final (slides)    
+   * Proposal ([slides](https://drive.google.com/file/d/1cUqHsd7kJhyedPoroIWvQkF_Xh8RXFDC/view?usp=sharing)), Final (slides)
 1. Healthbot: a Simpler yet Comprehensive Way to Track Your Health
    * Yohan Jhaveri, Chloe Lam, Mihir Patil, Carol Tang
    * Proposal ([slides](https://drive.google.com/file/d/11MilvTIRl13QZetkqsjEV1gdymk2fO1i/view?usp=sharing)), Final (slides)
