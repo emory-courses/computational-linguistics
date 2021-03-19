@@ -2,51 +2,51 @@
 
 ## Spring 2021
 
-1. Group 1
+1. Data Privacy: TEN Second TOS
    * Ray Chen, William Ding, Daisy Kim, Randy Truong
-   * Proposal (slides), Final (slides)
+   * Proposal ([slides](https://drive.google.com/file/d/1XgUO0t3C2LxreDqDwLWXuG82WdlogBvf/view?usp=sharin)), Final (slides)
 1. Group 2
    * Jamin Baek, Roland Cheung, Ellen Kwon, Mert Ozbay
    * Proposal (slides), Final (slides)
-1. Group 3
+1. WiNYT: the Wiki of the New York Times
    * Yingying Chen, Mina Song, Lukas Xue, Ashley Zhou
-   * Proposal (slides), Final (slides)
-1. Group 5
+   * Proposal ([slides](https://drive.google.com/file/d/1d3ev1N7msC3B1NUnakwjpAVkpLisKevs/view?usp=sharing)), Final (slides)
+1. CritUX
    * Sukhmani Choudhry, Juwan Tyler, Jennie Youn, Kaiwen Zhou
-   * Proposal (slides), Final (slides)    
-1. Group 6
+   * Proposal ([slides](https://drive.google.com/file/d/1IOCopVEVYJ6KlJ1NuB6kvE50uYHtj8Ei/view?usp=sharing)), Final (slides)    
+1. Relation Extraction from Disney Movies
    * Sherry An, Lori Sun, Ziru Xu, Helen Zheng
-   * Proposal (slides), Final (slides)
-1. Group 7
+   * Proposal ([slides](https://drive.google.com/file/d/1hkL5R_nMzJxPmFoaso_6wUJjusrAiEa5/view?usp=sharing), [video](https://drive.google.com/file/d/1bzwSkJRV9V015dWtfIEo5gnOI4zg-Kwv/view?usp=sharing)), Final (slides)
+1. News Chaining for a Comprehensive Up-to-date Collection of News
    * Samir Chowdhury, Dheep Dalamal, Evan Del Carmen, Karelin Gaitan
-   * Proposal (slides), Final (slides)
-1. Group 8
+   * Proposal ([slides](https://drive.google.com/file/d/1UxQikSbvtjCegVHEKEYzUQ_-swKXrmx5/view?usp=sharing), [video](https://drive.google.com/file/d/1ndHXp_PF0hWfJtphqzIDDIGiizqDQatx/view?usp=sharing)), Final (slides)
+1. GordonBOT: America Runs on GordonBot
    * Aman Bedi, Bryce Chang, Kunal Suri, Rain Tian
-   * Proposal (slides), Final (slides)
-1. Group 9
+   * Proposal ([slides](https://drive.google.com/file/d/1HRKEMHENvK2J_GT5M5fgd9ZrtNXtnXW6/view?usp=sharing)), Final (slides)
+1. Slay the Sorcerer
    * Jae Ho Choi, Dario Fucich, Nehal Patil, Eric Zielasko
-   * Proposal (slides), Final (slides)
-1. Group 10
-   * Nikhil Bapat, Cahill Carusos, Adam Lax, Ria Tomar
-   * Proposal (slides), Final (slides)
-1. Group 11
+   * Proposal ([slides](https://drive.google.com/file/d/1cef6Q707K9RCvph06e4kBqxccqcVu6Ks/view?usp=sharing), [video](https://drive.google.com/file/d/1B7en6YVsAzGDMhflXdh8wymSZ8WlUvWQ/view?usp=sharing)), Final (slides)
+1. Gender Bias Detetion in Book Reviews
+   * Cahill Carusos, Adam Lax, Ria Tomar
+   * Proposal (slides, [video](https://drive.google.com/file/d/1effMOZc77OhIGH8sHqMXv1VogKyuJkTT/view?usp=sharing)), Final (slides)
+1. Nosedive
    * Abraham Arevalo, Brenda Cano, Wali Khan, Matthew Moreno
-   * Proposal (slides), Final (slides)
-1. Group 12
+   * Proposal ([slides](https://drive.google.com/file/d/190sJk9RF9AJbRJ8FY7KhqfTSkQ9ThkmG/view?usp=sharing), [video](https://drive.google.com/file/d/1Y7WukqCNVnfWNFsjp5RrjnoEy6Yn6Dgv/view?usp=sharing)), Final (slides)
+1. Gen-Q
    * Joseph Hodson, Sophie Kaplan, Deidra Papakostas, Blaise Picchietti, Blake Wheaton
-   * Proposal (slides), Final (slides)    
+   * Proposal ([slides](https://drive.google.com/file/d/1RXyY_rgVVwzwHKsfsgYZWowwrEKkZS2t/view?usp=sharing)), Final (slides)    
 1. Group 13 
    * Dorrie Hammond, Issac Ling, Arvin Wang, Kaifu Xiao
    * Proposal (slides), Final (slides)    
-1. Group 15
+1. Healthbot: a Simpler yet Comprehensive Way to Track Your Health
    * Yohan Jhaveri, Chloe Lam, Mihir Patil, Carol Tang
-   * Proposal (slides), Final (slides)
+   * Proposal ([slides](https://drive.google.com/file/d/11MilvTIRl13QZetkqsjEV1gdymk2fO1i/view?usp=sharing)), Final (slides)
 
 ## Proposal Schedule
 
-* 3/8: 1, 7, 9, 10 
-* 3/10: 2, 3, 6, 11, 15
-* 3/15: 5, 8, 12, 13
+* 3/8: 1, 6, 8, 9
+* 3/10: 2, 3, 5, 10, 13
+* 3/15: 4, 7, 11, 12
 
 ## Ideas
 
