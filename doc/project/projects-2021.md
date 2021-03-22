@@ -5,9 +5,9 @@
 1. Data Privacy: TEN Second TOS
    * Ray Chen, William Ding, Daisy Kim, Randy Truong
    * Proposal ([slides](https://drive.google.com/file/d/1XgUO0t3C2LxreDqDwLWXuG82WdlogBvf/view?usp=sharin)), Final (slides)
-1. Group 2
+1. Lyrics Generator: Christian Music
    * Jamin Baek, Roland Cheung, Ellen Kwon, Mert Ozbay
-   * Proposal (slides), Final (slides)
+   * Proposal ([slides](https://drive.google.com/file/d/1lRs0OthPLcino_kcDfuvlAUzJtp4CWdO/view?usp=sharing)), Final (slides)
 1. WiNYT: the Wiki of the New York Times
    * Yingying Chen, Mina Song, Lukas Xue, Ashley Zhou
    * Proposal ([slides](https://drive.google.com/file/d/1d3ev1N7msC3B1NUnakwjpAVkpLisKevs/view?usp=sharing)), Final (slides)
