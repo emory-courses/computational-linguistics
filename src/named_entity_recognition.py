@@ -16,7 +16,10 @@
 
 __author__ = 'Jinho D. Choi'
 
-from typing import Dict, List, Tuple, Set
+from types import SimpleNamespace
+from typing import Dict, List, Tuple, Set, Iterable, Any
+
+import ahocorasick
 
 
 def recognize_ngram(tokens: List[str], gazetteer: Dict[str, Set[str]]) -> List[Tuple[int, int, str, Set[str]]]:
@@ -38,6 +41,40 @@ def recognize_ngram(tokens: List[str], gazetteer: Dict[str, Set[str]]) -> List[T
     return entities
 
 
+def create_ac(data: Iterable[Tuple[str, Any]]):
+    """
+    Creates the Aho-Corasick automation and adds all (span, value) pairs in the data and finalizes this matcher.
+    :param data: a collection of (span, value) pairs.
+    """
+    AC = ahocorasick.Automaton(ahocorasick.STORE_ANY)
+
+    for span, value in data:
+        if span in AC:
+            t = AC.get(span)
+        else:
+            t = SimpleNamespace(span=span, values=set())
+            AC.add_word(span, t)
+        t.values.add(value)
+
+    AC.make_automaton()
+    return AC
+
+
+def match(AC, tokens: List[str]) -> List[Tuple[str, int, int, Set[Any]]]:
+    """
+    :param AC: the finalized Aho-Corasick automation.
+    :param tokens: the list of input tokens.
+    :return: a list of tuples where each tuple consists of
+             - span: str,
+             - start token index (inclusive): int
+             - end token index (exclusive): int
+             - a set of values for the span: Set[Any]
+    """
+    # TODO: to be updated
+    pass
+
+
+
 if __name__ == '__main__':
     GAZETTEER = {
         'Jinho': {'PER'},
@@ -53,3 +90,19 @@ if __name__ == '__main__':
 
     entities = recognize_ngram(tokens, GAZETTEER)
     for entity in entities: print(entity)
+
+    GAZETTEER = [
+        ('Jinho', 'PER'),
+        ('Jinho Choi', 'PER'),
+        ('Emory', 'PER'),
+        ('Emory', 'ORG'),
+        ('Emory University', 'ORG'),
+        ('United States', 'GPE'),
+        ('United States of America', 'GPE'),
+        ('Korean', 'LANG'),
+        ('Korea', 'GPE'),
+        ('South Korea', 'GPE'),
+    ]
+
+    AC = create_ac(GAZETTEER)
+
