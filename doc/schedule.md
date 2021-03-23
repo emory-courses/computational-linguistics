@@ -18,8 +18,8 @@
 |03/10| [Proposal Presentations](https://emory.zoom.us/rec/share/__xGr0Tq3JJUOhkxXREbWsyKvQM7aQw-F1oYeJFRoymUFe64DyNb54Qlrcm6OhFI.xNuj85V9Ktkth4CT) |  |  |
 |03/15| [Proposal Presentations](https://emory.zoom.us/rec/share/G7wnNrGSamWR1IXbEpfT55Sml47nGx3UHcHNosR3NY5xzDUjjwIjjBzqKzxd0E3b.Vi1MsPpTDE1e7eS9) |  | [Quiz 4](quiz/quiz4.md) |
 |03/17| [Named Entity Recognition](https://emory.zoom.us/rec/share/qg9dSBbR-D1NaX6QxJEXdK4MDCcC2S8l_-mU3qnvcYjxTlXEYNUBotZzm3pHJajc.0RAb8qGr7F5tVktC) | [note](named_entity_recognition.ipynb) |  |
-|03/22| Named Entity Recognition |  |  |
-|03/24| Computational Grammars |  | [Quiz 5](quiz/quiz5.md) |
+|03/22| [Named Entity Recognition](https://emory.zoom.us/rec/share/A25bHdt--rReoPm-wVIm2lbAxne7wE06YEwi6kmgzExmEnFQcH6Zg-mirLkMeeOy.5BiZ7-_EnyGjx5jL) |  |  |
+|03/24| Named Entity Recognition |  | [Quiz 5](quiz/quiz5.md) |
 |03/29| Language Modeling |  |  |
 |03/31| Language Modeling |  |  |
 |04/05| Language Modeling |  | [Quiz 6](quiz/quiz6.md) |

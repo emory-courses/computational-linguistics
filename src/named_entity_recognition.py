@@ -34,7 +34,7 @@ def recognize_ngram(tokens: List[str], gazetteer: Dict[str, Set[str]]) -> List[T
     """
     entities = []
     for i in range(len(tokens)):
-        for j in range(1, len(tokens)+1):
+        for j in range(i+1, len(tokens)+1):
             key = ' '.join(tokens[i:j])
             val = gazetteer.get(key, None)
             if val: entities.append((i, j, key, val))
@@ -60,7 +60,7 @@ def create_ac(data: Iterable[Tuple[str, Any]]):
     return AC
 
 
-def match(AC, tokens: List[str]) -> List[Tuple[str, int, int, Set[Any]]]:
+def match(AC, tokens: List[str]) -> List[Tuple[str, int, int, Set[str]]]:
     """
     :param AC: the finalized Aho-Corasick automation.
     :param tokens: the list of input tokens.
@@ -70,9 +70,25 @@ def match(AC, tokens: List[str]) -> List[Tuple[str, int, int, Set[Any]]]:
              - end token index (exclusive): int
              - a set of values for the span: Set[Any]
     """
-    # TODO: to be updated
-    pass
+    smap, emap, idx = dict(), dict(), 0
+    for i, token in enumerate(tokens):
+        smap[idx] = i
+        idx += len(token)
+        emap[idx] = i
+        idx += 1
 
+    # find matches
+    text = ' '.join(tokens)
+    spans = []
+    for eidx, t in AC.iter(text):
+        eidx += 1
+        sidx = eidx - len(t.span)
+        sidx = smap.get(sidx, None)
+        eidx = emap.get(eidx, None)
+        if sidx is None or eidx is None: continue
+        spans.append((t.span, sidx, eidx + 1, t.values))
+
+    return spans
 
 
 if __name__ == '__main__':
