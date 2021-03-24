@@ -93,7 +93,16 @@ def remove_overlaps(entities: List[Tuple[str, int, int, Set[str]]]) -> List[Tupl
     return []
 
 
-def to_bilou(tokens: List[str], entities: List[Tuple[str, int, int, Set[str]]]) -> List[str]:
+def to_bilou(tokens: List[str], entities: List[Tuple[str, int, int, str]]) -> List[str]:
+    """
+    :param tokens: a list of tokens.
+    :param entities: a list of tuples where each tuple consists of
+             - span: str,
+             - start token index (inclusive): int
+             - end token index (exclusive): int
+             - a named entity tag
+    :return: a list of named entity tags in the BILOU notation with respect to the tokens
+    """
     # TODO: to be updated
     return []
 
@@ -107,4 +116,4 @@ if __name__ == '__main__':
     entities = remove_overlaps(entities)
     print(entities)
 
-    bilou = to_bilou(tokens, entities)
+
