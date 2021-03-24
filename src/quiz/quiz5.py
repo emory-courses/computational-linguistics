@@ -1,5 +1,5 @@
 # ========================================================================
-# Copyright 2021 Emory University
+# Copyright 2020 Emory University
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -13,33 +13,12 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 # ========================================================================
-
-__author__ = 'Jinho D. Choi'
-
-import glob, os
+import glob
+import os
 from types import SimpleNamespace
-from typing import Dict, List, Tuple, Set, Iterable, Any
+from typing import Iterable, Tuple, Any, List, Set
 
 import ahocorasick
-
-
-def recognize_ngram(tokens: List[str], gazetteer: Dict[str, Set[str]]) -> List[Tuple[int, int, str, Set[str]]]:
-    """
-    :param tokens: a sequence of input tokens.
-    :param gazetteer: a dictionary whose key is the text span of a named entity (e.g., "Emory University") and the value is the set of named entity tags for the entity.
-    :return: a list of entities where each entity is represented by a tuple consisting of the following 4 items:
-             - Index of the beginning token (inclusive)
-             - Index of the ending token (exclusive)
-             - Text span representing the entity (e.g., "Emory University")
-             - Set of named entity tags for the entity
-    """
-    entities = []
-    for i in range(len(tokens)):
-        for j in range(i+1, len(tokens)+1):
-            key = ' '.join(tokens[i:j])
-            val = gazetteer.get(key, None)
-            if val: entities.append((i, j, key, val))
-    return entities
 
 
 def create_ac(data: Iterable[Tuple[str, Any]]) -> ahocorasick.Automaton:
@@ -59,6 +38,15 @@ def create_ac(data: Iterable[Tuple[str, Any]]) -> ahocorasick.Automaton:
 
     AC.make_automaton()
     return AC
+
+
+def read_gazetteers(dirname: str) -> ahocorasick.Automaton:
+    data = []
+    for filename in glob.glob(os.path.join(dirname, '*.txt')):
+        label = os.path.basename(filename)[:-4]
+        for line in open(filename):
+            data.append((line.strip(), label))
+    return create_ac(data)
 
 
 def match(AC: ahocorasick.Automaton, tokens: List[str]) -> List[Tuple[str, int, int, Set[str]]]:
@@ -92,7 +80,7 @@ def match(AC: ahocorasick.Automaton, tokens: List[str]) -> List[Tuple[str, int, 
     return spans
 
 
-def remove_subsets(entities: List[Tuple[str, int, int, Set[str]]]) -> List[Tuple[str, int, int, Set[str]]]:
+def remove_overlaps(entities: List[Tuple[str, int, int, Set[str]]]) -> List[Tuple[str, int, int, Set[str]]]:
     """
     :param entities: a list of tuples where each tuple consists of
              - span: str,
@@ -101,55 +89,22 @@ def remove_subsets(entities: List[Tuple[str, int, int, Set[str]]]) -> List[Tuple
              - a set of values for the span: Set[str]
     :return: a list of entities where each entity is represented by a tuple of (span, start index, end index, value set)
     """
-    tmp = []
-    for e0 in entities:
-        remove = False
-        for e1 in entities:
-            if e0 == e1: continue
-            if e0[1] >= e1[1] and e0[2] <= e1[2]:
-                remove = True
-                break
-        if not remove: tmp.append(e0)
-    return tmp
+    # TODO: to be updated
+    return []
 
 
-def read_gazetteers(dirname: str) -> ahocorasick.Automaton:
-    data = []
-    for filename in glob.glob(os.path.join(dirname, '*.txt')):
-        label = os.path.basename(filename)[:-4]
-        for line in open(filename):
-            data.append((line.strip(), label))
-    return create_ac(data)
+def to_bilou(tokens: List[str], entities: List[Tuple[str, int, int, Set[str]]]) -> List[str]:
+    # TODO: to be updated
+    return []
 
 
 if __name__ == '__main__':
-    GAZETTEER = {
-        'Jinho': {'PER'},
-        'Jinho Choi': {'PER'},
-        'Emory': {'PER', 'ORG'},
-        'Emory University': {'ORG'},
-        'United States': {'GPE'},
-        'United States of America': {'GPE'},
-    }
+    gaz_dir = 'dat/ner'
+    AC = read_gazetteers('dat/ner')
 
-    text = 'Jinho Choi is a professor at Emory University in the United States of America'
-    tokens = text.split()
+    tokens = 'Atlantic City of Georgia'.split()
+    entities = match(AC, tokens)
+    entities = remove_overlaps(entities)
+    print(entities)
 
-    entities = recognize_ngram(tokens, GAZETTEER)
-    for entity in entities: print(entity)
-
-    GAZETTEER = [
-        ('Jinho', 'PER'),
-        ('Jinho Choi', 'PER'),
-        ('Emory', 'PER'),
-        ('Emory', 'ORG'),
-        ('Emory University', 'ORG'),
-        ('United States', 'GPE'),
-        ('United States of America', 'GPE'),
-        ('Korean', 'LANG'),
-        ('Korea', 'GPE'),
-        ('South Korea', 'GPE'),
-    ]
-
-    AC = create_ac(GAZETTEER)
-
+    bilou = to_bilou(tokens, entities)
