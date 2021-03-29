@@ -20,7 +20,7 @@
 |03/17| [Named Entity Recognition](https://emory.zoom.us/rec/share/qg9dSBbR-D1NaX6QxJEXdK4MDCcC2S8l_-mU3qnvcYjxTlXEYNUBotZzm3pHJajc.0RAb8qGr7F5tVktC) | [note](named_entity_recognition.ipynb) |  |
 |03/22| [Named Entity Recognition](https://emory.zoom.us/rec/share/A25bHdt--rReoPm-wVIm2lbAxne7wE06YEwi6kmgzExmEnFQcH6Zg-mirLkMeeOy.5BiZ7-_EnyGjx5jL) |  |  |
 |03/24| [Named Entity Recognition](https://emory.zoom.us/rec/share/gpl0P3hHN0S38FdHLi0kktlzhH4Ob9SGMN0purlR9Yw0Ltjr_m4vCJMelDFgiA0I.q5M6BeS11PiGXlpb) |  | [Quiz 5](quiz/quiz5.md) |
-|03/29| Phrase Structures | [slides](phrase_strutures.pdf) |  |
+|03/29| Phrase Structures | [slides](phrase_structures.pdf) |  |
 |03/31| Syntactic Parsing |  |  |
 |04/05| Syntactic Parsing |  | [Quiz 6](quiz/quiz6.md) |
 |04/07| Language Modeling |  |  |
