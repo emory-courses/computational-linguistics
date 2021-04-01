@@ -14,7 +14,7 @@ Your task is to develop a named entity recognizer using gazetteers:
   entities = [
     ('Jinho', 0, 1, 'PER'),
     ('Emory University', 5, 7, 'ORG'),
-    ('United States of America', 0, 1, 'LOC')
+    ('United States of America', 9, 13, 'LOC')
   ]
   tags = to_bilou(tokens, entities)
   for token, tag in zip(tokens, tags): print(token, tag) 
