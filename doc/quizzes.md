@@ -112,7 +112,7 @@ Create a PDF file called `loi.pdf` and write the following three contents:
 
 ### Structure Parsing
 
-* Answer the three questions in [quiz_phrase_structures.pdf](quiz_phrase_structures.pdf).
+* Answer the three questions in [quiz_phrase_structures.pdf](quiz/quiz_phrase_structures.pdf).
 
 ### Submission
 
@@ -137,7 +137,7 @@ Create a PDF file called `loi.pdf` and write the following three contents:
 
 ### Dependency Parsing
 
-* Answer the question in [quiz_dependency_structures.pdf](quiz_dependency_structures.pdf).
+* Answer the question in [quiz_dependency_structures.pdf](quiz/quiz_dependency_structures.pdf).
 
 ### Submission
 
