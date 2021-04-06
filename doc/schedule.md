@@ -22,7 +22,7 @@
 |03/24| [Named Entity Recognition](https://emory.zoom.us/rec/share/gpl0P3hHN0S38FdHLi0kktlzhH4Ob9SGMN0purlR9Yw0Ltjr_m4vCJMelDFgiA0I.q5M6BeS11PiGXlpb) |  | [Quiz 5](quiz/quiz5.md) |
 |03/29| [Computational Grammars](https://emory.zoom.us/rec/share/OTWTpVg42chIf6bN6W4E0IFBKIXO2YB7d4jkkFcXGPzY0H0oZ441noJGQQivkHYO.5w5NpsVCSHoQIcJD) | [slides](phrase_structures.pdf) |  |
 |03/31| [Computational Grammars](https://emory.zoom.us/rec/share/0bskPiS_ZX6Hx5ZoIrqBv60GoqVkG9KypsQ17o2pkqMiX9O_WC84kvemDSIvUjzu.YrjT3dAPAbB7w-mj) | [slides](dependency_structures.pdf)  |  |
-|04/05| Computational Grammars |  | [Quiz 6](quiz/quiz6.md) |
+|04/05| [Computational Grammars](https://emory.zoom.us/rec/share/9bGc_iqg9VuPzdM7CvXst04YI_g01lzrsNVqJy0YfFEh_pcSaeA5F7u_GTmOHKKU.tYmrc8OHqDflpjIJ) |  | [Quiz 6](quiz/quiz6.md) |
 |04/07| Language Modeling |  |  |
 |04/12| Language Modeling |  |  |
 |04/14| Spring Rest Day |  |  |
