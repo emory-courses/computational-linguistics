@@ -10,7 +10,7 @@ Superscripts show the number of votes that each team received from the class.
 1. **Christian Song Lyric Generator**
    * Jamin Baek, Roland Cheung, Ellen Kwon, Mert Ozbay
    * Proposal<sup>5</sup> ([slides](https://drive.google.com/file/d/1lRs0OthPLcino_kcDfuvlAUzJtp4CWdO/view?usp=sharing)), Final (slides)
-1. **WiNYT: WINYT: A Powerful Search Engine For the New York Times**
+1. **WiNYT: A Powerful Search Engine For the New York Times**
    * Yingying Chen, Mina Song, Lukas Xue, Ashley Zhou
    * Proposal<sup>8</sup> ([slides](https://drive.google.com/file/d/1d3ev1N7msC3B1NUnakwjpAVkpLisKevs/view?usp=sharing)), Final (slides)
 1. **CritUX**
