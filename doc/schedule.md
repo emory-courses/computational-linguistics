@@ -26,7 +26,7 @@
 |04/07| [Language Modeling](https://emory.zoom.us/rec/share/antgf2qD958TQyHADWXcrRgjY-l4_z1KBFbnpHeUzlB7ApNwYpYpci9fe5BcD419.J0Nupunj9cBa2msQ) | [slides](language_modeling.pdf) |  |
 |04/12| [Language Modeling](https://emory.zoom.us/rec/share/ZwBzJMa4Ah_fWoqvQNYJAzvtTDkPaooX6oicQplbh83xXx1xBDz4K2CC3o_4Ac1S.DD6KS3sSXsHrg5Ee) |  |  |
 |04/14| Spring Rest Day |  |  |
-|04/19| Language Modeling |  | [Quiz 7](quiz/quiz7.md) |
+|04/19| [Language Modeling](https://emory.zoom.us/rec/share/jdxOMYhaURT1186in8m_mNWi9B882Lx9ktly7a6KQi0N1VFviV97zRB4to-Vckrj.G_UeR1tIYwl5Vnmm) |  | [Quiz 7](quiz/quiz7.md) |
 |04/21| Project Presentations |  |  |
 |04/26| Project Presentations |  |  |
 |04/28| Project Presentations |  | [Quiz 8](quiz/quiz8.md) |
