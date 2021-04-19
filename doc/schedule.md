@@ -24,7 +24,7 @@
 |03/31| [Computational Grammars](https://emory.zoom.us/rec/share/0bskPiS_ZX6Hx5ZoIrqBv60GoqVkG9KypsQ17o2pkqMiX9O_WC84kvemDSIvUjzu.YrjT3dAPAbB7w-mj) | [slides](dependency_structures.pdf)  |  |
 |04/05| [Computational Grammars](https://emory.zoom.us/rec/share/9bGc_iqg9VuPzdM7CvXst04YI_g01lzrsNVqJy0YfFEh_pcSaeA5F7u_GTmOHKKU.tYmrc8OHqDflpjIJ) |  | [Quiz 6](quiz/quiz6.md) |
 |04/07| [Language Modeling](https://emory.zoom.us/rec/share/antgf2qD958TQyHADWXcrRgjY-l4_z1KBFbnpHeUzlB7ApNwYpYpci9fe5BcD419.J0Nupunj9cBa2msQ) | [slides](language_modeling.pdf) |  |
-|04/12| Language Modeling |  |  |
+|04/12| [Language Modeling](https://emory.zoom.us/rec/share/ZwBzJMa4Ah_fWoqvQNYJAzvtTDkPaooX6oicQplbh83xXx1xBDz4K2CC3o_4Ac1S.DD6KS3sSXsHrg5Ee) |  |  |
 |04/14| Spring Rest Day |  |  |
 |04/19| Language Modeling |  | [Quiz 7](quiz/quiz7.md) |
 |04/21| Project Presentations |  |  |
