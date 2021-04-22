@@ -27,7 +27,7 @@
 |04/12| [Language Modeling](https://emory.zoom.us/rec/share/ZwBzJMa4Ah_fWoqvQNYJAzvtTDkPaooX6oicQplbh83xXx1xBDz4K2CC3o_4Ac1S.DD6KS3sSXsHrg5Ee) |  |  |
 |04/14| Spring Rest Day |  |  |
 |04/19| [Language Modeling](https://emory.zoom.us/rec/share/jdxOMYhaURT1186in8m_mNWi9B882Lx9ktly7a6KQi0N1VFviV97zRB4to-Vckrj.G_UeR1tIYwl5Vnmm) |  | [Quiz 7](quiz/quiz7.md) |
-|04/21| Project Presentations |  |  |
+|04/21| [Project Presentations](https://emory.zoom.us/rec/share/aK-mLJS63_yDwdNOII8i1SFqyYAfFneAGqnHzIYr-CAIJUwS_I7CxgbjrYTOKgT2.virpNx9IkKRyNb7f) |  |  |
 |04/26| Project Presentations |  |  |
 |04/28| Project Presentations |  | [Quiz 8](quiz/quiz8.md) |
 |05/03| Distributional Semantics |  |  |
