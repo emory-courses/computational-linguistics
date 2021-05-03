@@ -56,7 +56,7 @@ Superscripts show the number of votes that each team received from the class.
      ([slides](https://drive.google.com/file/d/1cef6Q707K9RCvph06e4kBqxccqcVu6Ks/view?usp=sharing), 
      [video](https://drive.google.com/file/d/1B7en6YVsAzGDMhflXdh8wymSZ8WlUvWQ/view?usp=sharing)), 
      Final 
-     ([slides](https://drive.google.com/file/d/1cef6Q707K9RCvph06e4kBqxccqcVu6Ks/view?usp=sharing))
+     ([slides](https://drive.google.com/file/d/1RjF785LH2dEVpUGX-FQYNxk8XbFxMI8H/view?usp=sharing))
 1. **Gender Bias Detetion in Book Reviews**
    * Cahill Carusos, Adam Lax, Ria Tomar
    * [Proposal](https://drive.google.com/file/d/1q2wZtcAyLmr2Xc4gHM9rOg8BE6DiEa0t/view?usp=sharing)<sup>13</sup> 

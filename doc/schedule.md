@@ -30,7 +30,7 @@
 |04/21| [Project Presentations](https://emory.zoom.us/rec/share/aK-mLJS63_yDwdNOII8i1SFqyYAfFneAGqnHzIYr-CAIJUwS_I7CxgbjrYTOKgT2.virpNx9IkKRyNb7f) |  |  |
 |04/26| [Project Presentations](https://emory.zoom.us/rec/share/3yEOu5Xk1fUEgAfdqsObKv3vmzzqQU35FK25cDJdw1A-zJpPd-8qZppIDM_Pn8Jc.PDmzYaMXI0lh-2-l) |  |  |
 |04/28| [Project Presentations](https://emory.zoom.us/rec/share/qpGq8HdGdmgsV7TbuTnjTHqCrg2_b3hsUJITmBhZcSXcLnhekKL-uL6pQZwcTlnf.-95P4YtXNX2gR1ep) |  | [Quiz 8](quiz/quiz8.md) |
-|05/03| Distributional Semantics |  |  |
+|05/03| [Future of NLP](https://emory.zoom.us/rec/share/Gz2C6AK80IpfRMZtcBz7rZ0bupkxeoqJ6llsCW5p--xTb-uH7GVTvnHv6NL-3xXl.gak3tyRuhGFWDyfU) |  |  |
 
 
 <!--
