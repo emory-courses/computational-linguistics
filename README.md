@@ -14,6 +14,6 @@ This interdisciplinary course addresses how to extract information in need from 
 
 Prerequisites: CS 171 (CS and LING students) or QTM 220 (QTM students)
 
-* [Syllabus](doc/syllabus.md)
-* [Schedule](doc/schedule.md)
-* Projects: [2021](doc/project/projects-2021.md), [2020](doc/project/projects-2020.md)
+* [Syllabus](docs/syllabus.md)
+* [Schedule](docs/schedule.md)
+* Projects: [2021](docs/project/projects-2021.md), [2020](docs/project/projects-2020.md)

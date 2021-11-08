@@ -256,7 +256,7 @@ if __name__ == '__main__':
     while path.name != 'cs329':
         path = path.parent
 
-    path /= 'dat/pos'
+    path /= 'res/pos'
     path.mkdir(parents=True, exist_ok=True)
 
     # download data

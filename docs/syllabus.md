@@ -3,20 +3,24 @@
 ## General
 
 * Course webpage: https://github.com/emory-courses/cs329
-* Class location: https://emory.zoom.us/j/92296132899
-* Class hours: MW 2:40pm - 3:55pm
+* Class location: Math & Science Center (MSC) W201
+* Class hours: TuTh 1:00pm - 2:15pm
 * Prerequisites: CS171 (CS and LING), QTM220 (QTM).
 
 ## Instructors
 
-* [Jinho Choi](http://cs.emory.edu/~choi) - Assistant Professor of Computer Science<br>
-  : MW 5:40pm - 7:00pm
-* [Shaojun Yu](https://github.com/shaojunyu) - PhD Student in Computer Science<br>
-  : TuTh 10:00am - 12:00pm
-* [Lydia Feng](https://github.com/f3Lng) - Senior in Computer Science & Linguistics<br>
-  : Tu 12:00pm - 1:30pm, F 10am - 11:30am
-* Office hour location<br>
-  : https://emory.zoom.us/j/93071569310
+* [Jinho Choi](http://cs.emory.edu/~choi) <br>
+  : Associate Professor of Computer Science<br>
+  : Office Hours &rarr; TuTh 4pm - 5:30pm, MSC W302F
+* TA1<br>
+  : _TBA_<br>
+  : Office Hours &rarr; _TBA_
+* TA2<br>
+  : _TBA_<br>
+  : Office Hours &rarr; _TBA_
+* Contact: _firstname.lastname_@emory.edu
+* Instructors get too many emails daily. Please use [Issues](issue_guidelines.md) for questions and comments that can be shared publicly and use emails for private matters only.
+
 
 ## Grading
 

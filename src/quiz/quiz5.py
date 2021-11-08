@@ -108,8 +108,8 @@ def to_bilou(tokens: List[str], entities: List[Tuple[str, int, int, str]]) -> Li
 
 
 if __name__ == '__main__':
-    gaz_dir = 'dat/ner'
-    AC = read_gazetteers('dat/ner')
+    gaz_dir = 'res/ner'
+    AC = read_gazetteers('res/ner')
 
     tokens = 'Atlantic City of Georgia'.split()
     entities = match(AC, tokens)

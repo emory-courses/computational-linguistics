@@ -162,8 +162,8 @@ def predict(tokens: List[str], *args) -> List[Tuple[str, float]]:
 
 if __name__ == '__main__':
     path = './'  # path to the cs329 directory
-    trn_data = read_data(path + 'dat/pos/wsj-pos.trn.gold.tsv')
-    dev_data = read_data(path + 'dat/pos/wsj-pos.dev.gold.tsv')
+    trn_data = read_data(path + 'res/pos/wsj-pos.trn.gold.tsv')
+    dev_data = read_data(path + 'res/pos/wsj-pos.dev.gold.tsv')
     model_path = path + 'src/quiz/quiz3.pkl'
 
     # save model
