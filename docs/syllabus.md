@@ -21,21 +21,19 @@
 * Contact: _firstname.lastname_@emory.edu
 * Instructors get too many emails daily. Please use [Issues](issue_guidelines.md) for questions and comments that can be shared publicly and use emails for private matters only.
 
-
 ## Grading
 
-* 9 take-home quizzes: 50%
+* 1+9 topical quizzes: 50%
 * Project proposal: 20%
 * Final project: 30%
-* You will work in groups for project proposals and final projects. Everyone in each group will receive the same grade for the project.
 * Your work is governed by the [Emory Honor Code](http://catalog.college.emory.edu/academic/policies-regulations/honor-code.html). Honor code violation (e.g., copies from any source including your colleagues and internet sites) will be referred to the [Emory Honor Council](http://college.emory.edu/oue/current-students/honor-council.html).
 * Excuses for exam absence/reschedule and other serious personal events (health, family, personal related, etc.) that affect course performance must be accompanied by a letter from the [Office of Undergraduate Education](http://college.emory.edu/home/administration/office/undergraduate/).
 
-## Take-home Quizzes
+## Topical Quizzes
 
-* One take-home quiz will be assigned for every topic to check if you are keeping up with the materials.
+* One quiz will be assigned for every topic to check if you keep up with the materials.
 * Quizzes must be submitted individually. Discussions are allowed; however, your work must be original.
-* Quizzes are due by the beginning of the classes. Late submissions within a week will be accepted with the grading penalty of 15%, and will not be accepted once the solutions are discussed in class.
+* Late submissions within a week will be accepted with the grading penalty of 15%, and will not be accepted once the solutions are discussed in class.
 
 ## Project Proposal
 
@@ -44,6 +42,7 @@
   * Give a presentation to propose your idea about the final project.
   * Write a proposal that illustrates details about your idea.
 * See the [project proposal](project-proposal.md) page for more details.
+* Everyone in each group will receive the same grade for the project proposal.
 
 ## Final Project
 
@@ -51,3 +50,4 @@
   * Give a presentation about your final project.
   * Write a research paper that illustrates details about your work.
 * See the [final projects](final-project.md) page for more details.
+* Everyone in each group will receive the same grade for the final project.

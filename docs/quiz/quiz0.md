@@ -18,7 +18,7 @@
   * `.gitignore`
 * Once the files are added to git, they should turn into green. If not, restart PyCharm and add the files again.
 * Commit and push your changes to GitHub:
-  * Right click on `cs329`, choose `[Git] - [Commit Directory]`, enter a commit message (e.g., "Submit quiz 0."), and click the `[Commit and Push]` button.
+  * Right click on `cs329`, choose `[Git] - [Commit Directory]`, enter a commit message (e.g., "Submit Quiz 0."), and click the `[Commit and Push]` button.
   * Make sure you both `commit` and `push`, not just `commit`.
 * Check if the above files are properly pushed to your GitHub respoistory.
-* Submit the address of your `cs329` repository (e.g., https://github.com/your_id/cs329.git) to https://canvas.emory.edu/courses/83264/assignments/444616
+* Submit the address of your `cs329` repository (e.g., https://github.com/your_id/cs329.git) to https://canvas.emory.edu/courses/96729/assignments/554948

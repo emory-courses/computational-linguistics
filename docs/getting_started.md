@@ -2,7 +2,7 @@
 
 ## Python
 
-* Install [Python 3.9.x](https://www.python.org/downloads/).
+* Install [Python 3.10.x](https://www.python.org/downloads/).
 * Lower versions of Python may not be compatible to this course.
 
 ## Git Repository
@@ -11,13 +11,11 @@
 * Create a new repository called `cs329` and make it **private**.
 * From the `[Settings]` menu, add the instructors as collaborators of this repository.
   * Jinho Choi: `jdchoi77`
-  * Shaojun Yu: `shaojunyu`
-  * Lydia Feng: `f3Lng`
 
 ## PyCharm
 
 * Install [PyCharm](https://www.jetbrains.com/pycharm/download/) on your local machine.
-  * The following instructions assume that you have "PyCharm 2020.3.2 Professional Edition".
+  * The following instructions assume that you have "PyCharm 2021.3.x Professional Edition".
   * You can get the professional version by applying for the [academic license](https://www.jetbrains.com/student/).
 * Add your Github account:
   * Go to `[Preferences] - [Version Control] - [Github]`.
