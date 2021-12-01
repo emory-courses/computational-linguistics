@@ -12,14 +12,11 @@
 * [Jinho Choi](http://cs.emory.edu/~choi) <br>
   : Associate Professor of Computer Science<br>
   : Office Hours &rarr; TuTh 4pm - 5:30pm, MSC W302F
-* TA1<br>
-  : _TBA_<br>
-  : Office Hours &rarr; _TBA_
-* TA2<br>
-  : _TBA_<br>
+* Sichang Tu<br>
+  : PhD student in Computer Science<br>
   : Office Hours &rarr; _TBA_
 * Contact: _firstname.lastname_@emory.edu
-* Instructors get too many emails daily. Please use [Issues](issue_guidelines.md) for questions and comments that can be shared publicly and use emails for private matters only.
+* Please use [Issues](issue_guidelines.md) for questions and comments that can be shared publicly and use emails for private matters only.
 
 ## Grading
 
@@ -38,7 +35,7 @@
 ## Project Proposal
 
 * You are expected to
-  * Group a team of 3-4 members.
+  * Group a team of 4 members.
   * Give a presentation to propose your idea about the final project.
   * Write a proposal that illustrates details about your idea.
 * See the [project proposal](project-proposal.md) page for more details.

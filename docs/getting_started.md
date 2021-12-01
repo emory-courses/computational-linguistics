@@ -11,6 +11,7 @@
 * Create a new repository called `cs329` and make it **private**.
 * From the `[Settings]` menu, add the instructors as collaborators of this repository.
   * Jinho Choi: `jdchoi77`
+  * Sichang Tu: `SichangTu`
 
 ## PyCharm
 
@@ -27,7 +28,7 @@
 * Setup the interpreter:
   * Go to `[Preferences] - [Project: cs329] - [Project Interpreter]`.
   * Click the gear button on the righthand side and select `Add`.
-  * In the prompted window, choose `[Virtualenv Environment]` on the left menu and select `Python 3.9.x` as the base interpreter.
+  * In the prompted window, choose `[Virtualenv Environment]` on the left menu and select `Python 3.10` as the base interpreter.
 * Install a package:
   * Go to `[Preferences] - [Project: cs329] - [Project Interpreter]`.
   * Click the `+` button at the bottom.
