@@ -32,3 +32,11 @@ Write up to 10 pages (excluding references) using [this template](https://www.ov
   * Weekly plans of your research.
   * Specify who will do what in each timeline.
   * Do not forget to include times for writing the research paper and preparing for the final presentation.
+
+## Resources
+
+* [Reddit College](https://github.com/emorynlp/reddit-college)
+* [TechRadar Reviews](https://github.com/emorynlp/techradar-reviews)
+* [Aesop's Fables](https://github.com/emorynlp/data-collection/tree/master/aesops_fables)
+* [Movie Synopses](https://github.com/emorynlp/data-collection/tree/master/movie_synopses)
+* [Wise Sayings](https://github.com/emorynlp/data-collection/tree/master/wise_sayings)

@@ -3,17 +3,21 @@
 ## General
 
 * Course webpage: https://github.com/emory-courses/cs329
-* Class location: Math & Science Center (MSC) W201
+* Class location: https://emory.zoom.us/j/92296132899
+<!-- * Class location: Math & Science Center (MSC) E208 -->
 * Class hours: TuTh 1:00pm - 2:15pm
-* Prerequisites: CS171 (CS and LING), QTM220 (QTM).
+* Prerequisites: CS171 (CS and LING), QTM220 (QTM)
 
 ## Instructors
 
 * [Jinho Choi](http://cs.emory.edu/~choi) <br>
   : Associate Professor of Computer Science<br>
   : Office Hours &rarr; TuTh 4pm - 5:30pm, MSC W302F
-* Sichang Tu<br>
+* [Sichang Tu](https://www.linkedin.com/in/sichang-tu-b23b44177/) <br>
   : PhD student in Computer Science<br>
+  : Office Hours &rarr; _TBA_
+* [Sophy Huang](https://www.linkedin.com/in/sophy-huang/) <br>
+  : BS in Applied Mathematics and Statistics<br>
   : Office Hours &rarr; _TBA_
 * Contact: _firstname.lastname_@emory.edu
 * Please use [Issues](issue_guidelines.md) for questions and comments that can be shared publicly and use emails for private matters only.
@@ -34,8 +38,8 @@
 
 ## Project Proposal
 
-* You are expected to
-  * Group a team of 4 members.
+* You are expected to:
+  * Group a team of 3-4 members ([sign up](https://canvas.emory.edu/courses/96729/groups#tab-16325)).
   * Give a presentation to propose your idea about the final project.
   * Write a proposal that illustrates details about your idea.
 * See the [project proposal](project-proposal.md) page for more details.
@@ -43,7 +47,7 @@
 
 ## Final Project
 
-* You are expected to
+* You are expected to:
   * Give a presentation about your final project.
   * Write a research paper that illustrates details about your work.
 * See the [final projects](final-project.md) page for more details.

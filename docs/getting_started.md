@@ -12,6 +12,7 @@
 * From the `[Settings]` menu, add the instructors as collaborators of this repository.
   * Jinho Choi: `jdchoi77`
   * Sichang Tu: `SichangTu`
+  * Sophy Huang: `hxysophy`
 
 ## PyCharm
 
@@ -32,20 +33,30 @@
 * Install a package:
   * Go to `[Preferences] - [Project: cs329] - [Project Interpreter]`.
   * Click the `+` button at the bottom.
-  * Search and install for the `numpy` package.
+  * Search and install for the `elit-tokenizer` package.
 * Create a new package:
   * At any step, if it prompts you to add a new file/package to git, click `Add`.
   * Create a python package called [`src/quiz/`](../src/quiz/).
   * Create a python file called [`quiz0.py`](../src/quiz/quiz0.py) under the `quiz` package and copy the code.
     ```python
-    import numpy as np
-
-    a = np.array([1,2,3])
-    b = np.array([4,5,6])
-    print((a + b) * 2)
+    from elit_tokenizer import EnglishTokenizer
+    tokenizer = EnglishTokenizer()
+    
+    text = 'Welcome to the world of "Computational Linguistics"! We\'ll have lots of fun this semester.'
+    sentences = tokenizer.decode(text, segment=2)
+  
+    for sentence in sentences:
+        print(sentence.tokens)
+        print(sentence.offsets)
     ```
   * Run `quiz0` by clicking `[Run] - [Run]`.
-  * If it prompts `[10 14 18]`, your program runs successfully.
+  * If it prompts the followings, your program runs successfully:
+    ```json
+    ['Welcome', 'to', 'the', 'world', 'of', '"', 'Computational', 'Linguistics', '"', '!']
+    [(0, 7), (8, 10), (11, 14), (15, 20), (21, 23), (24, 25), (25, 38), (39, 50), (50, 51), (51, 52)]
+    ['We', "'ll", 'have', 'lots', 'of', 'fun', 'this', 'semester', '.']
+    [(53, 55), (55, 58), (59, 63), (64, 68), (69, 71), (72, 75), (76, 80), (81, 89), (89, 90)]
+    ```
 
 ## Jupyter Notebook
 
@@ -54,10 +65,5 @@
   ```
   pip install jupyter
   ```
-* Enter the following command to launch Jupyter Notebook:
-  ```
-  (venv) $ jupyter notebook
-  ```
-* On the web-browser where it is launched, choose the [`src/quiz/`](../src/quiz/) directory.
-* Create a new notebook called [`quiz0.ipynb`](../src/quiz/quiz0.ipynb) and run the code in [`quiz0.py`](../src/quiz/quiz0.py).
-* If it prompts `[10 14 18]`, your notebook runs successfully.
+* Under the [`src/quiz/`](../src/quiz/) directory, create a new jupyter notebook called [`quiz0.ipynb`](../src/quiz/quiz0.ipynb).
+* Copy the above code and run to see if it prompts the same output.

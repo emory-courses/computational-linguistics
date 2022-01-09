@@ -1,5 +1,5 @@
 # ========================================================================
-# Copyright 2020, 2021 Emory University
+# Copyright 2020, 2021, 2022 Emory University
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -13,8 +13,13 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 # ========================================================================
-import numpy as np
 
-a = np.array([1,2,3])
-b = np.array([4,5,6])
-print((a + b) * 2)
+from elit_tokenizer import EnglishTokenizer
+tokenizer = EnglishTokenizer()
+
+text = 'Welcome to the world of "Computational Linguistics"! We\'ll have lots of fun this semester.'
+sentences = tokenizer.decode(text, segment=2)
+
+for sentence in sentences:
+    print(sentence.tokens)
+    print(sentence.offsets)
