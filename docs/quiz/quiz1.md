@@ -1,4 +1,4 @@
-# Quiz 1: Regular Expressions
+# Quiz 1: String Matching
 
 ## Task
 
@@ -40,5 +40,5 @@
 In the example below, `a boy` should not be converted into `1 boy` whereas `a sister` should because it indicates the quantity:
   * I know a boy who has **a** sister &rarr; I know a boy who has **1** sister
 * The `normalize_extra()` function should convert only indefinite articles, nothing else.
-* Write a report `quiz1.pdf` that explains how you handle this special case and submit: https://canvas.emory.edu/courses/83264/assignments/451636
+* Write a report `quiz1.pdf` that explains how you handle this special case and submit: https://canvas.emory.edu/courses/96729/assignments/554949
 * Give out a (linguistically) sounding explanation rather than a list out examples. For instance, instead of stating that your program converts all indefinite articles preceding a certain list of words, explain what types (or categories) of words following indefinite articles are considered.
