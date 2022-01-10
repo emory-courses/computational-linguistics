@@ -18,6 +18,14 @@ import re
 STARTS = ['"']
 ENDS = ["n't", '.', ',', '"']
 
+RE_TOK = re.compile(r'([",.]|n\'t|\s+)')
+RE_ABBR = re.compile(r'((?:Mr|Mrs|Ms|Dr)\.)|((?:[A-Z]\.){2,})')  # Mr. Dr. Mrs. U.S.A. USA.
+RE_APOS = re.compile(r'\'(\d\ds?|cause)')
+RE_CONC = re.compile(r'([A-Za-z]+)(n\'t)|(gon)(na)|(can)(not)')
+RE_HYPE = re.compile(r'(https?://\S+)')
+RE_NUMB = re.compile(r'(\d+/\d+)|(\d{3}-\d{3}-\d{4})|(\d(?:,\d{3})+)')
+RE_UNIT = re.compile(r'([$#])?(\d+)([km]g)?')
+
 
 def tokenize_strmat_0(text):
     tokens = text.split()
@@ -73,10 +81,33 @@ def tokenize_strmat_1(text):
     return new_tokens
 
 
+def tokenize_regex(text):
+    prev_idx = 0
+    tokens = []
+    for m in RE_TOK.finditer(text):
+        t = text[prev_idx:m.start()].strip()
+        if t: tokens.append(t)
+        t = m.group().strip()
+        if t:
+            if tokens and tokens[-1] in {'Mr', 'Ms'} and t == '.':
+                tokens[-1] = tokens[-1] + t
+            else:
+                tokens.append(t)
+        prev_idx = m.end()
+
+    t = text[prev_idx:].strip()
+    if t: tokens.append(t)
+    return tokens
+
+
 if __name__ == '__main__':
     text0 = 'Mr. Wayne isn\'t the hero we need, but "the one" we deserve.'
     text1 = 'Ms. Wayne is "Batgirl" but not "the one".'
 
     print(tokenize_strmat_0(text0))
+
     print(tokenize_strmat_0(text1))
     print(tokenize_strmat_1(text1))
+
+    print(tokenize_regex(text0))
+    print(tokenize_regex(text1))

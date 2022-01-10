@@ -4,7 +4,6 @@
 
 * Course webpage: https://github.com/emory-courses/cs329
 * Class location: https://emory.zoom.us/j/92296132899
-<!-- * Class location: Math & Science Center (MSC) E208 -->
 * Class hours: TuTh 1:00pm - 2:15pm
 * Prerequisites: CS171 (CS and LING), QTM220 (QTM)
 
@@ -15,16 +14,17 @@
   : Office Hours &rarr; TuTh 4pm - 5:30pm, MSC W302F
 * [Sichang Tu](https://www.linkedin.com/in/sichang-tu-b23b44177/) <br>
   : PhD student in Computer Science<br>
-  : Office Hours &rarr; _TBA_
+  : Office Hours &rarr; MW 4pm - 5:30pm
 * [Sophy Huang](https://www.linkedin.com/in/sophy-huang/) <br>
   : BS in Applied Mathematics and Statistics<br>
-  : Office Hours &rarr; _TBA_
+  : Office Hours &rarr; TuF 10am - 11:30am 
 * Contact: _firstname.lastname_@emory.edu
+* Zoom link to all office hours: https://emory.zoom.us/j/91473219159
 * Please use [Issues](issue_guidelines.md) for questions and comments that can be shared publicly and use emails for private matters only.
 
 ## Grading
 
-* 1+9 topical quizzes: 50%
+* 1 + 9 topical quizzes: 50%
 * Project proposal: 20%
 * Final project: 30%
 * Your work is governed by the [Emory Honor Code](http://catalog.college.emory.edu/academic/policies-regulations/honor-code.html). Honor code violation (e.g., copies from any source including your colleagues and internet sites) will be referred to the [Emory Honor Council](http://college.emory.edu/oue/current-students/honor-council.html).
