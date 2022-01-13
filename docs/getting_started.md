@@ -36,7 +36,7 @@
   * Search and install for the `elit-tokenizer` package.
 * Create a new package:
   * At any step, if it prompts you to add a new file/package to git, click `Add`.
-  * Create a python package called [`src/quiz/`](../src/quiz/).
+  * Create a python package called [`src.quiz`](../src/quiz/).
   * Create a python file called [`quiz0.py`](../src/quiz/quiz0.py) under the `quiz` package and copy the code.
     ```python
     from elit_tokenizer import EnglishTokenizer
