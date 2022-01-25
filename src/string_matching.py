@@ -13,6 +13,9 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 # ========================================================================
+
+__author__ = 'Jinho D. Choi'
+
 import re
 
 STARTS = ['"']
@@ -95,7 +98,7 @@ def tokenize_regex(text):
                 tokens.append(t)
         prev_idx = m.end()
 
-    t = text[prev_idx:].strip()
+    t = text[prev_idx:]
     if t: tokens.append(t)
     return tokens
 
