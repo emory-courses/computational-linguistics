@@ -55,9 +55,18 @@ def tf_idfs(fables) -> Dict[str, Dict[str, int]]:
     return out
 
 
+def euclidean(x1: Dict[str, float], x2: Dict[str, float]) -> float:
+    t = sum(((s1 - x2.get(term, 0)) ** 2 for term, s1 in x1.items()))
+    t += sum((s2 ** 2 for term, s2 in x2.items() if term not in x1))
+    return t
+
+
+# def cosine(x1: Dict[str, float], x2: Dict[str, float]) -> float:
+
+
 if __name__ == '__main__':
     # download aesop's fables
-    aesop_link = 'https://raw.githubusercontent.com/emory-courses/computational-linguistics/master/docs/res/aesopfables.json'
+    aesop_link = 'https://raw.githubusercontent.com/emory-courses/computational-linguistics/master/res/vsm/aesopfables.json'
     aesop_file = 'res/aesopfables.json'
     # download(aesop_link, aesop_file)
 
@@ -80,9 +89,18 @@ if __name__ == '__main__':
     tfidfs = tf_idfs(fables)
     print(tfidfs['Androcles']['Lion'])
 
-    for t, tf in sorted(tfs['Androcles'].items(), key=lambda x: x[1], reverse=True)[:10]:
-        print(t, tf, math.log(len(tfs) / dfs[t]))
+    for t, score in sorted(tfs['Androcles'].items(), key=lambda x: x[1], reverse=True)[:20]:
+        print(t, score)
+    print('==========')
+    for t, score in sorted(tfidfs['Androcles'].items(), key=lambda x: x[1], reverse=True)[:20]:
+        print(t, score)
 
-    for t, tfidf in sorted(tfidfs['Androcles'].items(), key=lambda x: x[1], reverse=True)[:10]:
-        print(t, tfidf, dfs[t])
+    x1 = tfidfs['Androcles']
+    x2 = tfidfs['TheAntandtheChrysalis']
+    x3 = tfidfs['TheAntsandtheGrasshopper']
+    print(euclidean(x1, x2))
+    print(euclidean(x2, x3))
+
+
+
 

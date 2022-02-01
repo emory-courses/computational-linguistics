@@ -1,5 +1,5 @@
 # ========================================================================
-# Copyright 2022 Emory University
+# Copyright 2020 Emory University
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -13,20 +13,26 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 # ========================================================================
-import json
-from typing import Dict
+from typing import Set, Optional, List
+from nltk.corpus.reader import Synset
 
 
-def cosine(x1: Dict[str, float], x21: Dict[str, float]) -> float:
+def antonyms(sense: str) -> Set[Synset]:
+    """
+    :param sense: the ID of the sense (e.g., 'dog.n.01').
+    :return: a set of Synsets representing the union of all antonyms of the sense as well as its synonyms.
+    """
     # TODO: to be updated
-    return 0
+    return set()
 
 
-def normalize_extra(text):
+def paths(sense_0: str, sense_1: str) -> List[List[Synset]]:
     # TODO: to be updated
-    return text
+    return list(list())
 
 
 if __name__ == '__main__':
-    fables = json.load(open('res/aesopfables.json'))
-    fables_alt = json.load(open('res/aesopfables.json'))
+    print(antonyms('purchase.v.01'))
+
+    for path in paths('dog.n.01', 'cat.n.01'):
+        print([s.name() for s in path])

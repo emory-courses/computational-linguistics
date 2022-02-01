@@ -1,70 +1,44 @@
-# Quiz 2: Ontology and Taxonomy
+# Quiz 1: Vector Space Models
 
-## Tasks
+## Task
 
 * Create a python file called [`quiz2.py`](../../src/quiz/quiz2.py) under the [`quiz`](../../src/quiz/) package and copy the code.
-* Complete the `antonyms()` method that takes a sense ID, and returns a set of `Synset` representing the union of all antonyms of the sense as well as its synonyms.
-  ```
-  antonyms('purchase.v.01')
-  -> {Synset('sell.v.01')}
-  
-  antonym('end.v.02')
-  -> {Synset('begin.v.03'), Synset('get_down.v.07')}
-
-  print(antonyms('nonspecific.a.01'))
-  -> {Synset('specific.a.01'), Synset('specific.a.04')}
-   ```
-* Complete the `paths()` method that takes two distinct sense IDs and returns a list of `Synset` list where each `Synset` list shows the path from the first sense to the second sense with respect to the corresponding lowest common hypernym:
-  ```
-  paths('dog.n.01', 'cat.n.01')
-  -> [
-       [Synset('dog.n.01'), Synset('canine.n.02'), Synset('carnivore.n.01'), Synset('feline.n.01'), Synset('cat.n.01')]
-     ]
-  
-  paths('body.n.09', 'sidereal_day.n.01')
-  -> [
-       [Synset('body.n.09'), Synset('mass.n.01'), Synset('physical_property.n.01'), Synset('property.n.02'), Synset('attribute.n.02'), Synset('time.n.05'), Synset('cosmic_time.n.01'), Synset('sidereal_time.n.01'), Synset('sidereal_day.n.01')],
-       [Synset('body.n.09'), Synset('mass.n.01'), Synset('fundamental_quantity.n.01'), Synset('measure.n.02'), Synset('time_unit.n.01'), Synset('sidereal_day.n.01')]
-     ]
-
-  paths('boy.n.01', 'girl.n.01')
-  -> [
-       [Synset('male_child.n.01'), Synset('male.n.02'), Synset('person.n.01'), Synset('adult.n.01'), Synset('woman.n.01'), Synset('girl.n.01')]
-       [Synset('male_child.n.01'), Synset('male.n.02'), Synset('person.n.01'), Synset('female.n.02'), Synset('woman.n.01'), Synset('girl.n.01')]
-     ]
-  ```
-* Your functions will be evaluated with a more thorough set of examples.
+* Update the `normalize()` function such that it takes a string and returns a string where all cardinals are normalized into digitals:
+  * I met **twelve** people &rarr; I met **12** people
+  * I have **one** brother and **two** sisters &rarr; I have **1** brother and **2** sisters
+  * A year has **three hundred sixty five** days &rarr; A year has **365** days
+  * I made **a million** dollars &rarr; I made **1000000** dollars
+* Run `quiz1.py` to see if your function returns correct output.
+* Your function will be evaluated with a more thorough set of examples.
 
 ## Notes
 
-* The `antonyms()` function returns an empty set if no antonym is found.
-* For the `path()` function:
-  * For `dog.n.01` and `cat.n.01`, although `dog.n.01` has two hypernym paths, there is only one lowest common hypernym between the two senses, `carnivore.n.01`, such that the returned list should include only one inner-list. 
-  * For `body.n.09` and `sidereal_day.n.01`, there are two lowest common hypernyms, `attribute.n.02` and `measure.n.02`, and only one path exist from each sense to every LCH such that the returned list should contain two inner lists.
-  * For `boy.n.01` and `girl.n.01`, there are two hypernym paths of `boy.n.01`:
-    ```
-    [Synset('entity.n.01'), Synset('physical_entity.n.01'), Synset('causal_agent.n.01'), Synset('person.n.01'), Synset('male.n.02'), Synset('male_child.n.01')]
-    [Synset('entity.n.01'), Synset('physical_entity.n.01'), Synset('object.n.01'), Synset('whole.n.02'), Synset('living_thing.n.01'), Synset('organism.n.01'), Synset('person.n.01'), Synset('male.n.02'), Synset('male_child.n.01')]
-    ```
-    , four hypernym paths of `girl.n.01`:
-    ```
-    [Synset('entity.n.01'), Synset('physical_entity.n.01'), Synset('causal_agent.n.01'), Synset('person.n.01'), Synset('adult.n.01'), Synset('woman.n.01'), Synset('girl.n.01')]
-    [Synset('entity.n.01'), Synset('physical_entity.n.01'), Synset('object.n.01'), Synset('whole.n.02'), Synset('living_thing.n.01'), Synset('organism.n.01'), Synset('person.n.01'), Synset('adult.n.01'), Synset('woman.n.01'), Synset('girl.n.01')]
-    [Synset('entity.n.01'), Synset('physical_entity.n.01'), Synset('causal_agent.n.01'), Synset('person.n.01'), Synset('female.n.02'), Synset('woman.n.01'), Synset('girl.n.01')]
-    [Synset('entity.n.01'), Synset('physical_entity.n.01'), Synset('object.n.01'), Synset('whole.n.02'), Synset('living_thing.n.01'), Synset('organism.n.01'), Synset('person.n.01'), Synset('female.n.02'), Synset('woman.n.01'), Synset('girl.n.01')]
-    ```
-    , and one lowest common hypernym, `Synset('person.n.01')`. Once you truncate all paths by the LCS, only one path gets retained for `boy.n.01`:
-    ```
-    [Synset('person.n.01'), Synset('male.n.02'), Synset('male_child.n.01')]
-    ```
-    and two paths get retained for `girl.n.01`:
-    ```
-    [Synset('person.n.01'), Synset('adult.n.01'), Synset('woman.n.01'), Synset('girl.n.01')]
-    [Synset('person.n.01'), Synset('female.n.02'), Synset('woman.n.01'), Synset('girl.n.01')]
-    ```
-    Thus, the returned list should include two inner lists. 
+* Your program should handle:
+  * Both uppercase and lowercase letters.
+  * Hyphenated words (e.g., `thirty-five` &rarr; `35`).
+  * Preceding and succeeding symbols (e.g., `one, "two", three!?` &rarr; `1, "2", 3!?`).
+* Your program should not convert:
+  * Indefinite articles except for the case when they are followed by numbers such as `hundred`, `thousand`, etc.
+  * Ordinals (e.g., `first`, `fifth`).
+  * Decimals (e.g., `five point two`).
+  * Fractions (e.g., `a half`, `two third`).
+* Other than the converted cardinals, all the other parts of the string should stay as the original forms including consecutive spaces and symbols.
+* The converted cardinals should not include comma. For example, `one thousand one` should be converted to `1001`, not `1,001`.
+* More conversion examples:
+  * `Three hundred` and `Sixty Five` &rarr; `300` and `65`
+  * `Twenty three hundred` &rarr; `2300`
+
 
 ## Submission
 
-* Commit and push `quiz2.py` to your GitHub repository.
-* Check if `quiz2.py` is placed under the `quiz` directory in your repository.
+* Commit and push `quiz1.py` to your GitHub repository.
+* Check if `quiz1.py` is placed under the `quiz` directory in your repository.
+
+## Extra Credit
+
+* Update `normalize_extra()` to handle the case of indefinite articles (e.g., `a`, `an`) being used to indicate quantities.
+In the example below, `a boy` should not be converted into `1 boy` whereas `a sister` should because it indicates the quantity:
+  * I know a boy who has **a** sister &rarr; I know a boy who has **1** sister
+* The `normalize_extra()` function should convert only indefinite articles, nothing else.
+* Write a report `quiz1.pdf` that explains how you handle this special case and submit: https://canvas.emory.edu/courses/96729/assignments/554949
+* Give out a (linguistically) sounding explanation rather than a list out examples. For instance, instead of stating that your program converts all indefinite articles preceding a certain list of words, explain what types (or categories) of words following indefinite articles are considered.

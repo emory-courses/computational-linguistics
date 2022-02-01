@@ -4,7 +4,7 @@
 
 ### Regular Expressions
 
-* Create [`regular_expressions.py`](../src/regular_expressions.py) under the [`src/`](../src) directory and copy the contents.
+* Create [`regular_expressions.py`](../src/regular_expressions.py) under the [`src/`](../../src) directory and copy the contents.
 * Complete the `turn_1b()` method such that it prompts to ask the kind of user's smartphone if it is not provided during `Turn 0`.
 Once the information is retrieved, it should continue to `turn_1a()` as follows: 
   ```
@@ -28,7 +28,7 @@ Hint: use `res.d_iphone_v` defined in the main space.
 
 ### Dialogue Management
 
-reate [`state_machine.py`](../src/state_machine.py) under the [`src/`](../src) directory and copy the contents from the class source.
+reate [`state_machine.py`](../src/state_machine.py) under the [`src/`](../../src) directory and copy the contents from the class source.
 
 #### Task 1 
 
@@ -81,7 +81,7 @@ Here is an example:
 
 ### Ontology and Taxanomy
 
-* Create [`quiz3.py`](../src/quiz/quiz2.py) under the [`src/quiz/`](../src/quiz) directory and copy the contents.
+* Create [`quiz3.py`](ontology_taxonomy_quiz.py) under the [`src/quiz/`](../../src/quiz) directory and copy the contents.
 * Complete the `antonyms()` method that takes a word and an optional POS tag, and returns the list of antonyms of the word.
 * Complete the `lch_paths()` method that takes two words (not sense IDs), and returns the list of Synset list where each Synset list shows the path from every lowest common hypernym of the two words to its root.
 
@@ -112,7 +112,7 @@ Create a PDF file called `loi.pdf` and write the following three contents:
 
 ### Structure Parsing
 
-* Answer the three questions in [quiz_phrase_structures.pdf](quiz/quiz_phrase_structures.pdf).
+* Answer the three questions in [quiz_phrase_structures.pdf](../quiz/quiz_phrase_structures.pdf).
 
 ### Submission
 
@@ -137,7 +137,7 @@ Create a PDF file called `loi.pdf` and write the following three contents:
 
 ### Dependency Parsing
 
-* Answer the question in [quiz_dependency_structures.pdf](quiz/quiz_dependency_structures.pdf).
+* Answer the question in [quiz_dependency_structures.pdf](../quiz/quiz_dependency_structures.pdf).
 
 ### Submission
 
