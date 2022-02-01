@@ -14,7 +14,9 @@
 # limitations under the License.
 # ========================================================================
 import json
-from typing import Dict
+from typing import Dict, Any, List
+
+from src.vector_space_models import tf_idfs, most_similar
 
 
 def cosine(x1: Dict[str, float], x21: Dict[str, float]) -> float:
@@ -22,11 +24,22 @@ def cosine(x1: Dict[str, float], x21: Dict[str, float]) -> float:
     return 0
 
 
-def normalize_extra(text):
-    # TODO: to be updated
-    return text
+def vectorize(documents: List[Dict[str, Any]]) -> Dict[str, Dict[str, int]]:
+    # Feel free to update this function
+    return tf_idfs(documents)
+
+
+def similar_documents(X: Dict[str, Dict[str, float]], Y: Dict[str, Dict[str, float]]) -> Dict[str, str]:
+    # Feel free to update this function
+    return {k: most_similar(Y, x) for k, x in X.items()}
 
 
 if __name__ == '__main__':
-    fables = json.load(open('res/aesopfables.json'))
-    fables_alt = json.load(open('res/aesopfables.json'))
+    fables = json.load(open('res/vsm/aesopfables.json'))
+    fables_alt = json.load(open('res/vsm/aesopfables-alt.json'))
+
+    v_fables = vectorize(fables)
+    v_fables_alt = vectorize(fables_alt)
+
+    for x, y in similar_documents(v_fables_alt, v_fables).items():
+        print('{} -> {}'.format(x, y))

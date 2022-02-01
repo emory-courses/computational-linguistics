@@ -3,7 +3,7 @@
 ## General
 
 * Course webpage: https://github.com/emory-courses/cs329
-* Class location: https://emory.zoom.us/j/92296132899
+* Class location: MSC E208 (https://emory.zoom.us/j/92296132899)
 * Class hours: TuTh 1:00pm - 2:15pm
 * Prerequisites: CS171 (CS and LING), QTM220 (QTM)
 

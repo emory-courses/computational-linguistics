@@ -61,13 +61,18 @@ def euclidean(x1: Dict[str, float], x2: Dict[str, float]) -> float:
     return t
 
 
-# def cosine(x1: Dict[str, float], x2: Dict[str, float]) -> float:
-
+def most_similar(Y: Dict[str, Dict[str, float]], x: Dict[str, float]) -> str:
+    m, t = -1, None
+    for title, y in Y.items():
+        d = euclidean(x, y)
+        if m < 0 or d < m:
+            m, t = d, title
+    return t
 
 if __name__ == '__main__':
     # download aesop's fables
     aesop_link = 'https://raw.githubusercontent.com/emory-courses/computational-linguistics/master/res/vsm/aesopfables.json'
-    aesop_file = 'res/aesopfables.json'
+    aesop_file = 'res/vsm/aesopfables.json'
     # download(aesop_link, aesop_file)
 
     # read json
@@ -91,16 +96,24 @@ if __name__ == '__main__':
 
     for t, score in sorted(tfs['Androcles'].items(), key=lambda x: x[1], reverse=True)[:20]:
         print(t, score)
-    print('==========')
     for t, score in sorted(tfidfs['Androcles'].items(), key=lambda x: x[1], reverse=True)[:20]:
         print(t, score)
 
+    # euclidean distance
     x1 = tfidfs['Androcles']
     x2 = tfidfs['TheAntandtheChrysalis']
     x3 = tfidfs['TheAntsandtheGrasshopper']
     print(euclidean(x1, x2))
     print(euclidean(x2, x3))
 
+    # download alternative falbles
+    link = 'https://raw.githubusercontent.com/emory-courses/computational-linguistics/master/res/vsm/aesopfables-alt.json'
+    file = 'res/vsm/aesopfables-alt.json'
+    # download(link, file)
 
+    fables_alt = json.load(open(file))
+    tfidf_alt = tf_idfs(fables_alt)
 
-
+    for k, x in tfidf_alt.items():
+        t = most_similar(tfidfs, x)
+        print('{} -> {}'.format(k, t))
