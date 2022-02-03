@@ -2,7 +2,7 @@
 
 ## Task
 
-* Create a python file called [`quiz1.py`](../../src/quiz/quiz1.py) under the [`quiz`](../../src/quiz/) package and copy the code.
+* Copy the python file [`quiz1.py`](../../src/quiz/quiz1.py) and put it under the [`quiz`](../../src/quiz/) package in your local project.
 * Update the `normalize()` function such that it takes a string and returns a string where all cardinals are normalized into digitals:
   * I met **twelve** people &rarr; I met **12** people
   * I have **one** brother and **two** sisters &rarr; I have **1** brother and **2** sisters
