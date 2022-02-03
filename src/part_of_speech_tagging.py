@@ -13,29 +13,15 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 # ========================================================================
-
-import nltk
-import requests
-from pathlib import Path
+import os.path
 from collections import Counter
 from typing import List, Tuple, Dict, Any
 
+import nltk
+
+from src.vector_space_models import download
 
 PREV_DUMMY = '!@#$'
-
-def download_data(path):
-    def download(remote_addr: str, local_addr: str):
-        r = requests.get(remote_addr)
-        with open(local_addr, 'wb') as fin:
-            fin.write(r.content)
-
-    url = 'https://raw.githubusercontent.com/emory-courses/cs329/master/dat/pos/wsj-pos.{}.gold.tsv'
-
-    remote = url.format('trn')
-    download(remote, path / Path(remote).name)
-
-    remote = url.format('dev')
-    download(remote, path / Path(remote).name)
 
 
 def read_data(filename: str):
@@ -65,7 +51,7 @@ def to_probs(model: Dict[Any, Counter]) -> Dict[str, List[Tuple[str, float]]]:
     for feature, counter in model.items():
         ts = counter.most_common()
         total = sum([count for _, count in ts])
-        model[feature] = [(pos, count/total) for pos, count in ts]
+        model[feature] = [(pos, count / total) for pos, count in ts]
     return model
 
 
@@ -92,7 +78,7 @@ def create_bi_pos_dict(data: List[List[Tuple[str, str]]]) -> Dict[str, List[Tupl
 
     for sentence in data:
         for i, (_, curr_pos) in enumerate(sentence):
-            prev_pos = sentence[i-1][1] if i > 0 else PREV_DUMMY
+            prev_pos = sentence[i - 1][1] if i > 0 else PREV_DUMMY
             model.setdefault(prev_pos, Counter()).update([curr_pos])
 
     return to_probs(model)
@@ -107,7 +93,7 @@ def create_bi_wp_dict(data: List[List[Tuple[str, str]]]) -> Dict[str, List[Tuple
 
     for sentence in data:
         for i, (_, curr_pos) in enumerate(sentence):
-            prev_word = sentence[i-1][0] if i > 0 else PREV_DUMMY
+            prev_word = sentence[i - 1][0] if i > 0 else PREV_DUMMY
             model.setdefault(prev_word, Counter()).update([curr_pos])
 
     return to_probs(model)
@@ -122,7 +108,7 @@ def create_bi_wn_dict(data: List[List[Tuple[str, str]]]) -> Dict[str, List[Tuple
 
     for sentence in data:
         for i, (_, curr_pos) in enumerate(sentence):
-            next_word = sentence[i+1][0] if i+1 < len(sentence) else PREV_DUMMY
+            next_word = sentence[i + 1][0] if i + 1 < len(sentence) else PREV_DUMMY
             model.setdefault(next_word, Counter()).update([curr_pos])
 
     return to_probs(model)
@@ -147,7 +133,7 @@ def predict_bi_pos_dict(uni_pos_dict: Dict[str, List[Tuple[str, float]]], bi_pos
     for i in range(len(tokens)):
         pos = uni_pos_dict.get(tokens[i], None)
         if pos is None:
-            pos = bi_pos_dict.get(output[i-1][0] if i > 0 else PREV_DUMMY, None)
+            pos = bi_pos_dict.get(output[i - 1][0] if i > 0 else PREV_DUMMY, None)
         output.append(pos[0] if pos else ('XX', 0.0))
 
     return output
@@ -198,9 +184,9 @@ def predict_interporlation(
     for i in range(len(tokens)):
         scores = dict()
         curr_word = tokens[i]
-        prev_pos = output[i-1][0] if i > 0 else PREV_DUMMY
-        prev_word = tokens[i-1] if i > 0 else PREV_DUMMY
-        next_word = tokens[i+1] if i+1 < len(tokens) else PREV_DUMMY
+        prev_pos = output[i - 1][0] if i > 0 else PREV_DUMMY
+        prev_word = tokens[i - 1] if i > 0 else PREV_DUMMY
+        next_word = tokens[i + 1] if i + 1 < len(tokens) else PREV_DUMMY
 
         for pos, prob in uni_pos_dict.get(curr_word, dict()):
             scores[pos] = scores.get(pos, 0) + prob * uni_pos_weight
@@ -238,9 +224,9 @@ def evaluate_interpolation(
         total += len(tokens)
         correct += len([1 for g, p in zip(gold, pred) if g == p])
     accuracy = 100.0 * correct / total
-    print('{:5.2f}% ({}/{}) - uni_pos: {:3.1f}, bi_pos: {:3.1f}, bi_wp: {:3.1f}, bi_np: {:3.1f}'.format(accuracy, correct, total, uni_pos_weight, bi_pos_weight, bi_wp_weight, bi_wn_weight))
+    print('{:5.2f}% ({}/{}) - uni_pos: {:3.1f}, bi_pos: {:3.1f}, bi_wp: {:3.1f}, bi_np: {:3.1f}'.format(accuracy, correct, total, uni_pos_weight, bi_pos_weight, bi_wp_weight,
+                                                                                                        bi_wn_weight))
     return accuracy
-
 
 
 def postag(text):
@@ -250,20 +236,17 @@ def postag(text):
 
 
 if __name__ == '__main__':
-    # create a directory to download pos data
-    path = Path.cwd()
-
-    while path.name != 'cs329':
-        path = path.parent
-
-    path /= 'res/pos'
-    path.mkdir(parents=True, exist_ok=True)
-
     # download data
-    download_data(path)
+    url = 'https://raw.githubusercontent.com/emory-courses/cs329/master/res/pos/wsj-pos.{}.gold.tsv'
+    path = 'res/pos/'
+    remote = url.format('trn')
+    download(remote, os.path.join(path, os.path.basename(remote)))
+
+    remote = url.format('dev')
+    download(remote, os.path.join(path, os.path.basename(remote)))
 
     # read data
-    trn_data = read_data(path / 'wsj-pos.trn.gold.tsv')
+    trn_data = read_data(os.path.join(path, 'wsj-pos.trn.gold.tsv'))
     print(len(trn_data))
     print(trn_data[0])
 
@@ -279,11 +262,9 @@ if __name__ == '__main__':
     tokens = "Dr. Choi has a good wifi connection from Emory".split()
     predict_uni_pos_dict(uni_pos_dict, tokens, True)
 
-    dev_data = read_data(path / 'wsj-pos.dev.gold.tsv')
+    dev_data = read_data(os.path.join(path, 'wsj-pos.dev.gold.tsv'))
     evaluate_uni_pos(uni_pos_dict, dev_data)
 
     # bigram model
     bi_pos_dict = create_bi_pos_dict(trn_data)
     evaluate_bi_pos(uni_pos_dict, bi_pos_dict, dev_data)
-
-
