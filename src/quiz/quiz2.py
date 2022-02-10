@@ -18,6 +18,47 @@ from typing import Dict, Any, List
 
 from src.vector_space_models import tf_idfs, most_similar
 
+FM = {
+    'antgrass2.ram': 'TheAntsandtheGrasshopper',
+    'TheAssandhisPurchaser2': 'TheAssandHisPurchaser',
+    'TheAssandtheLapdog2': 'TheAssandtheLapdog',
+    'TheAssintheLionSkin': 'TheAssintheLionsSkin',
+    'TheBellyandtheMembers2': 'TheBellyandtheMembers',
+    'TheBuffoonandtheCountryman': 'TheBuffoonandtheCountryman2',
+    'TheCrowandthePitcher2': 'crowpitc2.ram',
+    'TheDogintheManger2': 'TheDogintheManger',
+    'TheDogandtheShadow2': 'TheDogandtheShadow',
+    'TheEagleandtheArrow2': 'TheEagleandtheArrow',
+    'TheFoxandtheCrow2': 'TheFoxandtheCrow',
+    'TheFoxandtheGoat2': 'TheFoxandtheGoat',
+    'TheFoxandtheGrapes2': 'TheFoxandtheGrapes',
+    'TheFoxandtheLion': 'TheFoxandtheLion2',
+    'TheFoxandtheMask': 'foxmask2.ram',
+    'haretort2.ram': 'TheHareandtheTortoise',
+    'harefrog2.ram': 'TheHaresandtheFrogs',
+    'TheHorseandtheAss2': 'TheHorseandtheAss',
+    'TheLionandtheMouse2': 'lionmouse',
+    'TheLioninLove2': 'TheLioninLove',
+    'TheManandtheSatyr2': 'TheManandtheSatyr',
+    'MercuryandtheWoodman': 'MercuryandtheWorkmen',
+    'milkpail2.ram': 'milkmaidjug.jpg',
+    'TheOldManandDeath2': 'TheOldManandDeath',
+    'TheOldWomanandtheWine-Jar': 'womanjar2.ram',
+    'TheOne-EyedDoe': 'TheOneEyedDoe',
+    'ThePeacockandJuno': 'ThePeacockandJuno2',
+    'TheRoseandtheAmaranth': 'TheRoseandtheAmaranth2',
+    'TheSerpentandtheEagle': 'TheSerpentandtheEagle2',
+    'shepherd2.ram': 'shepwolf2.ram',
+    'TheSickLion2': 'TheSickLion',
+    'TheTownMouseandtheCountryMouse': 'TheTownMouseandtheCountryMouse2',
+    'TheTrumpeterTakenPrisoner2': 'TheTrumpeterTakenPrisoner',
+    'TheTwoPots2': 'twopots2.ram',
+    'TheVainJackdaw': 'TheVainJackdaw2',
+    'TheWolfandtheCrane2': 'TheWolfandtheCrane',
+    'TheWolfandtheLamb2': 'TheWolfandtheLamb',
+    'TheWolfinSheepsClothing2': 'TheWolfinSheepsClothing'
+}
+
 
 def cosine(x1: Dict[str, float], x21: Dict[str, float]) -> float:
     # TODO: to be updated
