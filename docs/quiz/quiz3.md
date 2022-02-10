@@ -8,7 +8,7 @@ Your task is to develop an accurate part-of-speech tagging model:
 * Complete the `train()` method that takes training and the development sets and returns the best set of arguments necessary to run your model.
 * Complete the `predict()` method that takes a list of tokens and the arguments from `train()` and returns corresponding predicted part-of-speech tags.
 * Generate the `quiz3.pkl` file under the `quiz` package that saves your best set of arguments.
-* Write a report describing how you improve the model accuracy and saves it as `quiz3.pdf`.
+* Create a PDF file called `quiz3.pdf` under the `quiz` package that describes how you improve the model accuracy.
 
 ## Notes
 
@@ -24,5 +24,4 @@ Your task is to develop an accurate part-of-speech tagging model:
 
 ## Submission
 
-* Commit and push `quiz3.py` and `quiz3.pkl` to your GitHub repository.
-* Submit `quiz3.pdf` to: https://canvas.emory.edu/courses/83264/assignments/461923
+* Commit and push `quiz3.py`, `quiz3.pkl`, and `quiz4.pdf` to your GitHub repository.
