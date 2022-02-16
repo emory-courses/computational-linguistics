@@ -12,7 +12,7 @@
 | 02/03 |              [Part-of-Speech Tagging](https://emory.zoom.us/rec/share/TqkTGHKfSVSgJT3CuDYZ303jgQUVpg3a7ZiGPN20KMW_jC7A6xISL6FeDwCD_pxg.OqxvpcG74-8RSOiw)              |      [note](part_of_speech_tagging.ipynb), [src](../src/part_of_speech_tagging.py)      |                         |
 | 02/08 |              [Part-of-Speech Tagging](https://emory.zoom.us/rec/share/Uvu_Ol35uFE6DQJlml6kc3KJMXL0eP1mUz-KWj8LIeA250XDp6Nl0w2_1XbcmdE.Dii7TDpqRui54tEk)               |                                                                                   |                         |
 | 02/10 |              [Part-of-Speech Tagging](https://emory.zoom.us/rec/share/QIqPrhTz04rlz-Uqbw_HmGuN46aHbUPEqdadETpTeQ8sE1f47AaYScbcrZ66gQ2c.uj8oPmcJ_MVRsujM)              |                                                                                   | [Quiz 3](quiz/quiz3.md) |
-| 02/15 |                                                                       Named Entity Recognition                                                                        | [note](named_entity_recognition.ipynb), [src](../src/named_entity_recognition.py) |                         |
+| 02/15 |             [Named Entity Recognition](https://emory.zoom.us/rec/share/uGmpxQVE-xkzOgEJZqtXyaZt2D_c06XfXGaVN-ZjN8j6H1T62x_AVI81MlUlloK0.Izq3iTXKDhD_9PzT)             | [note](named_entity_recognition.ipynb), [src](../src/named_entity_recognition.py) |                         |
 | 02/17 |                                                                       Named Entity Recognition                                                                        |                                                                                   |                         |
 | 02/22 |                                                                       Named Entity Recognition                                                                        |                                                                                   | [Quiz 4](quiz/quiz5.md) |
 | 02/24 |                                                                        Proposal Presentations                                                                         |                                                                                   |                         |
@@ -37,7 +37,7 @@
 0: 2
 1: 7
 2: 7
-3: 7
+3: 7\
 4: 7
 5: 3
 6: 5
