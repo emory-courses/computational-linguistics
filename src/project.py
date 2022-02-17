@@ -20,7 +20,7 @@ import random
 
 if __name__ == '__main__':
     D1 = [5, 6, 10, 14, 11]
-    D2 = [1, 2, 4, 7, 8, 12]
-    D3 = [3, 13]
+    D2 = [2, 4, 7, 8, 12]
+    D3 = [1, 3, 13]
 
-    print(random.choice(D2))
+    print(random.choices(D2, k=1))

@@ -86,8 +86,8 @@ Superscripts show the number of votes that each team received from the class.
 ## Proposal Schedule
 
 * 2/24: 5, 6, 10, 14, 11
-* 3/01: 1, 2, 4, 7, 8, 12
-* 3/03: 3, 13
+* 3/01: 2, 4, 7, 8, 12
+* 3/03: 1, 3, 13
 
 <!--
 ## Ideas
