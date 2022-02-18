@@ -17,7 +17,7 @@ Superscripts show the number of votes that each team received from the class.
       Final<sup>0</sup>
       (slides)
 1. **Project 3**
-   * Andre da Silva, Juan Simbahan, Alisa Starr
+   * Andre da Silva, Juan Simbahan
    * Proposal<sup>0</sup> 
      (slides), 
       Final<sup>0</sup>
@@ -35,7 +35,7 @@ Superscripts show the number of votes that each team received from the class.
       Final<sup>0</sup>
       (slides)
 1. **Project 6**
-   * Jaymin Baek, Jesenia Perez-Aguilar, Muhammad Shahid, Siwei Xu
+   * Jaymin Baek, Jesenia Perez-Aguilar, Muhammad Shahid, Alisa Starr, Siwei Xu
    * Proposal<sup>0</sup> 
      (slides), 
       Final<sup>0</sup>
