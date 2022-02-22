@@ -1,5 +1,9 @@
 # Project Proposal
 
+## Task
+
+* https://canvas.emory.edu/courses/96729/assignments/554947
+
 ## Presentation
 
 * Every team is expected to give a 15 mins presentation that may include discussions.
