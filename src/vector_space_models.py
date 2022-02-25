@@ -58,7 +58,7 @@ def tf_idfs(fables) -> Dict[str, Dict[str, int]]:
 def euclidean(x1: Dict[str, float], x2: Dict[str, float]) -> float:
     t = sum(((s1 - x2.get(term, 0)) ** 2 for term, s1 in x1.items()))
     t += sum((s2 ** 2 for term, s2 in x2.items() if term not in x1))
-    return t
+    return math.sqrt(t)
 
 
 def most_similar(Y: Dict[str, Dict[str, float]], x: Dict[str, float]) -> str:

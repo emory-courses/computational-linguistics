@@ -4,4 +4,5 @@ venv/
 
 # solutions
 src/quiz/quiz1_sol.py
+src/quiz/quiz2_sol.py
 docs/archive/ontology_taxonomy_quiz_sol.py

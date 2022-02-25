@@ -60,7 +60,7 @@ FM = {
 }
 
 
-def cosine(x1: Dict[str, float], x21: Dict[str, float]) -> float:
+def cosine(x1: Dict[str, float], x2: Dict[str, float]) -> float:
     # TODO: to be updated
     return 0
 
