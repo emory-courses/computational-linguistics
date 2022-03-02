@@ -47,7 +47,7 @@ Superscripts show the number of votes that each team received from the class.
       Final<sup>0</sup>
       (slides)
 1. **Project 8**
-   * Kody Coppock, Nick Krauss, Ellen Kwon, Alexandru Rudi, Jesse Sun
+   * Nick Krauss, Ellen Kwon, Alexandru Rudi, Jesse Sun
    * Proposal<sup>0</sup> 
      (slides), 
       Final<sup>0</sup>
@@ -85,9 +85,9 @@ Superscripts show the number of votes that each team received from the class.
    
 ## Proposal Schedule
 
-* 2/24: 5, 6, 10, 14, 11
-* 3/01: 2, 4, 7, 8, 12
-* 3/03: 1, 3, 13
+* 2/24: 5, 6, 10, 11, 14
+* 3/01: 4, 7, 8, 12
+* 3/03: 1, 2, 3, 13
 
 <!--
 ## Ideas
