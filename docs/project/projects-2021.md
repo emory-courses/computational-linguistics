@@ -19,7 +19,7 @@ Superscripts show the number of votes that each team received from the class.
      ([slides](https://drive.google.com/file/d/1iAfqo3hC_DNnPW8QC3mQya3O9L_cqwmb/view?usp=sharing))
 1. **WiNYT: a Powerful Search Engine For the New York Times**
    * Yingying Chen, Mina Song, Lukas Xue, Ashley Zhou
-   * [Proposal](https://drive.google.com/file/d/1oD-A0znC2hggyzYkcGn_17IcyJJki2jk/view?usp=sharing)<sup>8</sup> 
+   * [Proposal](https://drive.google.com/file/d/1HRQnv7bZGJIkD1SmQOv4USFmYL9dpgit/view?usp=sharing)<sup>8</sup> 
      ([slides](https://drive.google.com/file/d/1d3ev1N7msC3B1NUnakwjpAVkpLisKevs/view?usp=sharing)), 
      [Final](https://drive.google.com/file/d/1nEJaB8r0ZaRKR7E7J4JdSCUNjI_WBSAp/view?usp=sharing)<sup>2</sup>
      ([slides](https://drive.google.com/file/d/1T2WDjgIx7Gfq4D777AGSpX9Br48yXMrV/view?usp=sharing))
