@@ -37,6 +37,14 @@ Write up to 10 pages (excluding references) using [this template](https://www.ov
   * Specify who will do what in each timeline.
   * Do not forget to include times for writing the research paper and preparing for the final presentation.
 
+## Rubric
+
+* Participation: 2
+* Contribution: 2
+* Ranking: 3
+* Presentation: 4
+* Proposal: 9
+
 ## Resources
 
 * [Reddit College](https://github.com/emorynlp/reddit-college)
