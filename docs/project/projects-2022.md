@@ -4,81 +4,81 @@
 
 Superscripts show the number of votes that each team received from the class.
 
-1. **Comparative Evaluation of Fake News Detection Models**
-   * Terry Ford, Yulin Hu, Zac Israel, Jennie Youn
-   * Proposal<sup>0</sup> 
+1. **Evaluation of Fake News Detection Models on COVID-19 Datasets**
+   * Terry Floyd, Yulin Hu, Zac Israel, Jennie Youn
+   * [Proposal](https://drive.google.com/file/d/1RLN_Lagm9oLMj96jZTyk6XmFbRzKqPFD/view?usp=sharing)<sup>0</sup> 
      ([slides](https://drive.google.com/file/d/1FgTK246yG3yrcS7WfdaJXh-E0JwNaySL/view?usp=sharing)), 
       Final<sup>0</sup>
       (slides)
-1. **Reddit Issue Polling: A Public Opinion Calculator**
+1. **riPOLL: Reddit Issue Polling**
    * Nithin Bagal, Alec Berger, Dusty Dang, Megan Lagerquist
-   * Proposal<sup>0</sup> 
+   * [Proposal](https://drive.google.com/file/d/137LlEEVGopsM225HcIJRRnHqDyLZJxN3/view?usp=sharing)<sup>0</sup> 
      ([slides](https://drive.google.com/file/d/1M1_zbR4XsAnRJ8K13qhX1P_rf60DShVw/view?usp=sharing)), 
       Final<sup>0</sup>
       (slides)
 1. **Interactive Movie Recommendation Engine**
    * Andre da Silva, Juan Simbahan
-   * Proposal<sup>0</sup> 
+   * [Proposal](https://drive.google.com/file/d/1Qq4cJB04faDtbuiVsifyxpl_bkTB01ry/view?usp=sharing)<sup>0</sup> 
      ([slides](https://drive.google.com/file/d/1toIXy1MIvWN9YSwltCtBzgi676blVxu7/view?usp=sharing)), 
       Final<sup>0</sup>
       (slides)
 1. **Moral of the Story: Summarizing and Comprehending Novels Using Wise Quotes**
    * Talyn Fan, Olivia Kolste, Owen Stone, Aaron Thach
-   * Proposal<sup>0</sup> 
+   * [Proposal](https://drive.google.com/file/d/1IfBOflXZrSsrfDvgsvuC9FUaNsLyDPwV/view?usp=sharing)<sup>0</sup> 
      ([slides](https://drive.google.com/file/d/1p0sRfHn6HezXDHHTUjy-MBkZ-YVf3wVp/view?usp=sharing)), 
       Final<sup>0</sup>
       (slides)    
-1. **Iknow1st: From Financial documents to stock price predictors**
+1. **Iknow1st: from Financial Documents to Stock Prices**
    * Lizzy Fang, Leah Gao, Chenxi Li, Zinc Zhao
-   * Proposal<sup>0</sup> 
+   * [Proposal](https://drive.google.com/file/d/1Jrhf546TZcRFL7ZwGdN_P3TMFB92r28i/view?usp=sharing)<sup>0</sup> 
      ([slides](https://drive.google.com/file/d/1XaG0ITqODlA9O9fbRXG3OoZ07TAwE-LL/view?usp=sharing)), 
       Final<sup>0</sup>
       (slides)
-1. **Evolution of Anime**
+1. **The Evolution of Anime**
    * Jaymin Baek, Jesenia Perez-Aguilar, Muhammad Shahid, Alisa Starr, Siwei Xu
-   * Proposal<sup>0</sup> 
+   * [Proposal](https://drive.google.com/file/d/1qIbdtIYH6P3h30WvXt9NWg3_McnrnNWY/view?usp=sharing)<sup>0</sup> 
      ([slides](https://drive.google.com/file/d/1gkkUY5VOYvU-BYgUOw7naHvQip94e8Q8/view?usp=sharing)), 
       Final<sup>0</sup>
       (slides)
 1. **Detecting Political Tendencies of Major News Media**
    * Alexandra Li, Eula Wang, Ruby Wu
-   * Proposal<sup>0</sup> 
+   * [Proposal](https://drive.google.com/file/d/1dxy-K7l9XSmXn7V_ouZ4v8RX-Bl9WFmW/view?usp=sharing)<sup>0</sup> 
      ([slides](https://drive.google.com/file/d/1mPozMM0VbWSSxJRt3o5gEm1HwAlYbxgG/view?usp=sharing)), 
       Final<sup>0</sup>
       (slides)
-1. **Relationship Timelines in The Marvel Universe**
+1. **Modeling Relationship Timelines in the Marvel Universe**
    * Nick Krauss, Ellen Kwon, Alexandru Rudi, Jesse Sun
-   * Proposal<sup>0</sup> 
+   * [Proposal](https://drive.google.com/file/d/1huPhOoK9SxI0WmFdln3F-A_ZK315w7nt/view?usp=sharing)<sup>0</sup> 
      ([slides](https://drive.google.com/file/d/1QdScvUaZ_eZRC5rX0gW2GCq98kQ1Hyet/view?usp=sharing)), 
       Final<sup>0</sup>
       (slides)
 1. **Extract Shape of Story from Disney and Marvel Movies**
    * Zhou Fang, Sirui Li, Siyan Pu, Kevin Wu
-   * Proposal<sup>0</sup> 
+   * [Proposal](https://drive.google.com/file/d/1n4vAj7Vno5tCk3o-zQhpIgvenqXEIXJ0/view?usp=sharing)<sup>0</sup> 
      ([slides](https://drive.google.com/file/d/1jJHpFrT9OCsMbLML-onHBnc7SZiOMMip/view?usp=sharing)), 
       Final<sup>0</sup>
       (slides)
 1. **Help Me Talk: Aphasia Speech Interpreter**
    * Kristina Gong, Alexandra Qi, Kelly Tong, Owen Yang
-   * Proposal<sup>0</sup> 
+   * [Proposal](https://drive.google.com/file/d/1zmThF68fd_aHyo2PDXStPZExYRlwNtBJ/view?usp=sharing)<sup>0</sup> 
      ([slides](https://drive.google.com/file/d/1AFESYCo9R1tvcaJempEhUS1SJ4JZmgXA/view?usp=sharing)), 
       Final<sup>0</sup>
       (slides)
 1. **TwitchBro: Your Personal Twitch Assistant** 
    * Isaac Cha, Neel Mirani, Hyoung Gyoo Seo, Matt Wang
-   * Proposal<sup>0</sup> 
+   * [Proposal](https://drive.google.com/file/d/1uwY1zZ-geCPDK3XrNGiZ9iNt8GFofHMW/view?usp=sharing)<sup>0</sup> 
      ([slides](https://drive.google.com/file/d/1ZVyG0-BBa84ElRs4afCOZ5d1fTc2zMHj/view?usp=sharing)), 
       Final<sup>0</sup>
       (slides)
-1. **Content-Based Song Recommender**
-   * Lauren Bailey, Ben Chaleki, Rogelio Cuevas, Ethan Mordekhai
-   * Proposal<sup>0</sup> 
+1. **Novel Content Based Music Recommendation System**
+   * Lauren Bailey, Ben Chaleki, Ethan Mordekhai
+   * [Proposal](https://drive.google.com/file/d/1nJBDbKB1bCPESoIyfYsTY8B96NaAbN2d/view?usp=sharing)<sup>0</sup> 
      ([slides](https://drive.google.com/file/d/1ZYP8grIO2glZvmznI2TeoFJskpB7kgzP/view?usp=sharing)), 
       Final<sup>0</sup>
       (slides)
-1. **Rate My Essays**
+1. **Explainable BERT in Automated Essay Scoring**
    * Carrie Gu, Mike Lin, Matt Zhang
-   * Proposal<sup>0</sup> 
+   * [Proposal](https://drive.google.com/file/d/10D_27teS2bg0Pztx4nhVwFlksUItMSJ_/view?usp=sharing)<sup>0</sup> 
      ([slides](https://drive.google.com/file/d/1pEWihwMGfppeuqf4dFuZVoV5H4GCp9p1/view?usp=sharing)), 
       Final<sup>0</sup>
       (slides)
