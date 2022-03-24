@@ -8,4 +8,4 @@
 ### Submission
 
 * Create a PDF file `quiz6.pdf` and include your answers.
-* Submit `quiz6.pdf`: https://canvas.emory.edu/courses/83264/assignments/467677
+* Submit `quiz6.pdf`: https://canvas.emory.edu/courses/96729/assignments/554954
