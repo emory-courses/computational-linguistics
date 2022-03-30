@@ -42,8 +42,8 @@ Write up to 10 pages (excluding references) using [this template](https://www.ov
 * Participation: 2
 * Contribution: 2
 * Ranking: 3
-* Presentation: 4
-* Proposal: 9
+* Presentation: 3
+* Proposal: 10
 
 ## Resources
 
