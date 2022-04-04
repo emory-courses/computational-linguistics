@@ -89,6 +89,12 @@ Superscripts show the number of votes that each team received from the class.
 * 3/01: 4, 7, 8, 11
 * 3/03: 1, 2, 3, 12
 
+## Final Schedule
+
+* 4/12: 1, 2, 3, 12
+* 4/14: 4, 7, 8, 11
+* 4/19: 5, 6, 9, 10, 13
+
 <!--
 ## Ideas
 
