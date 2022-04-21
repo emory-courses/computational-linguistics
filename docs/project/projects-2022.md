@@ -10,7 +10,7 @@ Superscripts show the number of votes that each team received from the class.
      ([slides](https://drive.google.com/file/d/1FgTK246yG3yrcS7WfdaJXh-E0JwNaySL/view?usp=sharing)), 
       Final<sup>0</sup>
       ([slides](https://drive.google.com/file/d/11bLtNQcm7tJrTPe16u3Aet4GNlDtNbgZ/view?usp=sharing))
-1. **riPOLL: Reddit Issue Polling**
+1. **riPOLL: Reddit Issue Polling - A Public Opinion Calculator**
    * Nithin Bagal, Alec Berger, Dusty Dang, Megan Lagerquist
    * [Proposal](https://drive.google.com/file/d/137LlEEVGopsM225HcIJRRnHqDyLZJxN3/view?usp=sharing)<sup>9</sup> 
      ([slides](https://drive.google.com/file/d/1M1_zbR4XsAnRJ8K13qhX1P_rf60DShVw/view?usp=sharing)), 
@@ -28,7 +28,7 @@ Superscripts show the number of votes that each team received from the class.
      ([slides](https://drive.google.com/file/d/1p0sRfHn6HezXDHHTUjy-MBkZ-YVf3wVp/view?usp=sharing)), 
       Final<sup>0</sup>
       ([slides](https://drive.google.com/file/d/1rYB97OmW_Tajpb0f8SPEqit25RgKWRqU/view?usp=sharing))    
-1. **Iknow1st: from Financial Documents to Stock Prices**
+1. **Iknow1st: From Financial Documents to Stock Price Predictors**
    * Lizzy Fang, Leah Gao, Chenxi Li, Zinc Zhao
    * [Proposal](https://drive.google.com/file/d/1Jrhf546TZcRFL7ZwGdN_P3TMFB92r28i/view?usp=sharing)<sup>12</sup> 
      ([slides](https://drive.google.com/file/d/1XaG0ITqODlA9O9fbRXG3OoZ07TAwE-LL/view?usp=sharing)), 
@@ -76,7 +76,7 @@ Superscripts show the number of votes that each team received from the class.
      ([slides](https://drive.google.com/file/d/1ZYP8grIO2glZvmznI2TeoFJskpB7kgzP/view?usp=sharing)), 
       Final<sup>0</sup>
       ([slides](https://drive.google.com/file/d/1qkO0j8GG9YjBe0wBgEbU7QAaQ5PTFhpp/view?usp=sharing))
-1. **Explainable BERT in Automated Essay Scoring**
+1. **Rate My Essays 2.0: Scores with Interpretation**
    * Carrie Gu, Mike Lin, Matt Zhang
    * [Proposal](https://drive.google.com/file/d/10D_27teS2bg0Pztx4nhVwFlksUItMSJ_/view?usp=sharing)<sup>5</sup> 
      ([slides](https://drive.google.com/file/d/1pEWihwMGfppeuqf4dFuZVoV5H4GCp9p1/view?usp=sharing)), 
