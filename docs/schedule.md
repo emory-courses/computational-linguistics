@@ -31,7 +31,7 @@
 | 04/12 |              [Project Presentations](https://emory.zoom.us/rec/share/ORnfoYrEmUqCdeEZCRhNd0xbfLw_80DT5hSpYlOmENLPQV0HGdmou2GSR9wdGLMk.fk0YoeyHoGTEUAop)               |                                                                                   |                         |
 | 04/14 |              [Project Presentations](https://emory.zoom.us/rec/share/e0iTudqFFDjuvTm5RrQ7nOrN1FU3cSgMJM4il_Rt0bx_8SM5vyyB4My592fZ-tYr.4j_Q5FqbnTwx-0ss)               |                                                                                   |                         |
 | 04/19 |                                                                         Project Presentations                                                                         |                                                                                   | [Quiz 8](quiz/quiz7.md) |
-| 04/21 |                                                                              **Review**                                                                               |                                                                                   | [Quiz 9](quiz/quiz7.md) |
+| 04/21 |                                                                              **Review**                                                                               |                                                                                   |                         |
 
 <!--
 0: 2
