@@ -71,7 +71,7 @@ Superscripts show the number of votes that each team received from the class.
       [Final](https://drive.google.com/file/d/1dUQQJKG5aoEfstJEnWdnxfMW6De6ud3Y/view?usp=sharing)<sup>27</sup>
       ([slides](https://drive.google.com/file/d/1Fgh7ZQRsWLUq27uV6YT-dTzd3oYt0cNg/view?usp=sharing))
 1. **Hybrid.fm: A Novel Hybrid Music Recommendation System**
-   * Lauren Bailey, Ben Chaleki, Ethan Mordekhai
+   * Lauren Bailey, Benjamin Chaleki, Ethan Mordekhai
    * [Proposal](https://drive.google.com/file/d/1nJBDbKB1bCPESoIyfYsTY8B96NaAbN2d/view?usp=sharing)<sup>5</sup> 
      ([slides](https://drive.google.com/file/d/1ZYP8grIO2glZvmznI2TeoFJskpB7kgzP/view?usp=sharing)), 
       [Final](https://drive.google.com/file/d/188h0Uquop3qkScfkzzAKYksw_p20346m/view?usp=sharing)<sup>6</sup>
